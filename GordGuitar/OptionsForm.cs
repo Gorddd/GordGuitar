@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GordGuitar
 {
-    public partial class GameForm : Form
+    public partial class OptionsForm : Form
     {
-        public GameForm()
+        public OptionsForm()
         {
             InitializeComponent();
         }
