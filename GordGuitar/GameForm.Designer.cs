@@ -30,6 +30,7 @@ namespace GordGuitar
         private void InitializeComponent()
         {
             this.optionsButton = new System.Windows.Forms.Button();
+            this.buttonChord1 = new ChordButton();
             this.SuspendLayout();
             // 
             // optionsButton
@@ -43,12 +44,29 @@ namespace GordGuitar
             this.optionsButton.UseVisualStyleBackColor = true;
             this.optionsButton.Click += new System.EventHandler(this.optionsButton_Click);
             // 
+            // buttonChord1
+            // 
+            this.buttonChord1.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord1.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord1.FlatAppearance.BorderSize = 3;
+            this.buttonChord1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord1.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord1.Location = new System.Drawing.Point(12, 397);
+            this.buttonChord1.Name = "buttonChord1";
+            this.buttonChord1.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord1.TabIndex = 10;
+            this.buttonChord1.UseVisualStyleBackColor = false;
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.MainImage;
             this.ClientSize = new System.Drawing.Size(519, 519);
+            this.Controls.Add(this.buttonChord1);
             this.Controls.Add(this.optionsButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -62,6 +80,8 @@ namespace GordGuitar
         #endregion
 
         private System.Windows.Forms.Button optionsButton;
+
+        private System.Windows.Forms.Button buttonChord1;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿namespace GordGuitar
 {
-    class Chord
+    public class Chord
     {
         public Chord()
         {

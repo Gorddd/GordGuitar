@@ -2,7 +2,7 @@
 
 namespace GordGuitar
 {
-    class GuitarString
+    public class GuitarString
     {
         public GuitarString()
         {
@@ -29,6 +29,6 @@ namespace GordGuitar
         /// <summary>
         /// Media player to play the sound
         /// </summary>
-        private WindowsMediaPlayer mediaPlayer;
+        private WindowsMediaPlayer mediaPlayer = new WindowsMediaPlayer();
     }
 }
