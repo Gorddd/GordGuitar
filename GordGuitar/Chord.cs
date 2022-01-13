@@ -13,6 +13,6 @@
         /// <summary>
         /// 6 strings of the chord
         /// </summary>
-        public GuitarString[] guitarStrings { get; set; } = new GuitarString[6];
+        public GuitarString[] guitarStrings { get; private set; } = new GuitarString[6];
     }
 }

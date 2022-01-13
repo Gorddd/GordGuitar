@@ -4,6 +4,6 @@ namespace GordGuitar
 {
     public class ChordButton : Button
     {
-        public Chord chord { get; set; } = new Chord();
+        public Chord chord { get; private set; } = new Chord();
     }
 }
