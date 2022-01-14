@@ -40,6 +40,12 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
+            this.buttonString0 = new System.Windows.Forms.Button();
+            this.buttonString1 = new System.Windows.Forms.Button();
+            this.buttonString2 = new System.Windows.Forms.Button();
+            this.buttonString3 = new System.Windows.Forms.Button();
+            this.buttonString4 = new System.Windows.Forms.Button();
+            this.buttonString5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // optionsButton
@@ -223,12 +229,72 @@ namespace GordGuitar
             this.buttonChord1.TabIndex = 10;
             this.buttonChord1.UseVisualStyleBackColor = false;
             // 
+            // buttonString0
+            // 
+            this.buttonString0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonString0.Location = new System.Drawing.Point(12, 162);
+            this.buttonString0.Name = "buttonString0";
+            this.buttonString0.Size = new System.Drawing.Size(502, 23);
+            this.buttonString0.TabIndex = 20;
+            this.buttonString0.UseVisualStyleBackColor = true;
+            // 
+            // buttonString1
+            // 
+            this.buttonString1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonString1.Location = new System.Drawing.Point(12, 200);
+            this.buttonString1.Name = "buttonString1";
+            this.buttonString1.Size = new System.Drawing.Size(502, 23);
+            this.buttonString1.TabIndex = 21;
+            this.buttonString1.UseVisualStyleBackColor = true;
+            // 
+            // buttonString2
+            // 
+            this.buttonString2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonString2.Location = new System.Drawing.Point(12, 229);
+            this.buttonString2.Name = "buttonString2";
+            this.buttonString2.Size = new System.Drawing.Size(502, 23);
+            this.buttonString2.TabIndex = 22;
+            this.buttonString2.UseVisualStyleBackColor = true;
+            // 
+            // buttonString3
+            // 
+            this.buttonString3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonString3.Location = new System.Drawing.Point(12, 265);
+            this.buttonString3.Name = "buttonString3";
+            this.buttonString3.Size = new System.Drawing.Size(502, 23);
+            this.buttonString3.TabIndex = 23;
+            this.buttonString3.UseVisualStyleBackColor = true;
+            // 
+            // buttonString4
+            // 
+            this.buttonString4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonString4.Location = new System.Drawing.Point(12, 298);
+            this.buttonString4.Name = "buttonString4";
+            this.buttonString4.Size = new System.Drawing.Size(502, 23);
+            this.buttonString4.TabIndex = 24;
+            this.buttonString4.UseVisualStyleBackColor = true;
+            // 
+            // buttonString5
+            // 
+            this.buttonString5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonString5.Location = new System.Drawing.Point(12, 337);
+            this.buttonString5.Name = "buttonString5";
+            this.buttonString5.Size = new System.Drawing.Size(502, 23);
+            this.buttonString5.TabIndex = 25;
+            this.buttonString5.UseVisualStyleBackColor = true;
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.MainImage;
             this.ClientSize = new System.Drawing.Size(519, 519);
+            this.Controls.Add(this.buttonString5);
+            this.Controls.Add(this.buttonString4);
+            this.Controls.Add(this.buttonString3);
+            this.Controls.Add(this.buttonString2);
+            this.Controls.Add(this.buttonString1);
+            this.Controls.Add(this.buttonString0);
             this.Controls.Add(this.buttonChord10);
             this.Controls.Add(this.buttonChord9);
             this.Controls.Add(this.buttonChord8);
@@ -263,6 +329,12 @@ namespace GordGuitar
         private ChordButton buttonChord8;
         private ChordButton buttonChord9;
         private ChordButton buttonChord10;
+        private System.Windows.Forms.Button buttonString0;
+        private System.Windows.Forms.Button buttonString1;
+        private System.Windows.Forms.Button buttonString2;
+        private System.Windows.Forms.Button buttonString3;
+        private System.Windows.Forms.Button buttonString4;
+        private System.Windows.Forms.Button buttonString5;
     }
 }
 

@@ -4,11 +4,6 @@ namespace GordGuitar
 {
     public class GuitarString
     {
-        public GuitarString()
-        {
-            mediaPlayer.URL = "mute.wav";
-        }
-
         /// <summary>
         /// Play sound
         /// </summary>
