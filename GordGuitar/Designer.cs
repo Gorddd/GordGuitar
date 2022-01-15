@@ -4,6 +4,11 @@ namespace GordGuitar
 {
     public class Designer<T> where T: System.Windows.Forms.Button
     {
+        private readonly Color StandardColor;
+        private readonly Color ChosenColor;
+        private readonly Color MutedColor;
+
+
         private T[] collection;
 
         /// <summary>
@@ -13,6 +18,19 @@ namespace GordGuitar
         public Designer(T[] collection)
         {
             this.collection = collection;
+
+            StandardColor = Color.DarkRed;
+            ChosenColor = Color.Black;
+            MutedColor = Color.Gray;
+        }
+
+        public Designer(T[] collection, Color standardColor, Color chosenColor, Color mutedColor)
+        {
+            this.collection = collection;
+
+            StandardColor = standardColor;
+            ChosenColor = chosenColor;
+            MutedColor = mutedColor;
         }
 
         /// <summary>
@@ -36,17 +54,38 @@ namespace GordGuitar
             switch (buttonState)
             {
                 case ButtonState.Standart:
-                    collection[index].FlatAppearance.BorderColor = Color.DarkRed;
+                    collection[index].FlatAppearance.BorderColor = StandardColor;
                     break;
                 case ButtonState.Chosen:
-                    collection[index].FlatAppearance.BorderColor = Color.Black;
+                    collection[index].FlatAppearance.BorderColor = ChosenColor;
                     break;
                 case ButtonState.Muted:
-                    collection[index].FlatAppearance.BorderColor = Color.Gray;
+                    collection[index].FlatAppearance.BorderColor = MutedColor;
                     break;
                 default:
                     throw new System.ArgumentException();
             }
+        }
+
+        public void SwitchBetweenStdand(int index, ButtonState secondState)
+        {
+            if (collection[index].FlatAppearance.BorderColor == StandardColor)
+                switch (secondState)
+                {
+                    case ButtonState.Standart:
+                        collection[index].FlatAppearance.BorderColor = StandardColor;
+                        break;
+                    case ButtonState.Chosen:
+                        collection[index].FlatAppearance.BorderColor = ChosenColor;
+                        break;
+                    case ButtonState.Muted:
+                        collection[index].FlatAppearance.BorderColor = MutedColor;
+                        break;
+                    default:
+                        throw new System.ArgumentException();
+                }
+            else
+                collection[index].FlatAppearance.BorderColor = StandardColor;
         }
     }
 }

@@ -12,10 +12,29 @@ namespace GordGuitar
 {
     public partial class OptionsForm : Form
     {
+
+        /// <summary>
+        /// Variable for user interface (string buttons)
+        /// </summary>
+        private Designer<Button> stringButtonDesigner;
+
+        /// <summary>
+        /// Variable for user interface (Chord buttons)
+        /// </summary>
+        private Designer<ChordButton> buttonDesigner;
+
+
+
         public OptionsForm()
         {
             InitializeComponent();
             TempInitializeChords();
+
+        }
+
+        private void InitializeDesigners()
+        {
+
         }
 
         public void TempInitializeChords()
