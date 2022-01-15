@@ -46,10 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButtonState.cs" />
     <Compile Include="Chord.cs" />
     <Compile Include="ChordButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Designer.cs" />
     <Compile Include="GameForm.cs">
       <SubType>Form</SubType>
     </Compile>
