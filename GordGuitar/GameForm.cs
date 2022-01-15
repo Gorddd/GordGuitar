@@ -13,12 +13,21 @@ namespace GordGuitar
     {
         private OptionsForm optionsForm = new OptionsForm();
 
+        /// <summary>
+        /// Variable for user interface
+        /// </summary>
+        private Designer<ChordButton> buttonDesigner;
+
+        /// <summary>
+        /// Currently used chord
+        /// </summary>
         private Chord activeChord;
 
         public GameForm()
         {
             InitializeComponent();
             InitializeChords();
+            InitializeDesigner();
 
             activeChord = buttonChord1.chord;
         }
@@ -26,6 +35,28 @@ namespace GordGuitar
         private void optionsButton_Click(object sender, EventArgs e)
         {
             optionsForm.ShowDialog();
+        }
+
+        /// <summary>
+        /// Initialize buttonDesigner
+        /// </summary>
+        private void InitializeDesigner()
+        {
+            ChordButton[] buttons = new ChordButton[]
+            {
+                buttonChord1,
+                buttonChord2,
+                buttonChord3,
+                buttonChord4,
+                buttonChord5,
+                buttonChord6,
+                buttonChord7,
+                buttonChord8,
+                buttonChord9,
+                buttonChord10
+            };
+
+            buttonDesigner = new Designer<ChordButton>(buttons);
         }
 
         /// <summary>
@@ -61,6 +92,11 @@ namespace GordGuitar
         private void ChangeActiveChord(object sender, EventArgs e)
         {
             activeChord = ((ChordButton)sender).chord;
+
+            #region User interface
+            buttonDesigner.MakeStandardAll();
+            buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);
+            #endregion
         }
     }
 }
