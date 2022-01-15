@@ -18,6 +18,7 @@ namespace GordGuitar
         /// </summary>
         public string URL
         {
+            get { return mediaPlayer.URL; }
             set { mediaPlayer.URL = value; }
         }
 

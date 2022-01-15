@@ -236,7 +236,9 @@ namespace GordGuitar
             this.buttonString0.Name = "buttonString0";
             this.buttonString0.Size = new System.Drawing.Size(502, 23);
             this.buttonString0.TabIndex = 20;
+            this.buttonString0.Tag = "1";
             this.buttonString0.UseVisualStyleBackColor = true;
+            this.buttonString0.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString1
             // 
@@ -245,7 +247,9 @@ namespace GordGuitar
             this.buttonString1.Name = "buttonString1";
             this.buttonString1.Size = new System.Drawing.Size(502, 23);
             this.buttonString1.TabIndex = 21;
+            this.buttonString1.Tag = "2";
             this.buttonString1.UseVisualStyleBackColor = true;
+            this.buttonString1.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString2
             // 
@@ -254,7 +258,9 @@ namespace GordGuitar
             this.buttonString2.Name = "buttonString2";
             this.buttonString2.Size = new System.Drawing.Size(502, 23);
             this.buttonString2.TabIndex = 22;
+            this.buttonString2.Tag = "3";
             this.buttonString2.UseVisualStyleBackColor = true;
+            this.buttonString2.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString3
             // 
@@ -263,7 +269,9 @@ namespace GordGuitar
             this.buttonString3.Name = "buttonString3";
             this.buttonString3.Size = new System.Drawing.Size(502, 23);
             this.buttonString3.TabIndex = 23;
+            this.buttonString3.Tag = "4";
             this.buttonString3.UseVisualStyleBackColor = true;
+            this.buttonString3.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString4
             // 
@@ -272,7 +280,9 @@ namespace GordGuitar
             this.buttonString4.Name = "buttonString4";
             this.buttonString4.Size = new System.Drawing.Size(502, 23);
             this.buttonString4.TabIndex = 24;
+            this.buttonString4.Tag = "5";
             this.buttonString4.UseVisualStyleBackColor = true;
+            this.buttonString4.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString5
             // 
@@ -281,7 +291,9 @@ namespace GordGuitar
             this.buttonString5.Name = "buttonString5";
             this.buttonString5.Size = new System.Drawing.Size(502, 23);
             this.buttonString5.TabIndex = 25;
+            this.buttonString5.Tag = "6";
             this.buttonString5.UseVisualStyleBackColor = true;
+            this.buttonString5.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // GameForm
             // 

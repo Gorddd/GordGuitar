@@ -13,16 +13,19 @@ namespace GordGuitar
     {
         private OptionsForm optionsForm = new OptionsForm();
 
+        private Chord activeChord;
+
         public GameForm()
         {
             InitializeComponent();
+            InitializeChords();
+
+            activeChord = buttonChord1.chord;
         }
 
         private void optionsButton_Click(object sender, EventArgs e)
         {
             optionsForm.ShowDialog();
-
-            InitializeChords();
         }
 
         private void InitializeChords()
@@ -37,6 +40,11 @@ namespace GordGuitar
             buttonChord8.chord = optionsForm.buttonChord8.chord;
             buttonChord9.chord = optionsForm.buttonChord9.chord;
             buttonChord10.chord = optionsForm.buttonChord10.chord;
+        }
+
+        private void PullGuitarString(object sender, EventArgs e)
+        {
+            activeChord.guitarStrings[Convert.ToInt32(((Button)sender).Tag) - 1].Play();
         }
     }
 }
