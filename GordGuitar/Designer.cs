@@ -67,6 +67,11 @@ namespace GordGuitar
             }
         }
 
+        /// <summary>
+        /// Switch between standard state of button and second state
+        /// </summary>
+        /// <param name="index">index of element</param>
+        /// <param name="secondState">second state for switch</param>
         public void SwitchBetweenStdand(int index, ButtonState secondState)
         {
             if (collection[index].FlatAppearance.BorderColor == StandardColor)

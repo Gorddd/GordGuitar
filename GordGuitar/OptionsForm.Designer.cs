@@ -29,26 +29,16 @@ namespace GordGuitar
         /// </summary>
         private void InitializeComponent()
         {
-            GordGuitar.Chord chord1 = new GordGuitar.Chord();
-            GordGuitar.Chord chord2 = new GordGuitar.Chord();
-            GordGuitar.Chord chord3 = new GordGuitar.Chord();
-            GordGuitar.Chord chord4 = new GordGuitar.Chord();
-            GordGuitar.Chord chord5 = new GordGuitar.Chord();
-            GordGuitar.Chord chord6 = new GordGuitar.Chord();
-            GordGuitar.Chord chord7 = new GordGuitar.Chord();
-            GordGuitar.Chord chord8 = new GordGuitar.Chord();
-            GordGuitar.Chord chord9 = new GordGuitar.Chord();
-            GordGuitar.Chord chord10 = new GordGuitar.Chord();
-            this.buttonChord10 = new GordGuitar.ChordButton();
-            this.buttonChord9 = new GordGuitar.ChordButton();
-            this.buttonChord8 = new GordGuitar.ChordButton();
-            this.buttonChord7 = new GordGuitar.ChordButton();
-            this.buttonChord6 = new GordGuitar.ChordButton();
-            this.buttonChord5 = new GordGuitar.ChordButton();
-            this.buttonChord4 = new GordGuitar.ChordButton();
-            this.buttonChord3 = new GordGuitar.ChordButton();
-            this.buttonChord2 = new GordGuitar.ChordButton();
-            this.buttonChord1 = new GordGuitar.ChordButton();
+            GordGuitar.Chord chord11 = new GordGuitar.Chord();
+            GordGuitar.Chord chord12 = new GordGuitar.Chord();
+            GordGuitar.Chord chord13 = new GordGuitar.Chord();
+            GordGuitar.Chord chord14 = new GordGuitar.Chord();
+            GordGuitar.Chord chord15 = new GordGuitar.Chord();
+            GordGuitar.Chord chord16 = new GordGuitar.Chord();
+            GordGuitar.Chord chord17 = new GordGuitar.Chord();
+            GordGuitar.Chord chord18 = new GordGuitar.Chord();
+            GordGuitar.Chord chord19 = new GordGuitar.Chord();
+            GordGuitar.Chord chord20 = new GordGuitar.Chord();
             this.btnString6Mute = new System.Windows.Forms.Button();
             this.btnString5Mute = new System.Windows.Forms.Button();
             this.btnString4Mute = new System.Windows.Forms.Button();
@@ -175,177 +165,17 @@ namespace GordGuitar
             this.l1s3 = new System.Windows.Forms.Button();
             this.l1s2 = new System.Windows.Forms.Button();
             this.l1s1 = new System.Windows.Forms.Button();
+            this.buttonChord10 = new GordGuitar.ChordButton();
+            this.buttonChord9 = new GordGuitar.ChordButton();
+            this.buttonChord8 = new GordGuitar.ChordButton();
+            this.buttonChord7 = new GordGuitar.ChordButton();
+            this.buttonChord6 = new GordGuitar.ChordButton();
+            this.buttonChord5 = new GordGuitar.ChordButton();
+            this.buttonChord4 = new GordGuitar.ChordButton();
+            this.buttonChord3 = new GordGuitar.ChordButton();
+            this.buttonChord2 = new GordGuitar.ChordButton();
+            this.buttonChord1 = new GordGuitar.ChordButton();
             this.SuspendLayout();
-            // 
-            // buttonChord10
-            // 
-            this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord10.chord = chord1;
-            this.buttonChord10.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord10.FlatAppearance.BorderSize = 3;
-            this.buttonChord10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord10.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord10.Location = new System.Drawing.Point(295, 403);
-            this.buttonChord10.Name = "buttonChord10";
-            this.buttonChord10.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord10.TabIndex = 20;
-            this.buttonChord10.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord9
-            // 
-            this.buttonChord9.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord9.chord = chord2;
-            this.buttonChord9.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord9.FlatAppearance.BorderSize = 3;
-            this.buttonChord9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord9.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord9.Location = new System.Drawing.Point(295, 352);
-            this.buttonChord9.Name = "buttonChord9";
-            this.buttonChord9.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord9.TabIndex = 19;
-            this.buttonChord9.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord8
-            // 
-            this.buttonChord8.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord8.chord = chord3;
-            this.buttonChord8.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord8.FlatAppearance.BorderSize = 3;
-            this.buttonChord8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord8.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord8.Location = new System.Drawing.Point(295, 301);
-            this.buttonChord8.Name = "buttonChord8";
-            this.buttonChord8.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord8.TabIndex = 18;
-            this.buttonChord8.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord7
-            // 
-            this.buttonChord7.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord7.chord = chord4;
-            this.buttonChord7.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord7.FlatAppearance.BorderSize = 3;
-            this.buttonChord7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord7.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord7.Location = new System.Drawing.Point(295, 250);
-            this.buttonChord7.Name = "buttonChord7";
-            this.buttonChord7.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord7.TabIndex = 17;
-            this.buttonChord7.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord6
-            // 
-            this.buttonChord6.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord6.chord = chord5;
-            this.buttonChord6.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord6.FlatAppearance.BorderSize = 3;
-            this.buttonChord6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord6.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord6.Location = new System.Drawing.Point(295, 199);
-            this.buttonChord6.Name = "buttonChord6";
-            this.buttonChord6.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord6.TabIndex = 16;
-            this.buttonChord6.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord5
-            // 
-            this.buttonChord5.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord5.chord = chord6;
-            this.buttonChord5.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord5.FlatAppearance.BorderSize = 3;
-            this.buttonChord5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord5.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord5.Location = new System.Drawing.Point(94, 403);
-            this.buttonChord5.Name = "buttonChord5";
-            this.buttonChord5.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord5.TabIndex = 15;
-            this.buttonChord5.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord4
-            // 
-            this.buttonChord4.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord4.chord = chord7;
-            this.buttonChord4.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord4.FlatAppearance.BorderSize = 3;
-            this.buttonChord4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord4.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord4.Location = new System.Drawing.Point(94, 352);
-            this.buttonChord4.Name = "buttonChord4";
-            this.buttonChord4.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord4.TabIndex = 14;
-            this.buttonChord4.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord3
-            // 
-            this.buttonChord3.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord3.chord = chord8;
-            this.buttonChord3.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord3.FlatAppearance.BorderSize = 3;
-            this.buttonChord3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord3.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord3.Location = new System.Drawing.Point(94, 301);
-            this.buttonChord3.Name = "buttonChord3";
-            this.buttonChord3.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord3.TabIndex = 13;
-            this.buttonChord3.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord2
-            // 
-            this.buttonChord2.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord2.chord = chord9;
-            this.buttonChord2.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord2.FlatAppearance.BorderSize = 3;
-            this.buttonChord2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord2.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord2.Location = new System.Drawing.Point(94, 250);
-            this.buttonChord2.Name = "buttonChord2";
-            this.buttonChord2.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord2.TabIndex = 12;
-            this.buttonChord2.UseVisualStyleBackColor = false;
-            // 
-            // buttonChord1
-            // 
-            this.buttonChord1.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonChord1.chord = chord10;
-            this.buttonChord1.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
-            this.buttonChord1.FlatAppearance.BorderSize = 3;
-            this.buttonChord1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
-            this.buttonChord1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChord1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonChord1.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonChord1.Location = new System.Drawing.Point(94, 199);
-            this.buttonChord1.Name = "buttonChord1";
-            this.buttonChord1.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord1.TabIndex = 11;
-            this.buttonChord1.UseVisualStyleBackColor = false;
             // 
             // btnString6Mute
             // 
@@ -449,7 +279,7 @@ namespace GordGuitar
             this.l20s6.Size = new System.Drawing.Size(10, 10);
             this.l20s6.TabIndex = 274;
             this.l20s6.TabStop = false;
-            this.l20s6.Tag = "206";
+            this.l20s6.Tag = "119";
             this.l20s6.UseVisualStyleBackColor = false;
             // 
             // l20s5
@@ -464,7 +294,7 @@ namespace GordGuitar
             this.l20s5.Size = new System.Drawing.Size(10, 10);
             this.l20s5.TabIndex = 273;
             this.l20s5.TabStop = false;
-            this.l20s5.Tag = "205";
+            this.l20s5.Tag = "118";
             this.l20s5.UseVisualStyleBackColor = false;
             // 
             // l20s4
@@ -479,7 +309,7 @@ namespace GordGuitar
             this.l20s4.Size = new System.Drawing.Size(10, 10);
             this.l20s4.TabIndex = 272;
             this.l20s4.TabStop = false;
-            this.l20s4.Tag = "204";
+            this.l20s4.Tag = "117";
             this.l20s4.UseVisualStyleBackColor = false;
             // 
             // l20s3
@@ -494,7 +324,7 @@ namespace GordGuitar
             this.l20s3.Size = new System.Drawing.Size(10, 10);
             this.l20s3.TabIndex = 271;
             this.l20s3.TabStop = false;
-            this.l20s3.Tag = "203";
+            this.l20s3.Tag = "116";
             this.l20s3.UseVisualStyleBackColor = false;
             // 
             // l20s2
@@ -509,7 +339,7 @@ namespace GordGuitar
             this.l20s2.Size = new System.Drawing.Size(10, 10);
             this.l20s2.TabIndex = 270;
             this.l20s2.TabStop = false;
-            this.l20s2.Tag = "202";
+            this.l20s2.Tag = "115";
             this.l20s2.UseVisualStyleBackColor = false;
             // 
             // l20s1
@@ -524,7 +354,7 @@ namespace GordGuitar
             this.l20s1.Size = new System.Drawing.Size(10, 10);
             this.l20s1.TabIndex = 269;
             this.l20s1.TabStop = false;
-            this.l20s1.Tag = "201";
+            this.l20s1.Tag = "114";
             this.l20s1.UseVisualStyleBackColor = false;
             // 
             // l19s6
@@ -539,7 +369,7 @@ namespace GordGuitar
             this.l19s6.Size = new System.Drawing.Size(10, 10);
             this.l19s6.TabIndex = 268;
             this.l19s6.TabStop = false;
-            this.l19s6.Tag = "196";
+            this.l19s6.Tag = "113";
             this.l19s6.UseVisualStyleBackColor = false;
             // 
             // l19s5
@@ -554,7 +384,7 @@ namespace GordGuitar
             this.l19s5.Size = new System.Drawing.Size(10, 10);
             this.l19s5.TabIndex = 267;
             this.l19s5.TabStop = false;
-            this.l19s5.Tag = "195";
+            this.l19s5.Tag = "112";
             this.l19s5.UseVisualStyleBackColor = false;
             // 
             // l19s4
@@ -569,7 +399,7 @@ namespace GordGuitar
             this.l19s4.Size = new System.Drawing.Size(10, 10);
             this.l19s4.TabIndex = 266;
             this.l19s4.TabStop = false;
-            this.l19s4.Tag = "194";
+            this.l19s4.Tag = "111";
             this.l19s4.UseVisualStyleBackColor = false;
             // 
             // l19s3
@@ -584,7 +414,7 @@ namespace GordGuitar
             this.l19s3.Size = new System.Drawing.Size(10, 10);
             this.l19s3.TabIndex = 265;
             this.l19s3.TabStop = false;
-            this.l19s3.Tag = "193";
+            this.l19s3.Tag = "110";
             this.l19s3.UseVisualStyleBackColor = false;
             // 
             // l19s2
@@ -599,7 +429,7 @@ namespace GordGuitar
             this.l19s2.Size = new System.Drawing.Size(10, 10);
             this.l19s2.TabIndex = 264;
             this.l19s2.TabStop = false;
-            this.l19s2.Tag = "192";
+            this.l19s2.Tag = "109";
             this.l19s2.UseVisualStyleBackColor = false;
             // 
             // l19s1
@@ -614,7 +444,7 @@ namespace GordGuitar
             this.l19s1.Size = new System.Drawing.Size(10, 10);
             this.l19s1.TabIndex = 263;
             this.l19s1.TabStop = false;
-            this.l19s1.Tag = "191";
+            this.l19s1.Tag = "108";
             this.l19s1.UseVisualStyleBackColor = false;
             // 
             // l18s6
@@ -629,7 +459,7 @@ namespace GordGuitar
             this.l18s6.Size = new System.Drawing.Size(10, 10);
             this.l18s6.TabIndex = 262;
             this.l18s6.TabStop = false;
-            this.l18s6.Tag = "186";
+            this.l18s6.Tag = "107";
             this.l18s6.UseVisualStyleBackColor = false;
             // 
             // l18s5
@@ -644,7 +474,7 @@ namespace GordGuitar
             this.l18s5.Size = new System.Drawing.Size(10, 10);
             this.l18s5.TabIndex = 261;
             this.l18s5.TabStop = false;
-            this.l18s5.Tag = "185";
+            this.l18s5.Tag = "106";
             this.l18s5.UseVisualStyleBackColor = false;
             // 
             // l18s4
@@ -659,7 +489,7 @@ namespace GordGuitar
             this.l18s4.Size = new System.Drawing.Size(10, 10);
             this.l18s4.TabIndex = 260;
             this.l18s4.TabStop = false;
-            this.l18s4.Tag = "184";
+            this.l18s4.Tag = "105";
             this.l18s4.UseVisualStyleBackColor = false;
             // 
             // l18s3
@@ -674,7 +504,7 @@ namespace GordGuitar
             this.l18s3.Size = new System.Drawing.Size(10, 10);
             this.l18s3.TabIndex = 259;
             this.l18s3.TabStop = false;
-            this.l18s3.Tag = "183";
+            this.l18s3.Tag = "104";
             this.l18s3.UseVisualStyleBackColor = false;
             // 
             // l18s2
@@ -689,7 +519,7 @@ namespace GordGuitar
             this.l18s2.Size = new System.Drawing.Size(10, 10);
             this.l18s2.TabIndex = 258;
             this.l18s2.TabStop = false;
-            this.l18s2.Tag = "182";
+            this.l18s2.Tag = "103";
             this.l18s2.UseVisualStyleBackColor = false;
             // 
             // l18s1
@@ -704,7 +534,7 @@ namespace GordGuitar
             this.l18s1.Size = new System.Drawing.Size(10, 10);
             this.l18s1.TabIndex = 257;
             this.l18s1.TabStop = false;
-            this.l18s1.Tag = "181";
+            this.l18s1.Tag = "102";
             this.l18s1.UseVisualStyleBackColor = false;
             // 
             // l17s6
@@ -719,7 +549,7 @@ namespace GordGuitar
             this.l17s6.Size = new System.Drawing.Size(10, 10);
             this.l17s6.TabIndex = 256;
             this.l17s6.TabStop = false;
-            this.l17s6.Tag = "176";
+            this.l17s6.Tag = "101";
             this.l17s6.UseVisualStyleBackColor = false;
             // 
             // l17s5
@@ -734,7 +564,7 @@ namespace GordGuitar
             this.l17s5.Size = new System.Drawing.Size(10, 10);
             this.l17s5.TabIndex = 255;
             this.l17s5.TabStop = false;
-            this.l17s5.Tag = "175";
+            this.l17s5.Tag = "100";
             this.l17s5.UseVisualStyleBackColor = false;
             // 
             // l17s4
@@ -749,7 +579,7 @@ namespace GordGuitar
             this.l17s4.Size = new System.Drawing.Size(10, 10);
             this.l17s4.TabIndex = 254;
             this.l17s4.TabStop = false;
-            this.l17s4.Tag = "174";
+            this.l17s4.Tag = "99";
             this.l17s4.UseVisualStyleBackColor = false;
             // 
             // l17s3
@@ -764,7 +594,7 @@ namespace GordGuitar
             this.l17s3.Size = new System.Drawing.Size(10, 10);
             this.l17s3.TabIndex = 253;
             this.l17s3.TabStop = false;
-            this.l17s3.Tag = "173";
+            this.l17s3.Tag = "98";
             this.l17s3.UseVisualStyleBackColor = false;
             // 
             // l17s2
@@ -779,7 +609,7 @@ namespace GordGuitar
             this.l17s2.Size = new System.Drawing.Size(10, 10);
             this.l17s2.TabIndex = 252;
             this.l17s2.TabStop = false;
-            this.l17s2.Tag = "172";
+            this.l17s2.Tag = "97";
             this.l17s2.UseVisualStyleBackColor = false;
             // 
             // l17s1
@@ -794,7 +624,7 @@ namespace GordGuitar
             this.l17s1.Size = new System.Drawing.Size(10, 10);
             this.l17s1.TabIndex = 251;
             this.l17s1.TabStop = false;
-            this.l17s1.Tag = "171";
+            this.l17s1.Tag = "96";
             this.l17s1.UseVisualStyleBackColor = false;
             // 
             // l16s6
@@ -809,7 +639,7 @@ namespace GordGuitar
             this.l16s6.Size = new System.Drawing.Size(10, 10);
             this.l16s6.TabIndex = 250;
             this.l16s6.TabStop = false;
-            this.l16s6.Tag = "166";
+            this.l16s6.Tag = "95";
             this.l16s6.UseVisualStyleBackColor = false;
             // 
             // l16s5
@@ -824,7 +654,7 @@ namespace GordGuitar
             this.l16s5.Size = new System.Drawing.Size(10, 10);
             this.l16s5.TabIndex = 249;
             this.l16s5.TabStop = false;
-            this.l16s5.Tag = "165";
+            this.l16s5.Tag = "94";
             this.l16s5.UseVisualStyleBackColor = false;
             // 
             // l16s4
@@ -839,7 +669,7 @@ namespace GordGuitar
             this.l16s4.Size = new System.Drawing.Size(10, 10);
             this.l16s4.TabIndex = 248;
             this.l16s4.TabStop = false;
-            this.l16s4.Tag = "164";
+            this.l16s4.Tag = "93";
             this.l16s4.UseVisualStyleBackColor = false;
             // 
             // l16s3
@@ -854,7 +684,7 @@ namespace GordGuitar
             this.l16s3.Size = new System.Drawing.Size(10, 10);
             this.l16s3.TabIndex = 247;
             this.l16s3.TabStop = false;
-            this.l16s3.Tag = "163";
+            this.l16s3.Tag = "92";
             this.l16s3.UseVisualStyleBackColor = false;
             // 
             // l16s2
@@ -869,7 +699,7 @@ namespace GordGuitar
             this.l16s2.Size = new System.Drawing.Size(10, 10);
             this.l16s2.TabIndex = 246;
             this.l16s2.TabStop = false;
-            this.l16s2.Tag = "163";
+            this.l16s2.Tag = "91";
             this.l16s2.UseVisualStyleBackColor = false;
             // 
             // l16s1
@@ -884,7 +714,7 @@ namespace GordGuitar
             this.l16s1.Size = new System.Drawing.Size(10, 10);
             this.l16s1.TabIndex = 245;
             this.l16s1.TabStop = false;
-            this.l16s1.Tag = "161";
+            this.l16s1.Tag = "90";
             this.l16s1.UseVisualStyleBackColor = false;
             // 
             // l15s6
@@ -899,7 +729,7 @@ namespace GordGuitar
             this.l15s6.Size = new System.Drawing.Size(10, 10);
             this.l15s6.TabIndex = 244;
             this.l15s6.TabStop = false;
-            this.l15s6.Tag = "156";
+            this.l15s6.Tag = "89";
             this.l15s6.UseVisualStyleBackColor = false;
             // 
             // l15s5
@@ -914,7 +744,7 @@ namespace GordGuitar
             this.l15s5.Size = new System.Drawing.Size(10, 10);
             this.l15s5.TabIndex = 243;
             this.l15s5.TabStop = false;
-            this.l15s5.Tag = "155";
+            this.l15s5.Tag = "88";
             this.l15s5.UseVisualStyleBackColor = false;
             // 
             // l15s4
@@ -929,7 +759,7 @@ namespace GordGuitar
             this.l15s4.Size = new System.Drawing.Size(10, 10);
             this.l15s4.TabIndex = 242;
             this.l15s4.TabStop = false;
-            this.l15s4.Tag = "154";
+            this.l15s4.Tag = "87";
             this.l15s4.UseVisualStyleBackColor = false;
             // 
             // l15s3
@@ -944,7 +774,7 @@ namespace GordGuitar
             this.l15s3.Size = new System.Drawing.Size(10, 10);
             this.l15s3.TabIndex = 241;
             this.l15s3.TabStop = false;
-            this.l15s3.Tag = "153";
+            this.l15s3.Tag = "86";
             this.l15s3.UseVisualStyleBackColor = false;
             // 
             // l15s2
@@ -959,7 +789,7 @@ namespace GordGuitar
             this.l15s2.Size = new System.Drawing.Size(10, 10);
             this.l15s2.TabIndex = 240;
             this.l15s2.TabStop = false;
-            this.l15s2.Tag = "152";
+            this.l15s2.Tag = "85";
             this.l15s2.UseVisualStyleBackColor = false;
             // 
             // l15s1
@@ -974,7 +804,7 @@ namespace GordGuitar
             this.l15s1.Size = new System.Drawing.Size(10, 10);
             this.l15s1.TabIndex = 239;
             this.l15s1.TabStop = false;
-            this.l15s1.Tag = "151";
+            this.l15s1.Tag = "84";
             this.l15s1.UseVisualStyleBackColor = false;
             // 
             // l14s6
@@ -989,7 +819,7 @@ namespace GordGuitar
             this.l14s6.Size = new System.Drawing.Size(10, 10);
             this.l14s6.TabIndex = 238;
             this.l14s6.TabStop = false;
-            this.l14s6.Tag = "146";
+            this.l14s6.Tag = "83";
             this.l14s6.UseVisualStyleBackColor = false;
             // 
             // l14s5
@@ -1004,7 +834,7 @@ namespace GordGuitar
             this.l14s5.Size = new System.Drawing.Size(10, 10);
             this.l14s5.TabIndex = 237;
             this.l14s5.TabStop = false;
-            this.l14s5.Tag = "145";
+            this.l14s5.Tag = "82";
             this.l14s5.UseVisualStyleBackColor = false;
             // 
             // l14s4
@@ -1019,7 +849,7 @@ namespace GordGuitar
             this.l14s4.Size = new System.Drawing.Size(10, 10);
             this.l14s4.TabIndex = 236;
             this.l14s4.TabStop = false;
-            this.l14s4.Tag = "144";
+            this.l14s4.Tag = "81";
             this.l14s4.UseVisualStyleBackColor = false;
             // 
             // l14s3
@@ -1034,7 +864,7 @@ namespace GordGuitar
             this.l14s3.Size = new System.Drawing.Size(10, 10);
             this.l14s3.TabIndex = 235;
             this.l14s3.TabStop = false;
-            this.l14s3.Tag = "143";
+            this.l14s3.Tag = "80";
             this.l14s3.UseVisualStyleBackColor = false;
             // 
             // l14s2
@@ -1049,7 +879,7 @@ namespace GordGuitar
             this.l14s2.Size = new System.Drawing.Size(10, 10);
             this.l14s2.TabIndex = 234;
             this.l14s2.TabStop = false;
-            this.l14s2.Tag = "142";
+            this.l14s2.Tag = "79";
             this.l14s2.UseVisualStyleBackColor = false;
             // 
             // l14s1
@@ -1064,7 +894,7 @@ namespace GordGuitar
             this.l14s1.Size = new System.Drawing.Size(10, 10);
             this.l14s1.TabIndex = 233;
             this.l14s1.TabStop = false;
-            this.l14s1.Tag = "141";
+            this.l14s1.Tag = "78";
             this.l14s1.UseVisualStyleBackColor = false;
             // 
             // l13s6
@@ -1079,7 +909,7 @@ namespace GordGuitar
             this.l13s6.Size = new System.Drawing.Size(10, 10);
             this.l13s6.TabIndex = 232;
             this.l13s6.TabStop = false;
-            this.l13s6.Tag = "136";
+            this.l13s6.Tag = "77";
             this.l13s6.UseVisualStyleBackColor = false;
             // 
             // l13s5
@@ -1094,7 +924,7 @@ namespace GordGuitar
             this.l13s5.Size = new System.Drawing.Size(10, 10);
             this.l13s5.TabIndex = 231;
             this.l13s5.TabStop = false;
-            this.l13s5.Tag = "135";
+            this.l13s5.Tag = "76";
             this.l13s5.UseVisualStyleBackColor = false;
             // 
             // l13s4
@@ -1109,7 +939,7 @@ namespace GordGuitar
             this.l13s4.Size = new System.Drawing.Size(10, 10);
             this.l13s4.TabIndex = 230;
             this.l13s4.TabStop = false;
-            this.l13s4.Tag = "134";
+            this.l13s4.Tag = "75";
             this.l13s4.UseVisualStyleBackColor = false;
             // 
             // l13s3
@@ -1124,7 +954,7 @@ namespace GordGuitar
             this.l13s3.Size = new System.Drawing.Size(10, 10);
             this.l13s3.TabIndex = 229;
             this.l13s3.TabStop = false;
-            this.l13s3.Tag = "133";
+            this.l13s3.Tag = "74";
             this.l13s3.UseVisualStyleBackColor = false;
             // 
             // l13s2
@@ -1139,7 +969,7 @@ namespace GordGuitar
             this.l13s2.Size = new System.Drawing.Size(10, 10);
             this.l13s2.TabIndex = 228;
             this.l13s2.TabStop = false;
-            this.l13s2.Tag = "132";
+            this.l13s2.Tag = "73";
             this.l13s2.UseVisualStyleBackColor = false;
             // 
             // l13s1
@@ -1154,7 +984,7 @@ namespace GordGuitar
             this.l13s1.Size = new System.Drawing.Size(10, 10);
             this.l13s1.TabIndex = 227;
             this.l13s1.TabStop = false;
-            this.l13s1.Tag = "131";
+            this.l13s1.Tag = "72";
             this.l13s1.UseVisualStyleBackColor = false;
             // 
             // l12s6
@@ -1169,7 +999,7 @@ namespace GordGuitar
             this.l12s6.Size = new System.Drawing.Size(10, 10);
             this.l12s6.TabIndex = 226;
             this.l12s6.TabStop = false;
-            this.l12s6.Tag = "126";
+            this.l12s6.Tag = "71";
             this.l12s6.UseVisualStyleBackColor = false;
             // 
             // l12s5
@@ -1184,7 +1014,7 @@ namespace GordGuitar
             this.l12s5.Size = new System.Drawing.Size(10, 10);
             this.l12s5.TabIndex = 225;
             this.l12s5.TabStop = false;
-            this.l12s5.Tag = "125";
+            this.l12s5.Tag = "70";
             this.l12s5.UseVisualStyleBackColor = false;
             // 
             // l12s4
@@ -1199,7 +1029,7 @@ namespace GordGuitar
             this.l12s4.Size = new System.Drawing.Size(10, 10);
             this.l12s4.TabIndex = 224;
             this.l12s4.TabStop = false;
-            this.l12s4.Tag = "124";
+            this.l12s4.Tag = "69";
             this.l12s4.UseVisualStyleBackColor = false;
             // 
             // l12s3
@@ -1214,7 +1044,7 @@ namespace GordGuitar
             this.l12s3.Size = new System.Drawing.Size(10, 10);
             this.l12s3.TabIndex = 223;
             this.l12s3.TabStop = false;
-            this.l12s3.Tag = "123";
+            this.l12s3.Tag = "68";
             this.l12s3.UseVisualStyleBackColor = false;
             // 
             // l12s2
@@ -1229,7 +1059,7 @@ namespace GordGuitar
             this.l12s2.Size = new System.Drawing.Size(10, 10);
             this.l12s2.TabIndex = 222;
             this.l12s2.TabStop = false;
-            this.l12s2.Tag = "122";
+            this.l12s2.Tag = "67";
             this.l12s2.UseVisualStyleBackColor = false;
             // 
             // l12s1
@@ -1244,7 +1074,7 @@ namespace GordGuitar
             this.l12s1.Size = new System.Drawing.Size(10, 10);
             this.l12s1.TabIndex = 221;
             this.l12s1.TabStop = false;
-            this.l12s1.Tag = "121";
+            this.l12s1.Tag = "66";
             this.l12s1.UseVisualStyleBackColor = false;
             // 
             // l11s6
@@ -1259,7 +1089,7 @@ namespace GordGuitar
             this.l11s6.Size = new System.Drawing.Size(10, 10);
             this.l11s6.TabIndex = 220;
             this.l11s6.TabStop = false;
-            this.l11s6.Tag = "116";
+            this.l11s6.Tag = "65";
             this.l11s6.UseVisualStyleBackColor = false;
             // 
             // l11s5
@@ -1274,7 +1104,7 @@ namespace GordGuitar
             this.l11s5.Size = new System.Drawing.Size(10, 10);
             this.l11s5.TabIndex = 219;
             this.l11s5.TabStop = false;
-            this.l11s5.Tag = "115";
+            this.l11s5.Tag = "64";
             this.l11s5.UseVisualStyleBackColor = false;
             // 
             // l11s4
@@ -1289,7 +1119,7 @@ namespace GordGuitar
             this.l11s4.Size = new System.Drawing.Size(10, 10);
             this.l11s4.TabIndex = 218;
             this.l11s4.TabStop = false;
-            this.l11s4.Tag = "114";
+            this.l11s4.Tag = "63";
             this.l11s4.UseVisualStyleBackColor = false;
             // 
             // l11s3
@@ -1304,7 +1134,7 @@ namespace GordGuitar
             this.l11s3.Size = new System.Drawing.Size(10, 10);
             this.l11s3.TabIndex = 217;
             this.l11s3.TabStop = false;
-            this.l11s3.Tag = "113";
+            this.l11s3.Tag = "62";
             this.l11s3.UseVisualStyleBackColor = false;
             // 
             // l11s2
@@ -1319,7 +1149,7 @@ namespace GordGuitar
             this.l11s2.Size = new System.Drawing.Size(10, 10);
             this.l11s2.TabIndex = 216;
             this.l11s2.TabStop = false;
-            this.l11s2.Tag = "112";
+            this.l11s2.Tag = "61";
             this.l11s2.UseVisualStyleBackColor = false;
             // 
             // l11s1
@@ -1334,7 +1164,7 @@ namespace GordGuitar
             this.l11s1.Size = new System.Drawing.Size(10, 10);
             this.l11s1.TabIndex = 215;
             this.l11s1.TabStop = false;
-            this.l11s1.Tag = "111";
+            this.l11s1.Tag = "60";
             this.l11s1.UseVisualStyleBackColor = false;
             // 
             // l10s6
@@ -1349,7 +1179,7 @@ namespace GordGuitar
             this.l10s6.Size = new System.Drawing.Size(10, 10);
             this.l10s6.TabIndex = 214;
             this.l10s6.TabStop = false;
-            this.l10s6.Tag = "106";
+            this.l10s6.Tag = "59";
             this.l10s6.UseVisualStyleBackColor = false;
             // 
             // l10s5
@@ -1364,7 +1194,7 @@ namespace GordGuitar
             this.l10s5.Size = new System.Drawing.Size(10, 10);
             this.l10s5.TabIndex = 213;
             this.l10s5.TabStop = false;
-            this.l10s5.Tag = "105";
+            this.l10s5.Tag = "58";
             this.l10s5.UseVisualStyleBackColor = false;
             // 
             // l10s4
@@ -1379,7 +1209,7 @@ namespace GordGuitar
             this.l10s4.Size = new System.Drawing.Size(10, 10);
             this.l10s4.TabIndex = 212;
             this.l10s4.TabStop = false;
-            this.l10s4.Tag = "104";
+            this.l10s4.Tag = "57";
             this.l10s4.UseVisualStyleBackColor = false;
             // 
             // l10s3
@@ -1394,7 +1224,7 @@ namespace GordGuitar
             this.l10s3.Size = new System.Drawing.Size(10, 10);
             this.l10s3.TabIndex = 211;
             this.l10s3.TabStop = false;
-            this.l10s3.Tag = "103";
+            this.l10s3.Tag = "56";
             this.l10s3.UseVisualStyleBackColor = false;
             // 
             // l10s2
@@ -1409,7 +1239,7 @@ namespace GordGuitar
             this.l10s2.Size = new System.Drawing.Size(10, 10);
             this.l10s2.TabIndex = 210;
             this.l10s2.TabStop = false;
-            this.l10s2.Tag = "102";
+            this.l10s2.Tag = "55";
             this.l10s2.UseVisualStyleBackColor = false;
             // 
             // l10s1
@@ -1424,7 +1254,7 @@ namespace GordGuitar
             this.l10s1.Size = new System.Drawing.Size(10, 10);
             this.l10s1.TabIndex = 209;
             this.l10s1.TabStop = false;
-            this.l10s1.Tag = "101";
+            this.l10s1.Tag = "54";
             this.l10s1.UseVisualStyleBackColor = false;
             // 
             // l9s6
@@ -1439,7 +1269,7 @@ namespace GordGuitar
             this.l9s6.Size = new System.Drawing.Size(10, 10);
             this.l9s6.TabIndex = 208;
             this.l9s6.TabStop = false;
-            this.l9s6.Tag = "96";
+            this.l9s6.Tag = "53";
             this.l9s6.UseVisualStyleBackColor = false;
             // 
             // l9s5
@@ -1454,7 +1284,7 @@ namespace GordGuitar
             this.l9s5.Size = new System.Drawing.Size(10, 10);
             this.l9s5.TabIndex = 207;
             this.l9s5.TabStop = false;
-            this.l9s5.Tag = "95";
+            this.l9s5.Tag = "52";
             this.l9s5.UseVisualStyleBackColor = false;
             // 
             // l9s4
@@ -1469,7 +1299,7 @@ namespace GordGuitar
             this.l9s4.Size = new System.Drawing.Size(10, 10);
             this.l9s4.TabIndex = 206;
             this.l9s4.TabStop = false;
-            this.l9s4.Tag = "94";
+            this.l9s4.Tag = "51";
             this.l9s4.UseVisualStyleBackColor = false;
             // 
             // l9s3
@@ -1484,7 +1314,7 @@ namespace GordGuitar
             this.l9s3.Size = new System.Drawing.Size(10, 10);
             this.l9s3.TabIndex = 205;
             this.l9s3.TabStop = false;
-            this.l9s3.Tag = "93";
+            this.l9s3.Tag = "50";
             this.l9s3.UseVisualStyleBackColor = false;
             // 
             // l9s2
@@ -1499,7 +1329,7 @@ namespace GordGuitar
             this.l9s2.Size = new System.Drawing.Size(10, 10);
             this.l9s2.TabIndex = 204;
             this.l9s2.TabStop = false;
-            this.l9s2.Tag = "92";
+            this.l9s2.Tag = "49";
             this.l9s2.UseVisualStyleBackColor = false;
             // 
             // l9s1
@@ -1514,7 +1344,7 @@ namespace GordGuitar
             this.l9s1.Size = new System.Drawing.Size(10, 10);
             this.l9s1.TabIndex = 203;
             this.l9s1.TabStop = false;
-            this.l9s1.Tag = "91";
+            this.l9s1.Tag = "48";
             this.l9s1.UseVisualStyleBackColor = false;
             // 
             // l8s6
@@ -1529,7 +1359,7 @@ namespace GordGuitar
             this.l8s6.Size = new System.Drawing.Size(10, 10);
             this.l8s6.TabIndex = 202;
             this.l8s6.TabStop = false;
-            this.l8s6.Tag = "86";
+            this.l8s6.Tag = "47";
             this.l8s6.UseVisualStyleBackColor = false;
             // 
             // l8s5
@@ -1544,7 +1374,7 @@ namespace GordGuitar
             this.l8s5.Size = new System.Drawing.Size(10, 10);
             this.l8s5.TabIndex = 201;
             this.l8s5.TabStop = false;
-            this.l8s5.Tag = "85";
+            this.l8s5.Tag = "46";
             this.l8s5.UseVisualStyleBackColor = false;
             // 
             // l8s4
@@ -1559,7 +1389,7 @@ namespace GordGuitar
             this.l8s4.Size = new System.Drawing.Size(10, 10);
             this.l8s4.TabIndex = 200;
             this.l8s4.TabStop = false;
-            this.l8s4.Tag = "84";
+            this.l8s4.Tag = "45";
             this.l8s4.UseVisualStyleBackColor = false;
             // 
             // l8s3
@@ -1574,7 +1404,7 @@ namespace GordGuitar
             this.l8s3.Size = new System.Drawing.Size(10, 10);
             this.l8s3.TabIndex = 199;
             this.l8s3.TabStop = false;
-            this.l8s3.Tag = "83";
+            this.l8s3.Tag = "44";
             this.l8s3.UseVisualStyleBackColor = false;
             // 
             // l8s2
@@ -1589,7 +1419,7 @@ namespace GordGuitar
             this.l8s2.Size = new System.Drawing.Size(10, 10);
             this.l8s2.TabIndex = 198;
             this.l8s2.TabStop = false;
-            this.l8s2.Tag = "82";
+            this.l8s2.Tag = "43";
             this.l8s2.UseVisualStyleBackColor = false;
             // 
             // l8s1
@@ -1604,7 +1434,7 @@ namespace GordGuitar
             this.l8s1.Size = new System.Drawing.Size(10, 10);
             this.l8s1.TabIndex = 197;
             this.l8s1.TabStop = false;
-            this.l8s1.Tag = "81";
+            this.l8s1.Tag = "42";
             this.l8s1.UseVisualStyleBackColor = false;
             // 
             // l7s6
@@ -1619,7 +1449,7 @@ namespace GordGuitar
             this.l7s6.Size = new System.Drawing.Size(10, 10);
             this.l7s6.TabIndex = 196;
             this.l7s6.TabStop = false;
-            this.l7s6.Tag = "76";
+            this.l7s6.Tag = "41";
             this.l7s6.UseVisualStyleBackColor = false;
             // 
             // l7s5
@@ -1634,7 +1464,7 @@ namespace GordGuitar
             this.l7s5.Size = new System.Drawing.Size(10, 10);
             this.l7s5.TabIndex = 195;
             this.l7s5.TabStop = false;
-            this.l7s5.Tag = "75";
+            this.l7s5.Tag = "40";
             this.l7s5.UseVisualStyleBackColor = false;
             // 
             // l7s4
@@ -1649,7 +1479,7 @@ namespace GordGuitar
             this.l7s4.Size = new System.Drawing.Size(10, 10);
             this.l7s4.TabIndex = 194;
             this.l7s4.TabStop = false;
-            this.l7s4.Tag = "74";
+            this.l7s4.Tag = "39";
             this.l7s4.UseVisualStyleBackColor = false;
             // 
             // l7s3
@@ -1664,7 +1494,7 @@ namespace GordGuitar
             this.l7s3.Size = new System.Drawing.Size(10, 10);
             this.l7s3.TabIndex = 193;
             this.l7s3.TabStop = false;
-            this.l7s3.Tag = "73";
+            this.l7s3.Tag = "38";
             this.l7s3.UseVisualStyleBackColor = false;
             // 
             // l7s2
@@ -1679,7 +1509,7 @@ namespace GordGuitar
             this.l7s2.Size = new System.Drawing.Size(10, 10);
             this.l7s2.TabIndex = 192;
             this.l7s2.TabStop = false;
-            this.l7s2.Tag = "72";
+            this.l7s2.Tag = "37";
             this.l7s2.UseVisualStyleBackColor = false;
             // 
             // l7s1
@@ -1694,7 +1524,7 @@ namespace GordGuitar
             this.l7s1.Size = new System.Drawing.Size(10, 10);
             this.l7s1.TabIndex = 191;
             this.l7s1.TabStop = false;
-            this.l7s1.Tag = "71";
+            this.l7s1.Tag = "36";
             this.l7s1.UseVisualStyleBackColor = false;
             // 
             // l6s6
@@ -1709,7 +1539,7 @@ namespace GordGuitar
             this.l6s6.Size = new System.Drawing.Size(10, 10);
             this.l6s6.TabIndex = 190;
             this.l6s6.TabStop = false;
-            this.l6s6.Tag = "66";
+            this.l6s6.Tag = "35";
             this.l6s6.UseVisualStyleBackColor = false;
             // 
             // l6s5
@@ -1724,7 +1554,7 @@ namespace GordGuitar
             this.l6s5.Size = new System.Drawing.Size(10, 10);
             this.l6s5.TabIndex = 189;
             this.l6s5.TabStop = false;
-            this.l6s5.Tag = "65";
+            this.l6s5.Tag = "34";
             this.l6s5.UseVisualStyleBackColor = false;
             // 
             // l6s4
@@ -1739,7 +1569,7 @@ namespace GordGuitar
             this.l6s4.Size = new System.Drawing.Size(10, 10);
             this.l6s4.TabIndex = 188;
             this.l6s4.TabStop = false;
-            this.l6s4.Tag = "64";
+            this.l6s4.Tag = "33";
             this.l6s4.UseVisualStyleBackColor = false;
             // 
             // l6s3
@@ -1754,7 +1584,7 @@ namespace GordGuitar
             this.l6s3.Size = new System.Drawing.Size(10, 10);
             this.l6s3.TabIndex = 187;
             this.l6s3.TabStop = false;
-            this.l6s3.Tag = "63";
+            this.l6s3.Tag = "32";
             this.l6s3.UseVisualStyleBackColor = false;
             // 
             // l6s2
@@ -1769,7 +1599,7 @@ namespace GordGuitar
             this.l6s2.Size = new System.Drawing.Size(10, 10);
             this.l6s2.TabIndex = 186;
             this.l6s2.TabStop = false;
-            this.l6s2.Tag = "62";
+            this.l6s2.Tag = "31";
             this.l6s2.UseVisualStyleBackColor = false;
             // 
             // l6s1
@@ -1784,7 +1614,7 @@ namespace GordGuitar
             this.l6s1.Size = new System.Drawing.Size(10, 10);
             this.l6s1.TabIndex = 185;
             this.l6s1.TabStop = false;
-            this.l6s1.Tag = "61";
+            this.l6s1.Tag = "30";
             this.l6s1.UseVisualStyleBackColor = false;
             // 
             // l5s6
@@ -1799,7 +1629,7 @@ namespace GordGuitar
             this.l5s6.Size = new System.Drawing.Size(10, 10);
             this.l5s6.TabIndex = 184;
             this.l5s6.TabStop = false;
-            this.l5s6.Tag = "56";
+            this.l5s6.Tag = "29";
             this.l5s6.UseVisualStyleBackColor = false;
             // 
             // l5s5
@@ -1814,7 +1644,7 @@ namespace GordGuitar
             this.l5s5.Size = new System.Drawing.Size(10, 10);
             this.l5s5.TabIndex = 183;
             this.l5s5.TabStop = false;
-            this.l5s5.Tag = "55";
+            this.l5s5.Tag = "28";
             this.l5s5.UseVisualStyleBackColor = false;
             // 
             // l5s4
@@ -1829,7 +1659,7 @@ namespace GordGuitar
             this.l5s4.Size = new System.Drawing.Size(10, 10);
             this.l5s4.TabIndex = 182;
             this.l5s4.TabStop = false;
-            this.l5s4.Tag = "54";
+            this.l5s4.Tag = "27";
             this.l5s4.UseVisualStyleBackColor = false;
             // 
             // l5s3
@@ -1844,7 +1674,7 @@ namespace GordGuitar
             this.l5s3.Size = new System.Drawing.Size(10, 10);
             this.l5s3.TabIndex = 181;
             this.l5s3.TabStop = false;
-            this.l5s3.Tag = "53";
+            this.l5s3.Tag = "26";
             this.l5s3.UseVisualStyleBackColor = false;
             // 
             // l5s2
@@ -1859,7 +1689,7 @@ namespace GordGuitar
             this.l5s2.Size = new System.Drawing.Size(10, 10);
             this.l5s2.TabIndex = 180;
             this.l5s2.TabStop = false;
-            this.l5s2.Tag = "52";
+            this.l5s2.Tag = "25";
             this.l5s2.UseVisualStyleBackColor = false;
             // 
             // l5s1
@@ -1874,7 +1704,7 @@ namespace GordGuitar
             this.l5s1.Size = new System.Drawing.Size(10, 10);
             this.l5s1.TabIndex = 179;
             this.l5s1.TabStop = false;
-            this.l5s1.Tag = "51";
+            this.l5s1.Tag = "24";
             this.l5s1.UseVisualStyleBackColor = false;
             // 
             // l4s6
@@ -1889,7 +1719,7 @@ namespace GordGuitar
             this.l4s6.Size = new System.Drawing.Size(10, 10);
             this.l4s6.TabIndex = 178;
             this.l4s6.TabStop = false;
-            this.l4s6.Tag = "46";
+            this.l4s6.Tag = "23";
             this.l4s6.UseVisualStyleBackColor = false;
             // 
             // l4s5
@@ -1904,7 +1734,7 @@ namespace GordGuitar
             this.l4s5.Size = new System.Drawing.Size(10, 10);
             this.l4s5.TabIndex = 177;
             this.l4s5.TabStop = false;
-            this.l4s5.Tag = "45";
+            this.l4s5.Tag = "22";
             this.l4s5.UseVisualStyleBackColor = false;
             // 
             // l4s4
@@ -1919,7 +1749,7 @@ namespace GordGuitar
             this.l4s4.Size = new System.Drawing.Size(10, 10);
             this.l4s4.TabIndex = 176;
             this.l4s4.TabStop = false;
-            this.l4s4.Tag = "44";
+            this.l4s4.Tag = "21";
             this.l4s4.UseVisualStyleBackColor = false;
             // 
             // l4s3
@@ -1934,7 +1764,7 @@ namespace GordGuitar
             this.l4s3.Size = new System.Drawing.Size(10, 10);
             this.l4s3.TabIndex = 175;
             this.l4s3.TabStop = false;
-            this.l4s3.Tag = "43";
+            this.l4s3.Tag = "20";
             this.l4s3.UseVisualStyleBackColor = false;
             // 
             // l4s2
@@ -1949,7 +1779,7 @@ namespace GordGuitar
             this.l4s2.Size = new System.Drawing.Size(10, 10);
             this.l4s2.TabIndex = 174;
             this.l4s2.TabStop = false;
-            this.l4s2.Tag = "42";
+            this.l4s2.Tag = "19";
             this.l4s2.UseVisualStyleBackColor = false;
             // 
             // l4s1
@@ -1964,7 +1794,7 @@ namespace GordGuitar
             this.l4s1.Size = new System.Drawing.Size(10, 10);
             this.l4s1.TabIndex = 173;
             this.l4s1.TabStop = false;
-            this.l4s1.Tag = "41";
+            this.l4s1.Tag = "18";
             this.l4s1.UseVisualStyleBackColor = false;
             // 
             // l3s6
@@ -1979,7 +1809,7 @@ namespace GordGuitar
             this.l3s6.Size = new System.Drawing.Size(10, 10);
             this.l3s6.TabIndex = 172;
             this.l3s6.TabStop = false;
-            this.l3s6.Tag = "36";
+            this.l3s6.Tag = "17";
             this.l3s6.UseVisualStyleBackColor = false;
             // 
             // l3s5
@@ -1994,7 +1824,7 @@ namespace GordGuitar
             this.l3s5.Size = new System.Drawing.Size(10, 10);
             this.l3s5.TabIndex = 171;
             this.l3s5.TabStop = false;
-            this.l3s5.Tag = "35";
+            this.l3s5.Tag = "16";
             this.l3s5.UseVisualStyleBackColor = false;
             // 
             // l3s4
@@ -2009,7 +1839,7 @@ namespace GordGuitar
             this.l3s4.Size = new System.Drawing.Size(10, 10);
             this.l3s4.TabIndex = 170;
             this.l3s4.TabStop = false;
-            this.l3s4.Tag = "34";
+            this.l3s4.Tag = "15";
             this.l3s4.UseVisualStyleBackColor = false;
             // 
             // l3s3
@@ -2024,7 +1854,7 @@ namespace GordGuitar
             this.l3s3.Size = new System.Drawing.Size(10, 10);
             this.l3s3.TabIndex = 169;
             this.l3s3.TabStop = false;
-            this.l3s3.Tag = "33";
+            this.l3s3.Tag = "14";
             this.l3s3.UseVisualStyleBackColor = false;
             // 
             // l3s2
@@ -2039,7 +1869,7 @@ namespace GordGuitar
             this.l3s2.Size = new System.Drawing.Size(10, 10);
             this.l3s2.TabIndex = 168;
             this.l3s2.TabStop = false;
-            this.l3s2.Tag = "32";
+            this.l3s2.Tag = "13";
             this.l3s2.UseVisualStyleBackColor = false;
             // 
             // l3s1
@@ -2054,7 +1884,7 @@ namespace GordGuitar
             this.l3s1.Size = new System.Drawing.Size(10, 10);
             this.l3s1.TabIndex = 167;
             this.l3s1.TabStop = false;
-            this.l3s1.Tag = "31";
+            this.l3s1.Tag = "12";
             this.l3s1.UseVisualStyleBackColor = false;
             // 
             // l2s6
@@ -2069,7 +1899,7 @@ namespace GordGuitar
             this.l2s6.Size = new System.Drawing.Size(10, 10);
             this.l2s6.TabIndex = 166;
             this.l2s6.TabStop = false;
-            this.l2s6.Tag = "26";
+            this.l2s6.Tag = "11";
             this.l2s6.UseVisualStyleBackColor = false;
             // 
             // l2s5
@@ -2084,7 +1914,7 @@ namespace GordGuitar
             this.l2s5.Size = new System.Drawing.Size(10, 10);
             this.l2s5.TabIndex = 165;
             this.l2s5.TabStop = false;
-            this.l2s5.Tag = "25";
+            this.l2s5.Tag = "10";
             this.l2s5.UseVisualStyleBackColor = false;
             // 
             // l2s4
@@ -2099,7 +1929,7 @@ namespace GordGuitar
             this.l2s4.Size = new System.Drawing.Size(10, 10);
             this.l2s4.TabIndex = 164;
             this.l2s4.TabStop = false;
-            this.l2s4.Tag = "24";
+            this.l2s4.Tag = "9";
             this.l2s4.UseVisualStyleBackColor = false;
             // 
             // l2s3
@@ -2114,7 +1944,7 @@ namespace GordGuitar
             this.l2s3.Size = new System.Drawing.Size(10, 10);
             this.l2s3.TabIndex = 163;
             this.l2s3.TabStop = false;
-            this.l2s3.Tag = "23";
+            this.l2s3.Tag = "8";
             this.l2s3.UseVisualStyleBackColor = false;
             // 
             // l2s2
@@ -2129,7 +1959,7 @@ namespace GordGuitar
             this.l2s2.Size = new System.Drawing.Size(10, 10);
             this.l2s2.TabIndex = 162;
             this.l2s2.TabStop = false;
-            this.l2s2.Tag = "22";
+            this.l2s2.Tag = "7";
             this.l2s2.UseVisualStyleBackColor = false;
             // 
             // l2s1
@@ -2144,7 +1974,7 @@ namespace GordGuitar
             this.l2s1.Size = new System.Drawing.Size(10, 10);
             this.l2s1.TabIndex = 161;
             this.l2s1.TabStop = false;
-            this.l2s1.Tag = "21";
+            this.l2s1.Tag = "6";
             this.l2s1.UseVisualStyleBackColor = false;
             // 
             // l1s6
@@ -2159,7 +1989,7 @@ namespace GordGuitar
             this.l1s6.Size = new System.Drawing.Size(10, 10);
             this.l1s6.TabIndex = 160;
             this.l1s6.TabStop = false;
-            this.l1s6.Tag = "16";
+            this.l1s6.Tag = "5";
             this.l1s6.UseVisualStyleBackColor = false;
             // 
             // l1s5
@@ -2174,7 +2004,7 @@ namespace GordGuitar
             this.l1s5.Size = new System.Drawing.Size(10, 10);
             this.l1s5.TabIndex = 159;
             this.l1s5.TabStop = false;
-            this.l1s5.Tag = "15";
+            this.l1s5.Tag = "4";
             this.l1s5.UseVisualStyleBackColor = false;
             // 
             // l1s4
@@ -2189,7 +2019,7 @@ namespace GordGuitar
             this.l1s4.Size = new System.Drawing.Size(10, 10);
             this.l1s4.TabIndex = 158;
             this.l1s4.TabStop = false;
-            this.l1s4.Tag = "14";
+            this.l1s4.Tag = "3";
             this.l1s4.UseVisualStyleBackColor = false;
             // 
             // l1s3
@@ -2204,7 +2034,7 @@ namespace GordGuitar
             this.l1s3.Size = new System.Drawing.Size(10, 10);
             this.l1s3.TabIndex = 157;
             this.l1s3.TabStop = false;
-            this.l1s3.Tag = "13";
+            this.l1s3.Tag = "2";
             this.l1s3.UseVisualStyleBackColor = false;
             // 
             // l1s2
@@ -2219,7 +2049,7 @@ namespace GordGuitar
             this.l1s2.Size = new System.Drawing.Size(10, 10);
             this.l1s2.TabIndex = 156;
             this.l1s2.TabStop = false;
-            this.l1s2.Tag = "12";
+            this.l1s2.Tag = "1";
             this.l1s2.UseVisualStyleBackColor = false;
             // 
             // l1s1
@@ -2234,8 +2064,178 @@ namespace GordGuitar
             this.l1s1.Size = new System.Drawing.Size(10, 10);
             this.l1s1.TabIndex = 155;
             this.l1s1.TabStop = false;
-            this.l1s1.Tag = "11";
+            this.l1s1.Tag = "0";
             this.l1s1.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord10
+            // 
+            this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord10.chord = chord11;
+            this.buttonChord10.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord10.FlatAppearance.BorderSize = 3;
+            this.buttonChord10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord10.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord10.Location = new System.Drawing.Point(295, 403);
+            this.buttonChord10.Name = "buttonChord10";
+            this.buttonChord10.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord10.TabIndex = 20;
+            this.buttonChord10.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord9
+            // 
+            this.buttonChord9.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord9.chord = chord12;
+            this.buttonChord9.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord9.FlatAppearance.BorderSize = 3;
+            this.buttonChord9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord9.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord9.Location = new System.Drawing.Point(295, 352);
+            this.buttonChord9.Name = "buttonChord9";
+            this.buttonChord9.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord9.TabIndex = 19;
+            this.buttonChord9.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord8
+            // 
+            this.buttonChord8.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord8.chord = chord13;
+            this.buttonChord8.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord8.FlatAppearance.BorderSize = 3;
+            this.buttonChord8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord8.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord8.Location = new System.Drawing.Point(295, 301);
+            this.buttonChord8.Name = "buttonChord8";
+            this.buttonChord8.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord8.TabIndex = 18;
+            this.buttonChord8.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord7
+            // 
+            this.buttonChord7.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord7.chord = chord14;
+            this.buttonChord7.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord7.FlatAppearance.BorderSize = 3;
+            this.buttonChord7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord7.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord7.Location = new System.Drawing.Point(295, 250);
+            this.buttonChord7.Name = "buttonChord7";
+            this.buttonChord7.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord7.TabIndex = 17;
+            this.buttonChord7.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord6
+            // 
+            this.buttonChord6.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord6.chord = chord15;
+            this.buttonChord6.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord6.FlatAppearance.BorderSize = 3;
+            this.buttonChord6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord6.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord6.Location = new System.Drawing.Point(295, 199);
+            this.buttonChord6.Name = "buttonChord6";
+            this.buttonChord6.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord6.TabIndex = 16;
+            this.buttonChord6.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord5
+            // 
+            this.buttonChord5.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord5.chord = chord16;
+            this.buttonChord5.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord5.FlatAppearance.BorderSize = 3;
+            this.buttonChord5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord5.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord5.Location = new System.Drawing.Point(94, 403);
+            this.buttonChord5.Name = "buttonChord5";
+            this.buttonChord5.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord5.TabIndex = 15;
+            this.buttonChord5.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord4
+            // 
+            this.buttonChord4.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord4.chord = chord17;
+            this.buttonChord4.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord4.FlatAppearance.BorderSize = 3;
+            this.buttonChord4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord4.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord4.Location = new System.Drawing.Point(94, 352);
+            this.buttonChord4.Name = "buttonChord4";
+            this.buttonChord4.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord4.TabIndex = 14;
+            this.buttonChord4.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord3
+            // 
+            this.buttonChord3.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord3.chord = chord18;
+            this.buttonChord3.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord3.FlatAppearance.BorderSize = 3;
+            this.buttonChord3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord3.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord3.Location = new System.Drawing.Point(94, 301);
+            this.buttonChord3.Name = "buttonChord3";
+            this.buttonChord3.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord3.TabIndex = 13;
+            this.buttonChord3.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord2
+            // 
+            this.buttonChord2.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord2.chord = chord19;
+            this.buttonChord2.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord2.FlatAppearance.BorderSize = 3;
+            this.buttonChord2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord2.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord2.Location = new System.Drawing.Point(94, 250);
+            this.buttonChord2.Name = "buttonChord2";
+            this.buttonChord2.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord2.TabIndex = 12;
+            this.buttonChord2.UseVisualStyleBackColor = false;
+            // 
+            // buttonChord1
+            // 
+            this.buttonChord1.BackColor = System.Drawing.Color.Cornsilk;
+            this.buttonChord1.chord = chord20;
+            this.buttonChord1.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonChord1.FlatAppearance.BorderSize = 3;
+            this.buttonChord1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
+            this.buttonChord1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonChord1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonChord1.ForeColor = System.Drawing.Color.DarkRed;
+            this.buttonChord1.Location = new System.Drawing.Point(94, 199);
+            this.buttonChord1.Name = "buttonChord1";
+            this.buttonChord1.Size = new System.Drawing.Size(80, 45);
+            this.buttonChord1.TabIndex = 11;
+            this.buttonChord1.UseVisualStyleBackColor = false;
             // 
             // OptionsForm
             // 
