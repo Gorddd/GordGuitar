@@ -28,6 +28,9 @@ namespace GordGuitar
             optionsForm.ShowDialog();
         }
 
+        /// <summary>
+        /// Get chords from optionsForm
+        /// </summary>
         private void InitializeChords()
         {
             buttonChord1.chord = optionsForm.buttonChord1.chord;
@@ -42,9 +45,22 @@ namespace GordGuitar
             buttonChord10.chord = optionsForm.buttonChord10.chord;
         }
 
+        /// <summary>
+        /// Play the sound of the string
+        /// </summary>
         private void PullGuitarString(object sender, EventArgs e)
         {
-            activeChord.guitarStrings[Convert.ToInt32(((Button)sender).Tag) - 1].Play();
+            int numOfString = Convert.ToInt32(((Button)sender).Tag) - 1; //Get the number of calling string
+
+            activeChord.guitarStrings[numOfString].Play(); //Play the sound
+        }
+
+        /// <summary>
+        /// Set new activeChord
+        /// </summary>
+        private void ChangeActiveChord(object sender, EventArgs e)
+        {
+            activeChord = ((ChordButton)sender).chord;
         }
     }
 }

@@ -25,7 +25,13 @@ namespace GordGuitar
             buttonChord1.chord.guitarStrings[2].URL = "sounds/2l3s.wav";
             buttonChord1.chord.guitarStrings[3].URL = "sounds/2l4s.wav";
             buttonChord1.chord.guitarStrings[4].URL = "sounds/0l5s.wav";
-            //buttonChord1.chord.guitarStrings[5].URL = "mute.wav";
+
+            buttonChord2.chord.guitarStrings[0].URL = "sounds/0l1s.wav";
+            buttonChord2.chord.guitarStrings[1].URL = "sounds/0l2s.wav";
+            buttonChord2.chord.guitarStrings[2].URL = "sounds/1l3s.wav";
+            buttonChord2.chord.guitarStrings[3].URL = "sounds/2l4s.wav";
+            buttonChord2.chord.guitarStrings[4].URL = "sounds/2l5s.wav";
+            buttonChord2.chord.guitarStrings[5].URL = "sounds/0l6s.wav";
         }
     }
 }
