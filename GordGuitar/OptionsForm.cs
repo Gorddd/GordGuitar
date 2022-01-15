@@ -28,13 +28,18 @@ namespace GordGuitar
         /// </summary>
         private Designer<ChordButton> buttonDesigner;
 
-        private Chord activeChord = new Chord();
+        private Chord activeChord;
 
         public OptionsForm()
         {
             InitializeComponent();
-            TempInitializeChords();
+                    TempInitializeChords();
             InitializeDesigners();
+
+            activeChord = buttonChord1.chord;
+            #region Script for user interface
+            buttonDesigner.SetState(0, ButtonState.Chosen);
+            #endregion
         }
 
         private void InitializeDesigners()
@@ -105,6 +110,19 @@ namespace GordGuitar
             buttonChord2.chord.guitarStrings[3].URL = "sounds/2l4s.wav";
             buttonChord2.chord.guitarStrings[4].URL = "sounds/2l5s.wav";
             buttonChord2.chord.guitarStrings[5].URL = "sounds/0l6s.wav";
+        }
+
+        /// <summary>
+        /// Set new activeChord
+        /// </summary>
+        private void ChangeActiveChord(object sender, EventArgs e)
+        {
+            activeChord = ((ChordButton)sender).chord;
+
+            #region Scripts for user interface
+            buttonDesigner.MakeStandardAll();
+            buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);
+            #endregion
         }
     }
 }
