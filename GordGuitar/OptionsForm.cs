@@ -119,6 +119,8 @@ namespace GordGuitar
         {
             activeChord = ((ChordButton)sender).chord;
 
+
+
             #region Scripts for user interface
             buttonDesigner.MakeStandardAll();
             buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);

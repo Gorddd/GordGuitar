@@ -2081,7 +2081,7 @@ namespace GordGuitar
             this.buttonChord10.Location = new System.Drawing.Point(295, 403);
             this.buttonChord10.Name = "buttonChord10";
             this.buttonChord10.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord10.TabIndex = 20;
+            this.buttonChord10.TabIndex = 9;
             this.buttonChord10.UseVisualStyleBackColor = false;
             this.buttonChord10.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2099,7 +2099,7 @@ namespace GordGuitar
             this.buttonChord9.Location = new System.Drawing.Point(295, 352);
             this.buttonChord9.Name = "buttonChord9";
             this.buttonChord9.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord9.TabIndex = 19;
+            this.buttonChord9.TabIndex = 8;
             this.buttonChord9.UseVisualStyleBackColor = false;
             this.buttonChord9.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2117,7 +2117,7 @@ namespace GordGuitar
             this.buttonChord8.Location = new System.Drawing.Point(295, 301);
             this.buttonChord8.Name = "buttonChord8";
             this.buttonChord8.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord8.TabIndex = 18;
+            this.buttonChord8.TabIndex = 7;
             this.buttonChord8.UseVisualStyleBackColor = false;
             this.buttonChord8.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2135,7 +2135,7 @@ namespace GordGuitar
             this.buttonChord7.Location = new System.Drawing.Point(295, 250);
             this.buttonChord7.Name = "buttonChord7";
             this.buttonChord7.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord7.TabIndex = 17;
+            this.buttonChord7.TabIndex = 6;
             this.buttonChord7.UseVisualStyleBackColor = false;
             this.buttonChord7.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2153,7 +2153,7 @@ namespace GordGuitar
             this.buttonChord6.Location = new System.Drawing.Point(295, 199);
             this.buttonChord6.Name = "buttonChord6";
             this.buttonChord6.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord6.TabIndex = 16;
+            this.buttonChord6.TabIndex = 5;
             this.buttonChord6.UseVisualStyleBackColor = false;
             this.buttonChord6.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2171,7 +2171,7 @@ namespace GordGuitar
             this.buttonChord5.Location = new System.Drawing.Point(94, 403);
             this.buttonChord5.Name = "buttonChord5";
             this.buttonChord5.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord5.TabIndex = 15;
+            this.buttonChord5.TabIndex = 4;
             this.buttonChord5.UseVisualStyleBackColor = false;
             this.buttonChord5.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2189,7 +2189,7 @@ namespace GordGuitar
             this.buttonChord4.Location = new System.Drawing.Point(94, 352);
             this.buttonChord4.Name = "buttonChord4";
             this.buttonChord4.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord4.TabIndex = 14;
+            this.buttonChord4.TabIndex = 3;
             this.buttonChord4.UseVisualStyleBackColor = false;
             this.buttonChord4.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2207,7 +2207,7 @@ namespace GordGuitar
             this.buttonChord3.Location = new System.Drawing.Point(94, 301);
             this.buttonChord3.Name = "buttonChord3";
             this.buttonChord3.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord3.TabIndex = 13;
+            this.buttonChord3.TabIndex = 2;
             this.buttonChord3.UseVisualStyleBackColor = false;
             this.buttonChord3.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2225,7 +2225,7 @@ namespace GordGuitar
             this.buttonChord2.Location = new System.Drawing.Point(94, 250);
             this.buttonChord2.Name = "buttonChord2";
             this.buttonChord2.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord2.TabIndex = 12;
+            this.buttonChord2.TabIndex = 1;
             this.buttonChord2.UseVisualStyleBackColor = false;
             this.buttonChord2.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
@@ -2243,7 +2243,7 @@ namespace GordGuitar
             this.buttonChord1.Location = new System.Drawing.Point(94, 199);
             this.buttonChord1.Name = "buttonChord1";
             this.buttonChord1.Size = new System.Drawing.Size(80, 45);
-            this.buttonChord1.TabIndex = 11;
+            this.buttonChord1.TabIndex = 0;
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
