@@ -119,9 +119,17 @@ namespace GordGuitar
         {
             activeChord = ((ChordButton)sender).chord;
 
-
-
             #region Scripts for user interface
+
+            stringButtonDesigner.MakeStandardAll();
+            for (int i = 0; i < activeChord.guitarStrings.Length; i++) 
+            {
+                if (string.IsNullOrEmpty(activeChord.guitarStrings[i].URL)) //Find muted string
+                    muteButtonDesigner.SetState(i, ButtonState.Muted);
+
+                stringButtonDesigner.SetState(activeChord.guitarStrings[i].GetTag(), ButtonState.Chosen);
+            }
+
             buttonDesigner.MakeStandardAll();
             buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);
             #endregion

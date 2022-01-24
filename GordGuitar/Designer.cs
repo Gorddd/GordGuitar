@@ -51,6 +51,9 @@ namespace GordGuitar
         /// <param name="buttonState">Button state</param>
         public void SetState(int index, ButtonState buttonState)
         {
+            if (index == -1)
+                return;
+
             switch (buttonState)
             {
                 case ButtonState.Standart:
