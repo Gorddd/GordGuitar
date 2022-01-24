@@ -2,7 +2,7 @@
 {
     public enum ColorMode
     {
-        BackColor,
+        Back,
         Border
     }
 }

@@ -50,7 +50,7 @@ namespace GordGuitar
                 buttonChord10
             };
 
-            buttonDesigner = new Designer<ChordButton>(buttons);
+            buttonDesigner = new Designer<ChordButton>(buttons, ColorMode.Border);
         }
 
         /// <summary>

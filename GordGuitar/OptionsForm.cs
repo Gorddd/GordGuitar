@@ -67,7 +67,7 @@ namespace GordGuitar
                 l19s1,l19s2,l19s3,l19s4,l19s5,l19s6,
                 l20s1,l20s2,l20s3,l20s4,l20s5,l20s6,
             };
-            stringButtonDesigner = new Designer<Button>(stringButtons);
+            stringButtonDesigner = new Designer<Button>(stringButtons, ColorMode.Back);
 
             Button[] muteButtons = new Button[6]
             {
@@ -78,7 +78,7 @@ namespace GordGuitar
                 btnString5Mute,
                 btnString6Mute,
             };
-            muteButtonDesigner = new Designer<Button>(muteButtons);
+            muteButtonDesigner = new Designer<Button>(muteButtons, ColorMode.Back);
 
             ChordButton[] chordButtons = new ChordButton[10]
             {
@@ -93,7 +93,7 @@ namespace GordGuitar
                 buttonChord9,
                 buttonChord10
             };
-            buttonDesigner = new Designer<ChordButton>(chordButtons);
+            buttonDesigner = new Designer<ChordButton>(chordButtons, ColorMode.Back);
         }
 
         public void TempInitializeChords()
