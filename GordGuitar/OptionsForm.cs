@@ -107,18 +107,18 @@ namespace GordGuitar
 
         public void TempInitializeChords()
         {
-            buttonChord1.chord.guitarStrings[0].URL = "sounds/0l1s.wav";
-            buttonChord1.chord.guitarStrings[1].URL = "sounds/1l2s.wav";
-            buttonChord1.chord.guitarStrings[2].URL = "sounds/2l3s.wav";
-            buttonChord1.chord.guitarStrings[3].URL = "sounds/2l4s.wav";
-            buttonChord1.chord.guitarStrings[4].URL = "sounds/0l5s.wav";
+            buttonChord1.chord.guitarStrings[0].URL = "sounds/l0s1.wav";
+            buttonChord1.chord.guitarStrings[1].URL = "sounds/l1s2.wav";
+            buttonChord1.chord.guitarStrings[2].URL = "sounds/l2s3.wav";
+            buttonChord1.chord.guitarStrings[3].URL = "sounds/l2s4.wav";
+            buttonChord1.chord.guitarStrings[4].URL = "sounds/l0s5.wav";
 
-            buttonChord2.chord.guitarStrings[0].URL = "sounds/0l1s.wav";
-            buttonChord2.chord.guitarStrings[1].URL = "sounds/0l2s.wav";
-            buttonChord2.chord.guitarStrings[2].URL = "sounds/1l3s.wav";
-            buttonChord2.chord.guitarStrings[3].URL = "sounds/2l4s.wav";
-            buttonChord2.chord.guitarStrings[4].URL = "sounds/2l5s.wav";
-            buttonChord2.chord.guitarStrings[5].URL = "sounds/0l6s.wav";
+            buttonChord2.chord.guitarStrings[0].URL = "sounds/l0s1.wav";
+            buttonChord2.chord.guitarStrings[1].URL = "sounds/l0s2.wav";
+            buttonChord2.chord.guitarStrings[2].URL = "sounds/l1s3.wav";
+            buttonChord2.chord.guitarStrings[3].URL = "sounds/l2s4.wav";
+            buttonChord2.chord.guitarStrings[4].URL = "sounds/l2s5.wav";
+            buttonChord2.chord.guitarStrings[5].URL = "sounds/l0s6.wav";
         }
 
         /// <summary>
@@ -156,19 +156,17 @@ namespace GordGuitar
         private void ClickStringButton(object sender, EventArgs e)
         {
             Button stringButton = (Button)sender; //cast from object to button
-            int numOfGuitarString = stringButton.Name[stringButton.Name.Length - 2] - '0'; //get number of string
+            int numOfGuitarString = stringButton.Name[stringButton.Name.Length - 1] - '0'; //get number of string
 
-            //здесь ошибка, юрл там огромный, поэтому в ифе всегда false будет
             string currentURL = activeChord.guitarStrings[numOfGuitarString - 1].URL; //get current URL
-            //----------------------------------------------------------------
-
-            string newURL = soundsURL + stringButton.Name + ".wav"; //get new URL
-            string baseURL = soundsURL + $"0l{numOfGuitarString}s" + ".wav"; //get standard URL
+            currentURL = currentURL.Substring(currentURL.LastIndexOf('\\') + 1); //delete useless info
+            string newURL = stringButton.Name + ".wav"; //get new URL
+            string baseURL = $"l0s{numOfGuitarString}" + ".wav"; //get standard URL
 
             if (currentURL != newURL) //Check state
-                activeChord.guitarStrings[numOfGuitarString - 1].URL = newURL; //Set URL
+                activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + newURL; //Set URL
             else
-                activeChord.guitarStrings[numOfGuitarString - 1].URL = baseURL;
+                activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + baseURL;
 
 
             #region Scripts for user interface
