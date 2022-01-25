@@ -49,13 +49,13 @@ namespace GordGuitar
                 case ColorMode.Back:
                     for (int i = 0; i < collection.Length; i++)
                     {
-                        collection[i].BackColor = Color.DarkRed;
+                        collection[i].BackColor = StandardColor;
                     }
                     return;
                 case ColorMode.Border:
                     for (int i = 0; i < collection.Length; i++)
                     {
-                        collection[i].FlatAppearance.BorderColor = Color.DarkRed;
+                        collection[i].FlatAppearance.BorderColor = StandardColor;
                     }
                     return;
             }

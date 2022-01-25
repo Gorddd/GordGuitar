@@ -37,7 +37,10 @@ namespace GordGuitar
             InitializeDesigners();
 
             activeChord = buttonChord1.chord;
-            #region Script for user interface
+            #region Scripts for user interface
+
+            ShowChord();
+
             buttonDesigner.SetState(0, ButtonState.Chosen);
             #endregion
         }
@@ -67,7 +70,7 @@ namespace GordGuitar
                 l19s1,l19s2,l19s3,l19s4,l19s5,l19s6,
                 l20s1,l20s2,l20s3,l20s4,l20s5,l20s6,
             };
-            stringButtonDesigner = new Designer<Button>(stringButtons, ColorMode.Back);
+            stringButtonDesigner = new Designer<Button>(stringButtons, ColorMode.Back, Color.Cornsilk, Color.DarkRed, Color.Gray);
 
             Button[] muteButtons = new Button[6]
             {
@@ -78,7 +81,7 @@ namespace GordGuitar
                 btnString5Mute,
                 btnString6Mute,
             };
-            muteButtonDesigner = new Designer<Button>(muteButtons, ColorMode.Back);
+            muteButtonDesigner = new Designer<Button>(muteButtons, ColorMode.Back, Color.White, Color.DarkRed, Color.Gray);
 
             ChordButton[] chordButtons = new ChordButton[10]
             {
@@ -93,7 +96,7 @@ namespace GordGuitar
                 buttonChord9,
                 buttonChord10
             };
-            buttonDesigner = new Designer<ChordButton>(chordButtons, ColorMode.Back);
+            buttonDesigner = new Designer<ChordButton>(chordButtons, ColorMode.Border);
         }
 
         public void TempInitializeChords()
@@ -121,18 +124,27 @@ namespace GordGuitar
 
             #region Scripts for user interface
 
+            ShowChord();
+
+            buttonDesigner.MakeStandardAll();
+            buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);
+            #endregion
+        }
+
+        /// <summary>
+        /// Show active string and muted buttons
+        /// </summary>
+        private void ShowChord()
+        {
+            muteButtonDesigner.MakeStandardAll();
             stringButtonDesigner.MakeStandardAll();
-            for (int i = 0; i < activeChord.guitarStrings.Length; i++) 
+            for (int i = 0; i < activeChord.guitarStrings.Length; i++)
             {
                 if (string.IsNullOrEmpty(activeChord.guitarStrings[i].URL)) //Find muted string
                     muteButtonDesigner.SetState(i, ButtonState.Muted);
 
                 stringButtonDesigner.SetState(activeChord.guitarStrings[i].GetTag(), ButtonState.Chosen);
             }
-
-            buttonDesigner.MakeStandardAll();
-            buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);
-            #endregion
         }
     }
 }
