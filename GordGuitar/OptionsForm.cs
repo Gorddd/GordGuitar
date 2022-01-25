@@ -36,7 +36,7 @@ namespace GordGuitar
         public OptionsForm()
         {
             InitializeComponent();
-                    TempInitializeChords();
+                    //TempInitializeChords();
             InitializeDesigners();
 
             activeChord = buttonChord1.chord;
@@ -155,6 +155,18 @@ namespace GordGuitar
 
         private void ClickStringButton(object sender, EventArgs e)
         {
+            #region Scripts for user interface
+            Button stringButtonUI = (Button)sender; //cast from object to button
+
+            int indexOfBtn = Convert.ToInt32(stringButtonUI.Tag);
+            stringButtonDesigner.SwitchBetweenStdand(indexOfBtn, ButtonState.Chosen);
+
+            int numOfGuitarStringUI = stringButtonUI.Name[stringButtonUI.Name.Length - 1] - '0'; //get number of prev string
+            stringButtonDesigner.SetState(activeChord.guitarStrings[numOfGuitarStringUI - 1].GetTag(), ButtonState.Standart); //Erase prev string button on this string
+            #endregion
+
+
+
             Button stringButton = (Button)sender; //cast from object to button
             int numOfGuitarString = stringButton.Name[stringButton.Name.Length - 1] - '0'; //get number of string
 
@@ -164,16 +176,9 @@ namespace GordGuitar
             string baseURL = $"l0s{numOfGuitarString}" + ".wav"; //get standard URL
 
             if (currentURL != newURL) //Check state
-                activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + newURL; //Set URL
+                activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + newURL; //Set new sound
             else
-                activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + baseURL;
-
-
-            #region Scripts for user interface
-            int indexOfBtn = Convert.ToInt32(((Button)sender).Tag);
-
-            stringButtonDesigner.SwitchBetweenStdand(indexOfBtn, ButtonState.Chosen);
-            #endregion
+                activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + baseURL; //Set sound of opened string
         }
     }
 }

@@ -14,12 +14,24 @@ namespace GordGuitar
         }
 
         /// <summary>
+        /// Stop sound
+        /// </summary>
+        public void Stop()
+        {
+            mediaPlayer.controls.stop();
+        }
+
+        /// <summary>
         /// Set source path
         /// </summary>
         public string URL
         {
             get { return mediaPlayer.URL; }
-            set { mediaPlayer.URL = value; }
+            set 
+            { 
+                mediaPlayer.URL = value;
+                Stop();
+            }
         }
 
         /// <summary>
