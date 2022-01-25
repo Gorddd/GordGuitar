@@ -281,6 +281,7 @@ namespace GordGuitar
             this.l20s6.TabStop = false;
             this.l20s6.Tag = "119";
             this.l20s6.UseVisualStyleBackColor = false;
+            this.l20s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l20s5
             // 
@@ -296,6 +297,7 @@ namespace GordGuitar
             this.l20s5.TabStop = false;
             this.l20s5.Tag = "118";
             this.l20s5.UseVisualStyleBackColor = false;
+            this.l20s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l20s4
             // 
@@ -311,6 +313,7 @@ namespace GordGuitar
             this.l20s4.TabStop = false;
             this.l20s4.Tag = "117";
             this.l20s4.UseVisualStyleBackColor = false;
+            this.l20s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l20s3
             // 
@@ -326,6 +329,7 @@ namespace GordGuitar
             this.l20s3.TabStop = false;
             this.l20s3.Tag = "116";
             this.l20s3.UseVisualStyleBackColor = false;
+            this.l20s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l20s2
             // 
@@ -341,6 +345,7 @@ namespace GordGuitar
             this.l20s2.TabStop = false;
             this.l20s2.Tag = "115";
             this.l20s2.UseVisualStyleBackColor = false;
+            this.l20s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l20s1
             // 
@@ -356,6 +361,7 @@ namespace GordGuitar
             this.l20s1.TabStop = false;
             this.l20s1.Tag = "114";
             this.l20s1.UseVisualStyleBackColor = false;
+            this.l20s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l19s6
             // 
@@ -371,6 +377,7 @@ namespace GordGuitar
             this.l19s6.TabStop = false;
             this.l19s6.Tag = "113";
             this.l19s6.UseVisualStyleBackColor = false;
+            this.l19s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l19s5
             // 
@@ -386,6 +393,7 @@ namespace GordGuitar
             this.l19s5.TabStop = false;
             this.l19s5.Tag = "112";
             this.l19s5.UseVisualStyleBackColor = false;
+            this.l19s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l19s4
             // 
@@ -401,6 +409,7 @@ namespace GordGuitar
             this.l19s4.TabStop = false;
             this.l19s4.Tag = "111";
             this.l19s4.UseVisualStyleBackColor = false;
+            this.l19s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l19s3
             // 
@@ -416,6 +425,7 @@ namespace GordGuitar
             this.l19s3.TabStop = false;
             this.l19s3.Tag = "110";
             this.l19s3.UseVisualStyleBackColor = false;
+            this.l19s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l19s2
             // 
@@ -431,6 +441,7 @@ namespace GordGuitar
             this.l19s2.TabStop = false;
             this.l19s2.Tag = "109";
             this.l19s2.UseVisualStyleBackColor = false;
+            this.l19s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l19s1
             // 
@@ -446,6 +457,7 @@ namespace GordGuitar
             this.l19s1.TabStop = false;
             this.l19s1.Tag = "108";
             this.l19s1.UseVisualStyleBackColor = false;
+            this.l19s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l18s6
             // 
@@ -461,6 +473,7 @@ namespace GordGuitar
             this.l18s6.TabStop = false;
             this.l18s6.Tag = "107";
             this.l18s6.UseVisualStyleBackColor = false;
+            this.l18s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l18s5
             // 
@@ -476,6 +489,7 @@ namespace GordGuitar
             this.l18s5.TabStop = false;
             this.l18s5.Tag = "106";
             this.l18s5.UseVisualStyleBackColor = false;
+            this.l18s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l18s4
             // 
@@ -491,6 +505,7 @@ namespace GordGuitar
             this.l18s4.TabStop = false;
             this.l18s4.Tag = "105";
             this.l18s4.UseVisualStyleBackColor = false;
+            this.l18s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l18s3
             // 
@@ -506,6 +521,7 @@ namespace GordGuitar
             this.l18s3.TabStop = false;
             this.l18s3.Tag = "104";
             this.l18s3.UseVisualStyleBackColor = false;
+            this.l18s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l18s2
             // 
@@ -521,6 +537,7 @@ namespace GordGuitar
             this.l18s2.TabStop = false;
             this.l18s2.Tag = "103";
             this.l18s2.UseVisualStyleBackColor = false;
+            this.l18s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l18s1
             // 
@@ -536,6 +553,7 @@ namespace GordGuitar
             this.l18s1.TabStop = false;
             this.l18s1.Tag = "102";
             this.l18s1.UseVisualStyleBackColor = false;
+            this.l18s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l17s6
             // 
@@ -551,6 +569,7 @@ namespace GordGuitar
             this.l17s6.TabStop = false;
             this.l17s6.Tag = "101";
             this.l17s6.UseVisualStyleBackColor = false;
+            this.l17s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l17s5
             // 
@@ -566,6 +585,7 @@ namespace GordGuitar
             this.l17s5.TabStop = false;
             this.l17s5.Tag = "100";
             this.l17s5.UseVisualStyleBackColor = false;
+            this.l17s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l17s4
             // 
@@ -581,6 +601,7 @@ namespace GordGuitar
             this.l17s4.TabStop = false;
             this.l17s4.Tag = "99";
             this.l17s4.UseVisualStyleBackColor = false;
+            this.l17s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l17s3
             // 
@@ -596,6 +617,7 @@ namespace GordGuitar
             this.l17s3.TabStop = false;
             this.l17s3.Tag = "98";
             this.l17s3.UseVisualStyleBackColor = false;
+            this.l17s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l17s2
             // 
@@ -611,6 +633,7 @@ namespace GordGuitar
             this.l17s2.TabStop = false;
             this.l17s2.Tag = "97";
             this.l17s2.UseVisualStyleBackColor = false;
+            this.l17s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l17s1
             // 
@@ -626,6 +649,7 @@ namespace GordGuitar
             this.l17s1.TabStop = false;
             this.l17s1.Tag = "96";
             this.l17s1.UseVisualStyleBackColor = false;
+            this.l17s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l16s6
             // 
@@ -641,6 +665,7 @@ namespace GordGuitar
             this.l16s6.TabStop = false;
             this.l16s6.Tag = "95";
             this.l16s6.UseVisualStyleBackColor = false;
+            this.l16s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l16s5
             // 
@@ -656,6 +681,7 @@ namespace GordGuitar
             this.l16s5.TabStop = false;
             this.l16s5.Tag = "94";
             this.l16s5.UseVisualStyleBackColor = false;
+            this.l16s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l16s4
             // 
@@ -671,6 +697,7 @@ namespace GordGuitar
             this.l16s4.TabStop = false;
             this.l16s4.Tag = "93";
             this.l16s4.UseVisualStyleBackColor = false;
+            this.l16s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l16s3
             // 
@@ -686,6 +713,7 @@ namespace GordGuitar
             this.l16s3.TabStop = false;
             this.l16s3.Tag = "92";
             this.l16s3.UseVisualStyleBackColor = false;
+            this.l16s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l16s2
             // 
@@ -701,6 +729,7 @@ namespace GordGuitar
             this.l16s2.TabStop = false;
             this.l16s2.Tag = "91";
             this.l16s2.UseVisualStyleBackColor = false;
+            this.l16s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l16s1
             // 
@@ -716,6 +745,7 @@ namespace GordGuitar
             this.l16s1.TabStop = false;
             this.l16s1.Tag = "90";
             this.l16s1.UseVisualStyleBackColor = false;
+            this.l16s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l15s6
             // 
@@ -731,6 +761,7 @@ namespace GordGuitar
             this.l15s6.TabStop = false;
             this.l15s6.Tag = "89";
             this.l15s6.UseVisualStyleBackColor = false;
+            this.l15s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l15s5
             // 
@@ -746,6 +777,7 @@ namespace GordGuitar
             this.l15s5.TabStop = false;
             this.l15s5.Tag = "88";
             this.l15s5.UseVisualStyleBackColor = false;
+            this.l15s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l15s4
             // 
@@ -761,6 +793,7 @@ namespace GordGuitar
             this.l15s4.TabStop = false;
             this.l15s4.Tag = "87";
             this.l15s4.UseVisualStyleBackColor = false;
+            this.l15s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l15s3
             // 
@@ -776,6 +809,7 @@ namespace GordGuitar
             this.l15s3.TabStop = false;
             this.l15s3.Tag = "86";
             this.l15s3.UseVisualStyleBackColor = false;
+            this.l15s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l15s2
             // 
@@ -791,6 +825,7 @@ namespace GordGuitar
             this.l15s2.TabStop = false;
             this.l15s2.Tag = "85";
             this.l15s2.UseVisualStyleBackColor = false;
+            this.l15s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l15s1
             // 
@@ -806,6 +841,7 @@ namespace GordGuitar
             this.l15s1.TabStop = false;
             this.l15s1.Tag = "84";
             this.l15s1.UseVisualStyleBackColor = false;
+            this.l15s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l14s6
             // 
@@ -821,6 +857,7 @@ namespace GordGuitar
             this.l14s6.TabStop = false;
             this.l14s6.Tag = "83";
             this.l14s6.UseVisualStyleBackColor = false;
+            this.l14s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l14s5
             // 
@@ -836,6 +873,7 @@ namespace GordGuitar
             this.l14s5.TabStop = false;
             this.l14s5.Tag = "82";
             this.l14s5.UseVisualStyleBackColor = false;
+            this.l14s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l14s4
             // 
@@ -851,6 +889,7 @@ namespace GordGuitar
             this.l14s4.TabStop = false;
             this.l14s4.Tag = "81";
             this.l14s4.UseVisualStyleBackColor = false;
+            this.l14s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l14s3
             // 
@@ -866,6 +905,7 @@ namespace GordGuitar
             this.l14s3.TabStop = false;
             this.l14s3.Tag = "80";
             this.l14s3.UseVisualStyleBackColor = false;
+            this.l14s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l14s2
             // 
@@ -881,6 +921,7 @@ namespace GordGuitar
             this.l14s2.TabStop = false;
             this.l14s2.Tag = "79";
             this.l14s2.UseVisualStyleBackColor = false;
+            this.l14s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l14s1
             // 
@@ -896,6 +937,7 @@ namespace GordGuitar
             this.l14s1.TabStop = false;
             this.l14s1.Tag = "78";
             this.l14s1.UseVisualStyleBackColor = false;
+            this.l14s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l13s6
             // 
@@ -911,6 +953,7 @@ namespace GordGuitar
             this.l13s6.TabStop = false;
             this.l13s6.Tag = "77";
             this.l13s6.UseVisualStyleBackColor = false;
+            this.l13s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l13s5
             // 
@@ -926,6 +969,7 @@ namespace GordGuitar
             this.l13s5.TabStop = false;
             this.l13s5.Tag = "76";
             this.l13s5.UseVisualStyleBackColor = false;
+            this.l13s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l13s4
             // 
@@ -941,6 +985,7 @@ namespace GordGuitar
             this.l13s4.TabStop = false;
             this.l13s4.Tag = "75";
             this.l13s4.UseVisualStyleBackColor = false;
+            this.l13s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l13s3
             // 
@@ -956,6 +1001,7 @@ namespace GordGuitar
             this.l13s3.TabStop = false;
             this.l13s3.Tag = "74";
             this.l13s3.UseVisualStyleBackColor = false;
+            this.l13s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l13s2
             // 
@@ -971,6 +1017,7 @@ namespace GordGuitar
             this.l13s2.TabStop = false;
             this.l13s2.Tag = "73";
             this.l13s2.UseVisualStyleBackColor = false;
+            this.l13s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l13s1
             // 
@@ -986,6 +1033,7 @@ namespace GordGuitar
             this.l13s1.TabStop = false;
             this.l13s1.Tag = "72";
             this.l13s1.UseVisualStyleBackColor = false;
+            this.l13s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l12s6
             // 
@@ -1001,6 +1049,7 @@ namespace GordGuitar
             this.l12s6.TabStop = false;
             this.l12s6.Tag = "71";
             this.l12s6.UseVisualStyleBackColor = false;
+            this.l12s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l12s5
             // 
@@ -1016,6 +1065,7 @@ namespace GordGuitar
             this.l12s5.TabStop = false;
             this.l12s5.Tag = "70";
             this.l12s5.UseVisualStyleBackColor = false;
+            this.l12s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l12s4
             // 
@@ -1031,6 +1081,7 @@ namespace GordGuitar
             this.l12s4.TabStop = false;
             this.l12s4.Tag = "69";
             this.l12s4.UseVisualStyleBackColor = false;
+            this.l12s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l12s3
             // 
@@ -1046,6 +1097,7 @@ namespace GordGuitar
             this.l12s3.TabStop = false;
             this.l12s3.Tag = "68";
             this.l12s3.UseVisualStyleBackColor = false;
+            this.l12s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l12s2
             // 
@@ -1061,6 +1113,7 @@ namespace GordGuitar
             this.l12s2.TabStop = false;
             this.l12s2.Tag = "67";
             this.l12s2.UseVisualStyleBackColor = false;
+            this.l12s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l12s1
             // 
@@ -1076,6 +1129,7 @@ namespace GordGuitar
             this.l12s1.TabStop = false;
             this.l12s1.Tag = "66";
             this.l12s1.UseVisualStyleBackColor = false;
+            this.l12s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l11s6
             // 
@@ -1091,6 +1145,7 @@ namespace GordGuitar
             this.l11s6.TabStop = false;
             this.l11s6.Tag = "65";
             this.l11s6.UseVisualStyleBackColor = false;
+            this.l11s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l11s5
             // 
@@ -1106,6 +1161,7 @@ namespace GordGuitar
             this.l11s5.TabStop = false;
             this.l11s5.Tag = "64";
             this.l11s5.UseVisualStyleBackColor = false;
+            this.l11s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l11s4
             // 
@@ -1121,6 +1177,7 @@ namespace GordGuitar
             this.l11s4.TabStop = false;
             this.l11s4.Tag = "63";
             this.l11s4.UseVisualStyleBackColor = false;
+            this.l11s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l11s3
             // 
@@ -1136,6 +1193,7 @@ namespace GordGuitar
             this.l11s3.TabStop = false;
             this.l11s3.Tag = "62";
             this.l11s3.UseVisualStyleBackColor = false;
+            this.l11s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l11s2
             // 
@@ -1151,6 +1209,7 @@ namespace GordGuitar
             this.l11s2.TabStop = false;
             this.l11s2.Tag = "61";
             this.l11s2.UseVisualStyleBackColor = false;
+            this.l11s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l11s1
             // 
@@ -1166,6 +1225,7 @@ namespace GordGuitar
             this.l11s1.TabStop = false;
             this.l11s1.Tag = "60";
             this.l11s1.UseVisualStyleBackColor = false;
+            this.l11s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l10s6
             // 
@@ -1181,6 +1241,7 @@ namespace GordGuitar
             this.l10s6.TabStop = false;
             this.l10s6.Tag = "59";
             this.l10s6.UseVisualStyleBackColor = false;
+            this.l10s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l10s5
             // 
@@ -1196,6 +1257,7 @@ namespace GordGuitar
             this.l10s5.TabStop = false;
             this.l10s5.Tag = "58";
             this.l10s5.UseVisualStyleBackColor = false;
+            this.l10s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l10s4
             // 
@@ -1211,6 +1273,7 @@ namespace GordGuitar
             this.l10s4.TabStop = false;
             this.l10s4.Tag = "57";
             this.l10s4.UseVisualStyleBackColor = false;
+            this.l10s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l10s3
             // 
@@ -1226,6 +1289,7 @@ namespace GordGuitar
             this.l10s3.TabStop = false;
             this.l10s3.Tag = "56";
             this.l10s3.UseVisualStyleBackColor = false;
+            this.l10s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l10s2
             // 
@@ -1241,6 +1305,7 @@ namespace GordGuitar
             this.l10s2.TabStop = false;
             this.l10s2.Tag = "55";
             this.l10s2.UseVisualStyleBackColor = false;
+            this.l10s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l10s1
             // 
@@ -1256,6 +1321,7 @@ namespace GordGuitar
             this.l10s1.TabStop = false;
             this.l10s1.Tag = "54";
             this.l10s1.UseVisualStyleBackColor = false;
+            this.l10s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l9s6
             // 
@@ -1271,6 +1337,7 @@ namespace GordGuitar
             this.l9s6.TabStop = false;
             this.l9s6.Tag = "53";
             this.l9s6.UseVisualStyleBackColor = false;
+            this.l9s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l9s5
             // 
@@ -1286,6 +1353,7 @@ namespace GordGuitar
             this.l9s5.TabStop = false;
             this.l9s5.Tag = "52";
             this.l9s5.UseVisualStyleBackColor = false;
+            this.l9s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l9s4
             // 
@@ -1301,6 +1369,7 @@ namespace GordGuitar
             this.l9s4.TabStop = false;
             this.l9s4.Tag = "51";
             this.l9s4.UseVisualStyleBackColor = false;
+            this.l9s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l9s3
             // 
@@ -1316,6 +1385,7 @@ namespace GordGuitar
             this.l9s3.TabStop = false;
             this.l9s3.Tag = "50";
             this.l9s3.UseVisualStyleBackColor = false;
+            this.l9s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l9s2
             // 
@@ -1331,6 +1401,7 @@ namespace GordGuitar
             this.l9s2.TabStop = false;
             this.l9s2.Tag = "49";
             this.l9s2.UseVisualStyleBackColor = false;
+            this.l9s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l9s1
             // 
@@ -1346,6 +1417,7 @@ namespace GordGuitar
             this.l9s1.TabStop = false;
             this.l9s1.Tag = "48";
             this.l9s1.UseVisualStyleBackColor = false;
+            this.l9s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l8s6
             // 
@@ -1361,6 +1433,7 @@ namespace GordGuitar
             this.l8s6.TabStop = false;
             this.l8s6.Tag = "47";
             this.l8s6.UseVisualStyleBackColor = false;
+            this.l8s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l8s5
             // 
@@ -1376,6 +1449,7 @@ namespace GordGuitar
             this.l8s5.TabStop = false;
             this.l8s5.Tag = "46";
             this.l8s5.UseVisualStyleBackColor = false;
+            this.l8s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l8s4
             // 
@@ -1391,6 +1465,7 @@ namespace GordGuitar
             this.l8s4.TabStop = false;
             this.l8s4.Tag = "45";
             this.l8s4.UseVisualStyleBackColor = false;
+            this.l8s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l8s3
             // 
@@ -1406,6 +1481,7 @@ namespace GordGuitar
             this.l8s3.TabStop = false;
             this.l8s3.Tag = "44";
             this.l8s3.UseVisualStyleBackColor = false;
+            this.l8s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l8s2
             // 
@@ -1421,6 +1497,7 @@ namespace GordGuitar
             this.l8s2.TabStop = false;
             this.l8s2.Tag = "43";
             this.l8s2.UseVisualStyleBackColor = false;
+            this.l8s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l8s1
             // 
@@ -1436,6 +1513,7 @@ namespace GordGuitar
             this.l8s1.TabStop = false;
             this.l8s1.Tag = "42";
             this.l8s1.UseVisualStyleBackColor = false;
+            this.l8s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l7s6
             // 
@@ -1451,6 +1529,7 @@ namespace GordGuitar
             this.l7s6.TabStop = false;
             this.l7s6.Tag = "41";
             this.l7s6.UseVisualStyleBackColor = false;
+            this.l7s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l7s5
             // 
@@ -1466,6 +1545,7 @@ namespace GordGuitar
             this.l7s5.TabStop = false;
             this.l7s5.Tag = "40";
             this.l7s5.UseVisualStyleBackColor = false;
+            this.l7s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l7s4
             // 
@@ -1481,6 +1561,7 @@ namespace GordGuitar
             this.l7s4.TabStop = false;
             this.l7s4.Tag = "39";
             this.l7s4.UseVisualStyleBackColor = false;
+            this.l7s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l7s3
             // 
@@ -1496,6 +1577,7 @@ namespace GordGuitar
             this.l7s3.TabStop = false;
             this.l7s3.Tag = "38";
             this.l7s3.UseVisualStyleBackColor = false;
+            this.l7s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l7s2
             // 
@@ -1511,6 +1593,7 @@ namespace GordGuitar
             this.l7s2.TabStop = false;
             this.l7s2.Tag = "37";
             this.l7s2.UseVisualStyleBackColor = false;
+            this.l7s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l7s1
             // 
@@ -1526,6 +1609,7 @@ namespace GordGuitar
             this.l7s1.TabStop = false;
             this.l7s1.Tag = "36";
             this.l7s1.UseVisualStyleBackColor = false;
+            this.l7s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l6s6
             // 
@@ -1541,6 +1625,7 @@ namespace GordGuitar
             this.l6s6.TabStop = false;
             this.l6s6.Tag = "35";
             this.l6s6.UseVisualStyleBackColor = false;
+            this.l6s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l6s5
             // 
@@ -1556,6 +1641,7 @@ namespace GordGuitar
             this.l6s5.TabStop = false;
             this.l6s5.Tag = "34";
             this.l6s5.UseVisualStyleBackColor = false;
+            this.l6s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l6s4
             // 
@@ -1571,6 +1657,7 @@ namespace GordGuitar
             this.l6s4.TabStop = false;
             this.l6s4.Tag = "33";
             this.l6s4.UseVisualStyleBackColor = false;
+            this.l6s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l6s3
             // 
@@ -1586,6 +1673,7 @@ namespace GordGuitar
             this.l6s3.TabStop = false;
             this.l6s3.Tag = "32";
             this.l6s3.UseVisualStyleBackColor = false;
+            this.l6s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l6s2
             // 
@@ -1601,6 +1689,7 @@ namespace GordGuitar
             this.l6s2.TabStop = false;
             this.l6s2.Tag = "31";
             this.l6s2.UseVisualStyleBackColor = false;
+            this.l6s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l6s1
             // 
@@ -1616,6 +1705,7 @@ namespace GordGuitar
             this.l6s1.TabStop = false;
             this.l6s1.Tag = "30";
             this.l6s1.UseVisualStyleBackColor = false;
+            this.l6s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l5s6
             // 
@@ -1631,6 +1721,7 @@ namespace GordGuitar
             this.l5s6.TabStop = false;
             this.l5s6.Tag = "29";
             this.l5s6.UseVisualStyleBackColor = false;
+            this.l5s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l5s5
             // 
@@ -1646,6 +1737,7 @@ namespace GordGuitar
             this.l5s5.TabStop = false;
             this.l5s5.Tag = "28";
             this.l5s5.UseVisualStyleBackColor = false;
+            this.l5s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l5s4
             // 
@@ -1661,6 +1753,7 @@ namespace GordGuitar
             this.l5s4.TabStop = false;
             this.l5s4.Tag = "27";
             this.l5s4.UseVisualStyleBackColor = false;
+            this.l5s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l5s3
             // 
@@ -1676,6 +1769,7 @@ namespace GordGuitar
             this.l5s3.TabStop = false;
             this.l5s3.Tag = "26";
             this.l5s3.UseVisualStyleBackColor = false;
+            this.l5s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l5s2
             // 
@@ -1691,6 +1785,7 @@ namespace GordGuitar
             this.l5s2.TabStop = false;
             this.l5s2.Tag = "25";
             this.l5s2.UseVisualStyleBackColor = false;
+            this.l5s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l5s1
             // 
@@ -1706,6 +1801,7 @@ namespace GordGuitar
             this.l5s1.TabStop = false;
             this.l5s1.Tag = "24";
             this.l5s1.UseVisualStyleBackColor = false;
+            this.l5s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l4s6
             // 
@@ -1721,6 +1817,7 @@ namespace GordGuitar
             this.l4s6.TabStop = false;
             this.l4s6.Tag = "23";
             this.l4s6.UseVisualStyleBackColor = false;
+            this.l4s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l4s5
             // 
@@ -1736,6 +1833,7 @@ namespace GordGuitar
             this.l4s5.TabStop = false;
             this.l4s5.Tag = "22";
             this.l4s5.UseVisualStyleBackColor = false;
+            this.l4s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l4s4
             // 
@@ -1751,6 +1849,7 @@ namespace GordGuitar
             this.l4s4.TabStop = false;
             this.l4s4.Tag = "21";
             this.l4s4.UseVisualStyleBackColor = false;
+            this.l4s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l4s3
             // 
@@ -1766,6 +1865,7 @@ namespace GordGuitar
             this.l4s3.TabStop = false;
             this.l4s3.Tag = "20";
             this.l4s3.UseVisualStyleBackColor = false;
+            this.l4s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l4s2
             // 
@@ -1781,6 +1881,7 @@ namespace GordGuitar
             this.l4s2.TabStop = false;
             this.l4s2.Tag = "19";
             this.l4s2.UseVisualStyleBackColor = false;
+            this.l4s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l4s1
             // 
@@ -1796,6 +1897,7 @@ namespace GordGuitar
             this.l4s1.TabStop = false;
             this.l4s1.Tag = "18";
             this.l4s1.UseVisualStyleBackColor = false;
+            this.l4s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l3s6
             // 
@@ -1811,6 +1913,7 @@ namespace GordGuitar
             this.l3s6.TabStop = false;
             this.l3s6.Tag = "17";
             this.l3s6.UseVisualStyleBackColor = false;
+            this.l3s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l3s5
             // 
@@ -1826,6 +1929,7 @@ namespace GordGuitar
             this.l3s5.TabStop = false;
             this.l3s5.Tag = "16";
             this.l3s5.UseVisualStyleBackColor = false;
+            this.l3s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l3s4
             // 
@@ -1841,6 +1945,7 @@ namespace GordGuitar
             this.l3s4.TabStop = false;
             this.l3s4.Tag = "15";
             this.l3s4.UseVisualStyleBackColor = false;
+            this.l3s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l3s3
             // 
@@ -1856,6 +1961,7 @@ namespace GordGuitar
             this.l3s3.TabStop = false;
             this.l3s3.Tag = "14";
             this.l3s3.UseVisualStyleBackColor = false;
+            this.l3s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l3s2
             // 
@@ -1871,6 +1977,7 @@ namespace GordGuitar
             this.l3s2.TabStop = false;
             this.l3s2.Tag = "13";
             this.l3s2.UseVisualStyleBackColor = false;
+            this.l3s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l3s1
             // 
@@ -1886,6 +1993,7 @@ namespace GordGuitar
             this.l3s1.TabStop = false;
             this.l3s1.Tag = "12";
             this.l3s1.UseVisualStyleBackColor = false;
+            this.l3s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l2s6
             // 
@@ -1901,6 +2009,7 @@ namespace GordGuitar
             this.l2s6.TabStop = false;
             this.l2s6.Tag = "11";
             this.l2s6.UseVisualStyleBackColor = false;
+            this.l2s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l2s5
             // 
@@ -1916,6 +2025,7 @@ namespace GordGuitar
             this.l2s5.TabStop = false;
             this.l2s5.Tag = "10";
             this.l2s5.UseVisualStyleBackColor = false;
+            this.l2s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l2s4
             // 
@@ -1931,6 +2041,7 @@ namespace GordGuitar
             this.l2s4.TabStop = false;
             this.l2s4.Tag = "9";
             this.l2s4.UseVisualStyleBackColor = false;
+            this.l2s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l2s3
             // 
@@ -1946,6 +2057,7 @@ namespace GordGuitar
             this.l2s3.TabStop = false;
             this.l2s3.Tag = "8";
             this.l2s3.UseVisualStyleBackColor = false;
+            this.l2s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l2s2
             // 
@@ -1961,6 +2073,7 @@ namespace GordGuitar
             this.l2s2.TabStop = false;
             this.l2s2.Tag = "7";
             this.l2s2.UseVisualStyleBackColor = false;
+            this.l2s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l2s1
             // 
@@ -1976,6 +2089,7 @@ namespace GordGuitar
             this.l2s1.TabStop = false;
             this.l2s1.Tag = "6";
             this.l2s1.UseVisualStyleBackColor = false;
+            this.l2s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l1s6
             // 
@@ -1991,6 +2105,7 @@ namespace GordGuitar
             this.l1s6.TabStop = false;
             this.l1s6.Tag = "5";
             this.l1s6.UseVisualStyleBackColor = false;
+            this.l1s6.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l1s5
             // 
@@ -2006,6 +2121,7 @@ namespace GordGuitar
             this.l1s5.TabStop = false;
             this.l1s5.Tag = "4";
             this.l1s5.UseVisualStyleBackColor = false;
+            this.l1s5.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l1s4
             // 
@@ -2021,6 +2137,7 @@ namespace GordGuitar
             this.l1s4.TabStop = false;
             this.l1s4.Tag = "3";
             this.l1s4.UseVisualStyleBackColor = false;
+            this.l1s4.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l1s3
             // 
@@ -2036,6 +2153,7 @@ namespace GordGuitar
             this.l1s3.TabStop = false;
             this.l1s3.Tag = "2";
             this.l1s3.UseVisualStyleBackColor = false;
+            this.l1s3.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l1s2
             // 
@@ -2051,6 +2169,7 @@ namespace GordGuitar
             this.l1s2.TabStop = false;
             this.l1s2.Tag = "1";
             this.l1s2.UseVisualStyleBackColor = false;
+            this.l1s2.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // l1s1
             // 
@@ -2066,6 +2185,7 @@ namespace GordGuitar
             this.l1s1.TabStop = false;
             this.l1s1.Tag = "0";
             this.l1s1.UseVisualStyleBackColor = false;
+            this.l1s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
             // buttonChord10
             // 

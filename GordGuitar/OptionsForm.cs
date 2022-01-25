@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +11,7 @@ namespace GordGuitar
 {
     public partial class OptionsForm : Form
     {
+        private string soundsURL = "sounds/";
 
         /// <summary>
         /// Variable for user interface (string buttons)
@@ -28,6 +28,9 @@ namespace GordGuitar
         /// </summary>
         private Designer<ChordButton> buttonDesigner;
 
+        /// <summary>
+        /// Currently used chord
+        /// </summary>
         private Chord activeChord;
 
         public OptionsForm()
@@ -45,6 +48,9 @@ namespace GordGuitar
             #endregion
         }
 
+        /// <summary>
+        /// Initialize designers for UI
+        /// </summary>
         private void InitializeDesigners()
         {
             Button[] stringButtons = new Button[120]
@@ -145,6 +151,31 @@ namespace GordGuitar
 
                 stringButtonDesigner.SetState(activeChord.guitarStrings[i].GetTag(), ButtonState.Chosen);
             }
+        }
+
+        private void ClickStringButton(object sender, EventArgs e)
+        {
+            Button stringButton = (Button)sender; //cast from object to button
+            int numOfGuitarString = stringButton.Name[stringButton.Name.Length - 2] - '0'; //get number of string
+
+            //здесь ошибка, юрл там огромный, поэтому в ифе всегда false будет
+            string currentURL = activeChord.guitarStrings[numOfGuitarString - 1].URL; //get current URL
+            //----------------------------------------------------------------
+
+            string newURL = soundsURL + stringButton.Name + ".wav"; //get new URL
+            string baseURL = soundsURL + $"0l{numOfGuitarString}s" + ".wav"; //get standard URL
+
+            if (currentURL != newURL) //Check state
+                activeChord.guitarStrings[numOfGuitarString - 1].URL = newURL; //Set URL
+            else
+                activeChord.guitarStrings[numOfGuitarString - 1].URL = baseURL;
+
+
+            #region Scripts for user interface
+            int indexOfBtn = Convert.ToInt32(((Button)sender).Tag);
+
+            stringButtonDesigner.SwitchBetweenStdand(indexOfBtn, ButtonState.Chosen);
+            #endregion
         }
     }
 }
