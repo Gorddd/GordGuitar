@@ -13,6 +13,8 @@ namespace GordGuitar
     {
         private string soundsURL = "sounds/";
 
+        private ChordOptions chordOptionsForm;
+
         /// <summary>
         /// Variable for user interface (string buttons)
         /// </summary>
@@ -153,6 +155,9 @@ namespace GordGuitar
             }
         }
 
+        /// <summary>
+        /// Set guitar string sound
+        /// </summary>
         private void ClickStringButton(object sender, EventArgs e)
         {
             #region Scripts for user interface
@@ -181,6 +186,9 @@ namespace GordGuitar
                 activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + baseURL; //Set sound of opened string
         }
 
+        /// <summary>
+        /// Mute or unmute guitar string
+        /// </summary>
         private void ClickMuteButton(object sender, EventArgs e)
         {
             #region Scripts for user interface
@@ -204,6 +212,19 @@ namespace GordGuitar
                 activeChord.guitarStrings[indexOfGuitarString].URL = string.Empty; //Set empty to URL
             else
                 activeChord.guitarStrings[indexOfGuitarString].URL = soundsURL + baseURL; //Set URL of opened string
+        }
+
+        /// <summary>
+        /// Call chord options
+        /// </summary>
+        private void DblClickChordOptions(object sender, EventArgs e)
+        {
+            Chord chordToSetting = ((ChordButton)sender).chord; //Get chord to setting
+
+            chordOptionsForm = new ChordOptions(chordToSetting); //Create form
+            chordOptionsForm.ShowDialog(); //Show form
+
+            ((ChordButton)sender).chord = chordOptionsForm.ResultChord; //Set new chord
         }
     }
 }

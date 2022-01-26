@@ -51,6 +51,12 @@
     <Compile Include="ChordButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="ChordOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChordOptions.Designer.cs">
+      <DependentUpon>ChordOptions.cs</DependentUpon>
+    </Compile>
     <Compile Include="ColorMode.cs" />
     <Compile Include="Designer.cs" />
     <Compile Include="GameForm.cs">
@@ -69,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChordOptions.resx">
+      <DependentUpon>ChordOptions.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>
     </EmbeddedResource>

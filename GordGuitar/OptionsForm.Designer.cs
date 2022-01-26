@@ -2196,6 +2196,7 @@ namespace GordGuitar
             // buttonChord10
             // 
             this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
+            chord1.Name = null;
             this.buttonChord10.chord = chord1;
             this.buttonChord10.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord10.FlatAppearance.BorderSize = 3;
@@ -2214,6 +2215,7 @@ namespace GordGuitar
             // buttonChord9
             // 
             this.buttonChord9.BackColor = System.Drawing.Color.Cornsilk;
+            chord2.Name = null;
             this.buttonChord9.chord = chord2;
             this.buttonChord9.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord9.FlatAppearance.BorderSize = 3;
@@ -2232,6 +2234,7 @@ namespace GordGuitar
             // buttonChord8
             // 
             this.buttonChord8.BackColor = System.Drawing.Color.Cornsilk;
+            chord3.Name = null;
             this.buttonChord8.chord = chord3;
             this.buttonChord8.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord8.FlatAppearance.BorderSize = 3;
@@ -2250,6 +2253,7 @@ namespace GordGuitar
             // buttonChord7
             // 
             this.buttonChord7.BackColor = System.Drawing.Color.Cornsilk;
+            chord4.Name = null;
             this.buttonChord7.chord = chord4;
             this.buttonChord7.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord7.FlatAppearance.BorderSize = 3;
@@ -2268,6 +2272,7 @@ namespace GordGuitar
             // buttonChord6
             // 
             this.buttonChord6.BackColor = System.Drawing.Color.Cornsilk;
+            chord5.Name = null;
             this.buttonChord6.chord = chord5;
             this.buttonChord6.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord6.FlatAppearance.BorderSize = 3;
@@ -2286,6 +2291,7 @@ namespace GordGuitar
             // buttonChord5
             // 
             this.buttonChord5.BackColor = System.Drawing.Color.Cornsilk;
+            chord6.Name = null;
             this.buttonChord5.chord = chord6;
             this.buttonChord5.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord5.FlatAppearance.BorderSize = 3;
@@ -2304,6 +2310,7 @@ namespace GordGuitar
             // buttonChord4
             // 
             this.buttonChord4.BackColor = System.Drawing.Color.Cornsilk;
+            chord7.Name = null;
             this.buttonChord4.chord = chord7;
             this.buttonChord4.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord4.FlatAppearance.BorderSize = 3;
@@ -2322,6 +2329,7 @@ namespace GordGuitar
             // buttonChord3
             // 
             this.buttonChord3.BackColor = System.Drawing.Color.Cornsilk;
+            chord8.Name = null;
             this.buttonChord3.chord = chord8;
             this.buttonChord3.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord3.FlatAppearance.BorderSize = 3;
@@ -2340,6 +2348,7 @@ namespace GordGuitar
             // buttonChord2
             // 
             this.buttonChord2.BackColor = System.Drawing.Color.Cornsilk;
+            chord9.Name = null;
             this.buttonChord2.chord = chord9;
             this.buttonChord2.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord2.FlatAppearance.BorderSize = 3;
@@ -2358,6 +2367,7 @@ namespace GordGuitar
             // buttonChord1
             // 
             this.buttonChord1.BackColor = System.Drawing.Color.Cornsilk;
+            chord10.Name = null;
             this.buttonChord1.chord = chord10;
             this.buttonChord1.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord1.FlatAppearance.BorderSize = 3;
