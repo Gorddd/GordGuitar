@@ -165,6 +165,16 @@ namespace GordGuitar
             this.l1s3 = new System.Windows.Forms.Button();
             this.l1s2 = new System.Windows.Forms.Button();
             this.l1s1 = new System.Windows.Forms.Button();
+            this.optButton1 = new System.Windows.Forms.Button();
+            this.optButton2 = new System.Windows.Forms.Button();
+            this.optButton3 = new System.Windows.Forms.Button();
+            this.optButton4 = new System.Windows.Forms.Button();
+            this.optButton5 = new System.Windows.Forms.Button();
+            this.optButton10 = new System.Windows.Forms.Button();
+            this.optButton9 = new System.Windows.Forms.Button();
+            this.optButton8 = new System.Windows.Forms.Button();
+            this.optButton7 = new System.Windows.Forms.Button();
+            this.optButton6 = new System.Windows.Forms.Button();
             this.buttonChord10 = new GordGuitar.ChordButton();
             this.buttonChord9 = new GordGuitar.ChordButton();
             this.buttonChord8 = new GordGuitar.ChordButton();
@@ -175,16 +185,6 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnString6Mute
@@ -2203,6 +2203,126 @@ namespace GordGuitar
             this.l1s1.UseVisualStyleBackColor = false;
             this.l1s1.Click += new System.EventHandler(this.ClickStringButton);
             // 
+            // optButton1
+            // 
+            this.optButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton1.Location = new System.Drawing.Point(65, 210);
+            this.optButton1.Name = "optButton1";
+            this.optButton1.Size = new System.Drawing.Size(23, 23);
+            this.optButton1.TabIndex = 281;
+            this.optButton1.TabStop = false;
+            this.optButton1.Tag = "0";
+            this.optButton1.UseVisualStyleBackColor = true;
+            this.optButton1.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton2
+            // 
+            this.optButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton2.Location = new System.Drawing.Point(65, 261);
+            this.optButton2.Name = "optButton2";
+            this.optButton2.Size = new System.Drawing.Size(23, 23);
+            this.optButton2.TabIndex = 282;
+            this.optButton2.TabStop = false;
+            this.optButton2.Tag = "1";
+            this.optButton2.UseVisualStyleBackColor = true;
+            this.optButton2.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton3
+            // 
+            this.optButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton3.Location = new System.Drawing.Point(65, 312);
+            this.optButton3.Name = "optButton3";
+            this.optButton3.Size = new System.Drawing.Size(23, 23);
+            this.optButton3.TabIndex = 283;
+            this.optButton3.TabStop = false;
+            this.optButton3.Tag = "2";
+            this.optButton3.UseVisualStyleBackColor = true;
+            this.optButton3.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton4
+            // 
+            this.optButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton4.Location = new System.Drawing.Point(65, 363);
+            this.optButton4.Name = "optButton4";
+            this.optButton4.Size = new System.Drawing.Size(23, 23);
+            this.optButton4.TabIndex = 284;
+            this.optButton4.TabStop = false;
+            this.optButton4.Tag = "3";
+            this.optButton4.UseVisualStyleBackColor = true;
+            this.optButton4.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton5
+            // 
+            this.optButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton5.Location = new System.Drawing.Point(65, 414);
+            this.optButton5.Name = "optButton5";
+            this.optButton5.Size = new System.Drawing.Size(23, 23);
+            this.optButton5.TabIndex = 285;
+            this.optButton5.TabStop = false;
+            this.optButton5.Tag = "4";
+            this.optButton5.UseVisualStyleBackColor = true;
+            this.optButton5.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton10
+            // 
+            this.optButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton10.Location = new System.Drawing.Point(385, 414);
+            this.optButton10.Name = "optButton10";
+            this.optButton10.Size = new System.Drawing.Size(23, 23);
+            this.optButton10.TabIndex = 290;
+            this.optButton10.TabStop = false;
+            this.optButton10.Tag = "9";
+            this.optButton10.UseVisualStyleBackColor = true;
+            this.optButton10.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton9
+            // 
+            this.optButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton9.Location = new System.Drawing.Point(385, 363);
+            this.optButton9.Name = "optButton9";
+            this.optButton9.Size = new System.Drawing.Size(23, 23);
+            this.optButton9.TabIndex = 289;
+            this.optButton9.TabStop = false;
+            this.optButton9.Tag = "8";
+            this.optButton9.UseVisualStyleBackColor = true;
+            this.optButton9.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton8
+            // 
+            this.optButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton8.Location = new System.Drawing.Point(385, 312);
+            this.optButton8.Name = "optButton8";
+            this.optButton8.Size = new System.Drawing.Size(23, 23);
+            this.optButton8.TabIndex = 288;
+            this.optButton8.TabStop = false;
+            this.optButton8.Tag = "7";
+            this.optButton8.UseVisualStyleBackColor = true;
+            this.optButton8.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton7
+            // 
+            this.optButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton7.Location = new System.Drawing.Point(385, 261);
+            this.optButton7.Name = "optButton7";
+            this.optButton7.Size = new System.Drawing.Size(23, 23);
+            this.optButton7.TabIndex = 287;
+            this.optButton7.TabStop = false;
+            this.optButton7.Tag = "6";
+            this.optButton7.UseVisualStyleBackColor = true;
+            this.optButton7.Click += new System.EventHandler(this.ClickOptButton);
+            // 
+            // optButton6
+            // 
+            this.optButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optButton6.Location = new System.Drawing.Point(385, 210);
+            this.optButton6.Name = "optButton6";
+            this.optButton6.Size = new System.Drawing.Size(23, 23);
+            this.optButton6.TabIndex = 286;
+            this.optButton6.TabStop = false;
+            this.optButton6.Tag = "5";
+            this.optButton6.UseVisualStyleBackColor = true;
+            this.optButton6.Click += new System.EventHandler(this.ClickOptButton);
+            // 
             // buttonChord10
             // 
             this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
@@ -2393,112 +2513,22 @@ namespace GordGuitar
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(65, 210);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(23, 23);
-            this.button1.TabIndex = 281;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(65, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(23, 23);
-            this.button2.TabIndex = 282;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(65, 312);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(23, 23);
-            this.button3.TabIndex = 283;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(65, 363);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(23, 23);
-            this.button4.TabIndex = 284;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(65, 414);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(23, 23);
-            this.button5.TabIndex = 285;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(385, 414);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(23, 23);
-            this.button6.TabIndex = 290;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(385, 363);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(23, 23);
-            this.button7.TabIndex = 289;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(385, 312);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(23, 23);
-            this.button8.TabIndex = 288;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(385, 261);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(23, 23);
-            this.button9.TabIndex = 287;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(385, 210);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(23, 23);
-            this.button10.TabIndex = 286;
-            this.button10.UseVisualStyleBackColor = true;
-            // 
             // OptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.OptionsImage;
             this.ClientSize = new System.Drawing.Size(475, 718);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.optButton10);
+            this.Controls.Add(this.optButton9);
+            this.Controls.Add(this.optButton8);
+            this.Controls.Add(this.optButton7);
+            this.Controls.Add(this.optButton6);
+            this.Controls.Add(this.optButton5);
+            this.Controls.Add(this.optButton4);
+            this.Controls.Add(this.optButton3);
+            this.Controls.Add(this.optButton2);
+            this.Controls.Add(this.optButton1);
             this.Controls.Add(this.btnString6Mute);
             this.Controls.Add(this.btnString5Mute);
             this.Controls.Add(this.btnString4Mute);
@@ -2642,20 +2672,6 @@ namespace GordGuitar
             this.Text = "OptionsForm";
             this.ResumeLayout(false);
 
-
-            chordButtons = new ChordButton[10]
-            {
-                buttonChord1,
-                buttonChord2,
-                buttonChord3,
-                buttonChord4,
-                buttonChord5,
-                buttonChord6,
-                buttonChord7,
-                buttonChord8,
-                buttonChord9,
-                buttonChord10
-            };
         }
 
         #endregion
@@ -2796,15 +2812,15 @@ namespace GordGuitar
         private System.Windows.Forms.Button l1s3;
         private System.Windows.Forms.Button l1s2;
         private System.Windows.Forms.Button l1s1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button optButton1;
+        private System.Windows.Forms.Button optButton2;
+        private System.Windows.Forms.Button optButton3;
+        private System.Windows.Forms.Button optButton4;
+        private System.Windows.Forms.Button optButton5;
+        private System.Windows.Forms.Button optButton10;
+        private System.Windows.Forms.Button optButton9;
+        private System.Windows.Forms.Button optButton8;
+        private System.Windows.Forms.Button optButton7;
+        private System.Windows.Forms.Button optButton6;
     }
 }

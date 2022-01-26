@@ -42,7 +42,6 @@ namespace GordGuitar
             this.nameBox.Name = "nameBox";
             this.nameBox.Size = new System.Drawing.Size(267, 32);
             this.nameBox.TabIndex = 0;
-            this.nameBox.Text = "Hello";
             // 
             // label1
             // 
@@ -86,6 +85,7 @@ namespace GordGuitar
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nameBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "ChordOptions";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChordOptions";

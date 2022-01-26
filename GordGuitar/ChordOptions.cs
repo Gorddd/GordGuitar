@@ -15,6 +15,8 @@ namespace GordGuitar
 
             initialChord = chord;
             ResultChord = chord;
+
+            nameBox.Text = chord.Name;
         }
 
         /// <summary>

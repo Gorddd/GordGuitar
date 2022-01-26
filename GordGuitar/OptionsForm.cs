@@ -43,6 +43,7 @@ namespace GordGuitar
         public OptionsForm()
         {
             InitializeComponent();
+            InitializeArrays();
                     TempInitializeChords();
             InitializeDesigners();
 
@@ -53,6 +54,26 @@ namespace GordGuitar
 
             buttonDesigner.SetState(0, ButtonState.Chosen);
             #endregion
+        }
+
+        /// <summary>
+        /// Initialize arrays (chordButtons)
+        /// </summary>
+        private void InitializeArrays()
+        {
+            chordButtons = new ChordButton[10] 
+            {
+                buttonChord1,
+                buttonChord2,
+                buttonChord3,
+                buttonChord4,
+                buttonChord5,
+                buttonChord6,
+                buttonChord7,
+                buttonChord8,
+                buttonChord9,
+                buttonChord10
+            };
         }
 
         /// <summary>
@@ -102,12 +123,14 @@ namespace GordGuitar
 
         public void TempInitializeChords()
         {
+            buttonChord1.chord.Name = "Am";
             buttonChord1.chord.guitarStrings[0].URL = "sounds/l0s1.wav";
             buttonChord1.chord.guitarStrings[1].URL = "sounds/l1s2.wav";
             buttonChord1.chord.guitarStrings[2].URL = "sounds/l2s3.wav";
             buttonChord1.chord.guitarStrings[3].URL = "sounds/l2s4.wav";
             buttonChord1.chord.guitarStrings[4].URL = "sounds/l0s5.wav";
 
+            buttonChord2.chord.Name = "Em";
             buttonChord2.chord.guitarStrings[0].URL = "sounds/l0s1.wav";
             buttonChord2.chord.guitarStrings[1].URL = "sounds/l0s2.wav";
             buttonChord2.chord.guitarStrings[2].URL = "sounds/l1s3.wav";
@@ -210,14 +233,17 @@ namespace GordGuitar
         /// <summary>
         /// Call chord options
         /// </summary>
-        private void DblClickChordOptions(object sender, EventArgs e)
+        private void ClickOptButton(object sender, EventArgs e)
         {
-            Chord chordToSetting = ((ChordButton)sender).chord; //Get chord to setting
+            int indexOfChordButton = Convert.ToInt32(((Button)sender).Tag);
+            Chord chordToSetting = chordButtons[indexOfChordButton].chord; //Get chord to setting
 
             chordOptionsForm = new ChordOptions(chordToSetting); //Create form
             chordOptionsForm.ShowDialog(); //Show form
 
-            ((ChordButton)sender).chord = chordOptionsForm.ResultChord; //Set new chord
+            chordButtons[indexOfChordButton].chord = chordOptionsForm.ResultChord; //Set new chord
+
+            chordButtons[indexOfChordButton].Text = chordOptionsForm.ResultChord.Name; //Write name on the button
         }
     }
 }
