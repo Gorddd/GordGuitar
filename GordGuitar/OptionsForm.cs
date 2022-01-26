@@ -13,6 +13,11 @@ namespace GordGuitar
     {
         private string soundsURL = "sounds/";
 
+        /// <summary>
+        /// Array of chordbuttons
+        /// </summary>
+        private ChordButton[] chordButtons;
+
         private ChordOptions chordOptionsForm;
 
         /// <summary>
@@ -91,19 +96,7 @@ namespace GordGuitar
             };
             muteButtonDesigner = new Designer<Button>(muteButtons, ColorMode.Back, Color.White, Color.DarkRed, Color.Gray);
 
-            ChordButton[] chordButtons = new ChordButton[10]
-            {
-                buttonChord1,
-                buttonChord2,
-                buttonChord3,
-                buttonChord4,
-                buttonChord5,
-                buttonChord6,
-                buttonChord7,
-                buttonChord8,
-                buttonChord9,
-                buttonChord10
-            };
+            
             buttonDesigner = new Designer<ChordButton>(chordButtons, ColorMode.Border);
         }
 
