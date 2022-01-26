@@ -36,7 +36,7 @@ namespace GordGuitar
         public OptionsForm()
         {
             InitializeComponent();
-                    //TempInitializeChords();
+                    TempInitializeChords();
             InitializeDesigners();
 
             activeChord = buttonChord1.chord;
@@ -163,9 +163,9 @@ namespace GordGuitar
 
             int numOfGuitarStringUI = stringButtonUI.Name[stringButtonUI.Name.Length - 1] - '0'; //get number of prev string
             stringButtonDesigner.SetState(activeChord.guitarStrings[numOfGuitarStringUI - 1].GetTag(), ButtonState.Standart); //Erase prev string button on this string
+
+            muteButtonDesigner.SetState(numOfGuitarStringUI - 1, ButtonState.Standart); // Erase mute button
             #endregion
-
-
 
             Button stringButton = (Button)sender; //cast from object to button
             int numOfGuitarString = stringButton.Name[stringButton.Name.Length - 1] - '0'; //get number of string
@@ -173,12 +173,37 @@ namespace GordGuitar
             string currentURL = activeChord.guitarStrings[numOfGuitarString - 1].URL; //get current URL
             currentURL = currentURL.Substring(currentURL.LastIndexOf('\\') + 1); //delete useless info
             string newURL = stringButton.Name + ".wav"; //get new URL
-            string baseURL = $"l0s{numOfGuitarString}" + ".wav"; //get standard URL
+            string baseURL = $"l0s{numOfGuitarString}" + ".wav"; //get URL of opened string
 
             if (currentURL != newURL) //Check state
                 activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + newURL; //Set new sound
             else
                 activeChord.guitarStrings[numOfGuitarString - 1].URL = soundsURL + baseURL; //Set sound of opened string
+        }
+
+        private void ClickMuteButton(object sender, EventArgs e)
+        {
+            #region Scripts for user interface
+            Button muteButtonUI = (Button)sender; //cast from object to button
+
+            int indexOfBtn = Convert.ToInt32(muteButtonUI.Tag);
+            muteButtonDesigner.SwitchBetweenStdand(indexOfBtn, ButtonState.Muted);
+
+            int indexOfGuitarStringUI = Convert.ToInt32(muteButtonUI.Tag); //Get number of prev string
+            stringButtonDesigner.SetState(activeChord.guitarStrings[indexOfGuitarStringUI].GetTag(), ButtonState.Standart); //Erase prev string button on this string
+            #endregion
+
+
+            Button muteButton = (Button)sender; //cast from object to button
+            int indexOfGuitarString = Convert.ToInt32(muteButton.Tag); //get number of string
+
+            string currentURL = activeChord.guitarStrings[indexOfGuitarString].URL; //get current URL
+            string baseURL = $"l0s{indexOfGuitarString + 1}" + ".wav"; //get URL of opened string
+
+            if (!string.IsNullOrEmpty(currentURL)) //Check state
+                activeChord.guitarStrings[indexOfGuitarString].URL = string.Empty; //Set empty to URL
+            else
+                activeChord.guitarStrings[indexOfGuitarString].URL = soundsURL + baseURL; //Set URL of opened string
         }
     }
 }

@@ -189,8 +189,9 @@ namespace GordGuitar
             this.btnString6Mute.Size = new System.Drawing.Size(10, 10);
             this.btnString6Mute.TabIndex = 280;
             this.btnString6Mute.TabStop = false;
-            this.btnString6Mute.Tag = "11";
+            this.btnString6Mute.Tag = "5";
             this.btnString6Mute.UseVisualStyleBackColor = false;
+            this.btnString6Mute.Click += new System.EventHandler(this.ClickMuteButton);
             // 
             // btnString5Mute
             // 
@@ -204,8 +205,9 @@ namespace GordGuitar
             this.btnString5Mute.Size = new System.Drawing.Size(10, 10);
             this.btnString5Mute.TabIndex = 279;
             this.btnString5Mute.TabStop = false;
-            this.btnString5Mute.Tag = "11";
+            this.btnString5Mute.Tag = "4";
             this.btnString5Mute.UseVisualStyleBackColor = false;
+            this.btnString5Mute.Click += new System.EventHandler(this.ClickMuteButton);
             // 
             // btnString4Mute
             // 
@@ -219,8 +221,9 @@ namespace GordGuitar
             this.btnString4Mute.Size = new System.Drawing.Size(10, 10);
             this.btnString4Mute.TabIndex = 278;
             this.btnString4Mute.TabStop = false;
-            this.btnString4Mute.Tag = "11";
+            this.btnString4Mute.Tag = "3";
             this.btnString4Mute.UseVisualStyleBackColor = false;
+            this.btnString4Mute.Click += new System.EventHandler(this.ClickMuteButton);
             // 
             // btnString3Mute
             // 
@@ -234,8 +237,9 @@ namespace GordGuitar
             this.btnString3Mute.Size = new System.Drawing.Size(10, 10);
             this.btnString3Mute.TabIndex = 277;
             this.btnString3Mute.TabStop = false;
-            this.btnString3Mute.Tag = "11";
+            this.btnString3Mute.Tag = "2";
             this.btnString3Mute.UseVisualStyleBackColor = false;
+            this.btnString3Mute.Click += new System.EventHandler(this.ClickMuteButton);
             // 
             // btnString2Mute
             // 
@@ -249,8 +253,9 @@ namespace GordGuitar
             this.btnString2Mute.Size = new System.Drawing.Size(10, 10);
             this.btnString2Mute.TabIndex = 276;
             this.btnString2Mute.TabStop = false;
-            this.btnString2Mute.Tag = "11";
+            this.btnString2Mute.Tag = "1";
             this.btnString2Mute.UseVisualStyleBackColor = false;
+            this.btnString2Mute.Click += new System.EventHandler(this.ClickMuteButton);
             // 
             // btnString1Mute
             // 
@@ -264,8 +269,9 @@ namespace GordGuitar
             this.btnString1Mute.Size = new System.Drawing.Size(10, 10);
             this.btnString1Mute.TabIndex = 275;
             this.btnString1Mute.TabStop = false;
-            this.btnString1Mute.Tag = "11";
+            this.btnString1Mute.Tag = "0";
             this.btnString1Mute.UseVisualStyleBackColor = false;
+            this.btnString1Mute.Click += new System.EventHandler(this.ClickMuteButton);
             // 
             // l20s6
             // 
