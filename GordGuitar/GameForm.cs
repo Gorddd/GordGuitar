@@ -8,6 +8,11 @@ namespace GordGuitar
         private OptionsForm optionsForm = new OptionsForm();
 
         /// <summary>
+        /// Array of chordbuttons
+        /// </summary>
+        private ChordButton[] chordButtons;
+
+        /// <summary>
         /// Variable for user interface
         /// </summary>
         private Designer<ChordButton> buttonDesigner;
@@ -21,6 +26,7 @@ namespace GordGuitar
         {
             InitializeComponent();
             InitializeChords();
+            InitializeArrays();
             InitializeDesigner();
 
             activeChord = buttonChord1.chord;
@@ -32,14 +38,16 @@ namespace GordGuitar
         private void optionsButton_Click(object sender, EventArgs e)
         {
             optionsForm.ShowDialog();
+
+            ShowChordNames();
         }
 
         /// <summary>
-        /// Initialize buttonDesigner
+        /// Initialize arrays (chordbuttons)
         /// </summary>
-        private void InitializeDesigner()
+        private void InitializeArrays()
         {
-            ChordButton[] buttons = new ChordButton[]
+            chordButtons = new ChordButton[10]
             {
                 buttonChord1,
                 buttonChord2,
@@ -52,8 +60,25 @@ namespace GordGuitar
                 buttonChord9,
                 buttonChord10
             };
+        }
 
-            buttonDesigner = new Designer<ChordButton>(buttons, ColorMode.Border);
+        /// <summary>
+        /// Write chord names on chordbuttons
+        /// </summary>
+        private void ShowChordNames()
+        {
+            for (int i = 0; i < chordButtons.Length; i++)
+            {
+                chordButtons[i].ShowChordName();
+            }
+        }
+
+        /// <summary>
+        /// Initialize buttonDesigner
+        /// </summary>
+        private void InitializeDesigner()
+        {
+            buttonDesigner = new Designer<ChordButton>(chordButtons, ColorMode.Border);
         }
 
         /// <summary>
@@ -94,6 +119,11 @@ namespace GordGuitar
             buttonDesigner.MakeStandardAll();
             buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);
             #endregion
+        }
+
+        private void GameForm_Shown(object sender, EventArgs e)
+        {
+            ShowChordNames();
         }
     }
 }

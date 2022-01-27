@@ -340,6 +340,7 @@ namespace GordGuitar
             this.Name = "GameForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GordGuitar";
+            this.Shown += new System.EventHandler(this.GameForm_Shown);
             this.ResumeLayout(false);
 
         }
