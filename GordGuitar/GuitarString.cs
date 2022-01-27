@@ -28,9 +28,16 @@ namespace GordGuitar
         {
             get { return mediaPlayer.URL; }
             set 
-            { 
-                mediaPlayer.URL = value;
-                Stop();
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    mediaPlayer = new WindowsMediaPlayer();
+                }
+                else
+                {
+                    mediaPlayer.URL = value;
+                    Stop();
+                }
             }
         }
 
