@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+using System.IO;
 using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,7 +42,7 @@ namespace GordGuitar
         {
             InitializeComponent();
             InitializeArrays();
-                    TempInitializeChords();
+                    ReadChordsFromFile();
             InitializeDesigners();
 
             activeChord = buttonChord1.chord;
@@ -121,22 +119,34 @@ namespace GordGuitar
             buttonDesigner = new Designer<ChordButton>(chordButtons, ColorMode.Border);
         }
 
-        public void TempInitializeChords()
+        public void ReadChordsFromFile()
         {
-            buttonChord1.chord.Name = "Am";
-            buttonChord1.chord.guitarStrings[0].URL = "sounds/l0s1.wav";
-            buttonChord1.chord.guitarStrings[1].URL = "sounds/l1s2.wav";
-            buttonChord1.chord.guitarStrings[2].URL = "sounds/l2s3.wav";
-            buttonChord1.chord.guitarStrings[3].URL = "sounds/l2s4.wav";
-            buttonChord1.chord.guitarStrings[4].URL = "sounds/l0s5.wav";
+            try
+            {
+                var streamReader = new StreamReader("ChordBase.txt");
 
-            buttonChord2.chord.Name = "Em";
-            buttonChord2.chord.guitarStrings[0].URL = "sounds/l0s1.wav";
-            buttonChord2.chord.guitarStrings[1].URL = "sounds/l0s2.wav";
-            buttonChord2.chord.guitarStrings[2].URL = "sounds/l1s3.wav";
-            buttonChord2.chord.guitarStrings[3].URL = "sounds/l2s4.wav";
-            buttonChord2.chord.guitarStrings[4].URL = "sounds/l2s5.wav";
-            buttonChord2.chord.guitarStrings[5].URL = "sounds/l0s6.wav";
+                for (int i = 0; i < chordButtons.Length; i++)
+                {
+                    string str = streamReader.ReadLine();
+
+                    if (string.IsNullOrEmpty(str))
+                        break;
+
+                    chordButtons[i].chord.Name = str; //get chord name
+ 
+                    while((str = streamReader.ReadLine()) != ";")
+                    { //get URL
+                        chordButtons[i].chord.guitarStrings[str[0] - '0'].URL = soundsURL + str.Substring(str.IndexOf('l'));
+                    }
+                }
+
+                streamReader.Close();
+            }
+            catch
+            {   //Create new File if it is missing
+                var streamWriter = new StreamWriter("ChordBase.txt");
+                streamWriter.Close();
+            }
         }
 
         /// <summary>

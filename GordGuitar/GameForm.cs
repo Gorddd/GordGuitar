@@ -24,6 +24,9 @@ namespace GordGuitar
             InitializeDesigner();
 
             activeChord = buttonChord1.chord;
+            #region Scripts for user interface
+            buttonDesigner.SetState(0, ButtonState.Chosen);
+            #endregion
         }
 
         private void optionsButton_Click(object sender, EventArgs e)
