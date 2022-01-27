@@ -2670,6 +2670,7 @@ namespace GordGuitar
             this.Name = "OptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OptionsForm";
+            this.Shown += new System.EventHandler(this.OptionsForm_Shown);
             this.ResumeLayout(false);
 
         }

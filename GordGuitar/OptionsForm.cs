@@ -119,7 +119,21 @@ namespace GordGuitar
             buttonDesigner = new Designer<ChordButton>(chordButtons, ColorMode.Border);
         }
 
-        public void ReadChordsFromFile()
+        /// <summary>
+        /// Write chord names on chordbuttons
+        /// </summary>
+        private void ShowChordNames()
+        {
+            for (int i = 0; i < chordButtons.Length; i++)
+            {
+                chordButtons[i].ShowChordName();
+            }
+        }
+
+        /// <summary>
+        /// Read saved chords from file
+        /// </summary>
+        private void ReadChordsFromFile()
         {
             try
             {
@@ -254,6 +268,11 @@ namespace GordGuitar
             chordButtons[indexOfChordButton].chord = chordOptionsForm.ResultChord; //Set new chord
 
             chordButtons[indexOfChordButton].Text = chordOptionsForm.ResultChord.Name; //Write name on the button
+        }
+
+        private void OptionsForm_Shown(object sender, EventArgs e)
+        {
+            ShowChordNames();
         }
     }
 }
