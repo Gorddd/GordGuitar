@@ -57,6 +57,7 @@
     <Compile Include="ChordOptions.Designer.cs">
       <DependentUpon>ChordOptions.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChordSaver.cs" />
     <Compile Include="ColorMode.cs" />
     <Compile Include="Designer.cs" />
     <Compile Include="GameForm.cs">

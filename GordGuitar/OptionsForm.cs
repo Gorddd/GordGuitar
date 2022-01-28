@@ -137,7 +137,7 @@ namespace GordGuitar
         {
             try
             {
-                var streamReader = new StreamReader("ChordBase.txt");
+                var streamReader = new StreamReader("data\\ChordBase.txt");
 
                 for (int i = 0; i < chordButtons.Length; i++)
                 {
@@ -158,7 +158,7 @@ namespace GordGuitar
             }
             catch
             {   //Create new File if it is missing
-                var streamWriter = new StreamWriter("ChordBase.txt");
+                var streamWriter = new StreamWriter("data\\ChordBase.txt");
                 streamWriter.Close();
             }
         }
