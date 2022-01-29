@@ -63,85 +63,97 @@ namespace GordGuitar
             // 
             // buttonString0
             // 
+            this.buttonString0.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString0.FlatAppearance.BorderSize = 0;
             this.buttonString0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonString0.Location = new System.Drawing.Point(12, 162);
+            this.buttonString0.Location = new System.Drawing.Point(-4, 156);
             this.buttonString0.Name = "buttonString0";
-            this.buttonString0.Size = new System.Drawing.Size(502, 23);
+            this.buttonString0.Size = new System.Drawing.Size(528, 23);
             this.buttonString0.TabIndex = 20;
             this.buttonString0.TabStop = false;
             this.buttonString0.Tag = "1";
-            this.buttonString0.UseVisualStyleBackColor = true;
+            this.buttonString0.UseVisualStyleBackColor = false;
             this.buttonString0.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString1
             // 
+            this.buttonString1.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString1.FlatAppearance.BorderSize = 0;
             this.buttonString1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonString1.Location = new System.Drawing.Point(12, 200);
+            this.buttonString1.Location = new System.Drawing.Point(-4, 195);
             this.buttonString1.Name = "buttonString1";
-            this.buttonString1.Size = new System.Drawing.Size(502, 23);
+            this.buttonString1.Size = new System.Drawing.Size(528, 23);
             this.buttonString1.TabIndex = 21;
             this.buttonString1.TabStop = false;
             this.buttonString1.Tag = "2";
-            this.buttonString1.UseVisualStyleBackColor = true;
+            this.buttonString1.UseVisualStyleBackColor = false;
             this.buttonString1.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString2
             // 
+            this.buttonString2.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString2.FlatAppearance.BorderSize = 0;
             this.buttonString2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonString2.Location = new System.Drawing.Point(12, 229);
+            this.buttonString2.Location = new System.Drawing.Point(-4, 232);
             this.buttonString2.Name = "buttonString2";
-            this.buttonString2.Size = new System.Drawing.Size(502, 23);
+            this.buttonString2.Size = new System.Drawing.Size(528, 23);
             this.buttonString2.TabIndex = 22;
             this.buttonString2.TabStop = false;
             this.buttonString2.Tag = "3";
-            this.buttonString2.UseVisualStyleBackColor = true;
+            this.buttonString2.UseVisualStyleBackColor = false;
             this.buttonString2.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString3
             // 
+            this.buttonString3.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString3.FlatAppearance.BorderSize = 0;
             this.buttonString3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonString3.Location = new System.Drawing.Point(12, 265);
+            this.buttonString3.Location = new System.Drawing.Point(-4, 269);
             this.buttonString3.Name = "buttonString3";
-            this.buttonString3.Size = new System.Drawing.Size(502, 23);
+            this.buttonString3.Size = new System.Drawing.Size(528, 23);
             this.buttonString3.TabIndex = 23;
             this.buttonString3.TabStop = false;
             this.buttonString3.Tag = "4";
-            this.buttonString3.UseVisualStyleBackColor = true;
+            this.buttonString3.UseVisualStyleBackColor = false;
             this.buttonString3.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString4
             // 
+            this.buttonString4.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString4.FlatAppearance.BorderSize = 0;
             this.buttonString4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonString4.Location = new System.Drawing.Point(12, 298);
+            this.buttonString4.Location = new System.Drawing.Point(-4, 306);
             this.buttonString4.Name = "buttonString4";
-            this.buttonString4.Size = new System.Drawing.Size(502, 23);
+            this.buttonString4.Size = new System.Drawing.Size(528, 23);
             this.buttonString4.TabIndex = 24;
             this.buttonString4.TabStop = false;
             this.buttonString4.Tag = "5";
-            this.buttonString4.UseVisualStyleBackColor = true;
+            this.buttonString4.UseVisualStyleBackColor = false;
             this.buttonString4.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // buttonString5
             // 
+            this.buttonString5.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString5.FlatAppearance.BorderSize = 0;
             this.buttonString5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonString5.Location = new System.Drawing.Point(12, 337);
+            this.buttonString5.Location = new System.Drawing.Point(-4, 342);
             this.buttonString5.Name = "buttonString5";
-            this.buttonString5.Size = new System.Drawing.Size(502, 23);
+            this.buttonString5.Size = new System.Drawing.Size(528, 23);
             this.buttonString5.TabIndex = 25;
             this.buttonString5.TabStop = false;
             this.buttonString5.Tag = "6";
-            this.buttonString5.UseVisualStyleBackColor = true;
+            this.buttonString5.UseVisualStyleBackColor = false;
             this.buttonString5.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
             // muteButton
             // 
             this.muteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.muteButton.Location = new System.Drawing.Point(293, 12);
+            this.muteButton.Location = new System.Drawing.Point(12, 91);
             this.muteButton.Name = "muteButton";
             this.muteButton.Size = new System.Drawing.Size(79, 59);
             this.muteButton.TabIndex = 26;
             this.muteButton.TabStop = false;
-            this.muteButton.Text = "Chords";
+            this.muteButton.Text = "Mute";
             this.muteButton.UseVisualStyleBackColor = true;
             this.muteButton.MouseEnter += new System.EventHandler(this.MuteAllStrings);
             // 
