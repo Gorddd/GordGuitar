@@ -33,15 +33,27 @@ namespace GordGuitar
         /// </summary>
         private void ApplyButton_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(nameBox.Text))
-            {
-                ResultChord.Name = nameBox.Text; //Set new chord name
-                Close(); //close the form
-            }
-            else
+            if (string.IsNullOrEmpty(nameBox.Text)) //Check empty string
+            { 
                 MessageBox.Show("Name can't be empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
-            //++++ добавь проверку на повтор имен, те что в файле
+            if (initialChord.Name != nameBox.Text && ChordSaver.isNameTaken(nameBox.Text))
+            {
+                MessageBox.Show("This name is alredy taken", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (initialChord.Name != nameBox.Text)
+            {
+                var chordSaver = new ChordSaver(ResultChord);
+                chordSaver.ChangeName(nameBox.Text); //Save new name in the file
+
+                ResultChord.Name = nameBox.Text; //Save new name in the memory
+            }
+
+            Close();
         }
     }
 }

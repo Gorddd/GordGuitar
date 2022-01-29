@@ -101,5 +101,28 @@ namespace GordGuitar
 
             return chord;
         }
+
+        /// <summary>
+        /// Check is name taken
+        /// </summary>
+        /// <param name="chordName">name of the chord</param>
+        /// <returns></returns>
+        public static bool isNameTaken(string chordName, string URL = "ChordBase.txt", string folderURL = "data\\")
+        {
+            var streamReader = new StreamReader(folderURL + URL);
+
+            string str;
+            while(!string.IsNullOrEmpty(str = streamReader.ReadLine()))
+            {
+                if (str == chordName)
+                {
+                    streamReader.Close();
+                    return true;
+                }
+            }
+
+            streamReader.Close();
+            return false;
+        }
     }
 }
