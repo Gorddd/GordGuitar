@@ -18,6 +18,9 @@ namespace GordGuitar
 
             nameBox.Text = chord.Name;
             label1.Text = chord.Name;
+
+            ChordSaver.GetAllChordsToList(comboBox1.Items);
+            comboBox1.Items.Remove(chord.Name);
         }
 
         /// <summary>
@@ -55,6 +58,14 @@ namespace GordGuitar
             }
 
             Close();
+        }
+
+        /// <summary>
+        /// User choose another chord from the list
+        /// </summary>
+        private void ChooseAnotherChord(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Windows.Forms;
 
 namespace GordGuitar
 {
@@ -125,6 +126,33 @@ namespace GordGuitar
             streamReader.Close();
 
             return chord;
+        }
+
+        /// <summary>
+        /// Get all chord names from the file
+        /// </summary>
+        /// <param name="items">Items</param>
+        public static void GetAllChordsToList(ComboBox.ObjectCollection items, string URL = "ChordBase.txt", string folderURL = "data\\")
+        {
+            var streamReader = new StreamReader(folderURL + URL);
+
+            items.Add(streamReader.ReadLine()); //Add first name
+
+            bool flag = false;
+            string str;
+            while(!string.IsNullOrEmpty(str = streamReader.ReadLine()))
+            {
+                if (flag)
+                {
+                    items.Add(str);
+                    flag = false;
+                }
+
+                if (str == ";")
+                    flag = true;
+            }
+
+            streamReader.Close();
         }
 
         /// <summary>
