@@ -185,6 +185,8 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
+            this.deleteChordButton = new System.Windows.Forms.Button();
+            this.clearChordButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnString6Mute
@@ -2513,12 +2515,39 @@ namespace GordGuitar
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
+            // deleteChordButton
+            // 
+            this.deleteChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteChordButton.Location = new System.Drawing.Point(94, 454);
+            this.deleteChordButton.Name = "deleteChordButton";
+            this.deleteChordButton.Size = new System.Drawing.Size(80, 43);
+            this.deleteChordButton.TabIndex = 291;
+            this.deleteChordButton.TabStop = false;
+            this.deleteChordButton.Tag = "0";
+            this.deleteChordButton.Text = "Delete this chord";
+            this.deleteChordButton.UseVisualStyleBackColor = true;
+            this.deleteChordButton.Click += new System.EventHandler(this.deleteChordButton_Click);
+            // 
+            // clearChordButton
+            // 
+            this.clearChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearChordButton.Location = new System.Drawing.Point(299, 454);
+            this.clearChordButton.Name = "clearChordButton";
+            this.clearChordButton.Size = new System.Drawing.Size(80, 43);
+            this.clearChordButton.TabIndex = 292;
+            this.clearChordButton.TabStop = false;
+            this.clearChordButton.Tag = "0";
+            this.clearChordButton.Text = "Clear this chord";
+            this.clearChordButton.UseVisualStyleBackColor = true;
+            // 
             // OptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.OptionsImage;
             this.ClientSize = new System.Drawing.Size(475, 718);
+            this.Controls.Add(this.clearChordButton);
+            this.Controls.Add(this.deleteChordButton);
             this.Controls.Add(this.optButton10);
             this.Controls.Add(this.optButton9);
             this.Controls.Add(this.optButton8);
@@ -2823,5 +2852,7 @@ namespace GordGuitar
         private System.Windows.Forms.Button optButton8;
         private System.Windows.Forms.Button optButton7;
         private System.Windows.Forms.Button optButton6;
+        private System.Windows.Forms.Button deleteChordButton;
+        private System.Windows.Forms.Button clearChordButton;
     }
 }

@@ -274,5 +274,33 @@ namespace GordGuitar
         {
             ShowChordNames();
         }
+
+        /// <summary>
+        /// Delete current chord from file and clear chord
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void deleteChordButton_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < activeChord.guitarStrings.Length; i++) //Do all strings muted
+            {
+                activeChord.guitarStrings[i].URL = string.Empty;
+            }
+
+            var chordSaver = new ChordSaver(activeChord);
+            chordSaver.Delete(); //Delete the chord from the file
+
+            activeChord.Name = string.Empty;
+            ShowChordNames();
+
+            #region Scripts for user interface
+            stringButtonDesigner.MakeStandardAll();
+
+            for (int i = 0; i < 6; i++) //Set muted state
+            {
+                muteButtonDesigner.SetState(i, ButtonState.Muted);
+            }
+            #endregion
+        }
     }
 }

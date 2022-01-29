@@ -39,13 +39,13 @@ namespace GordGuitar
                 return;
             }
 
-            if (initialChord.Name != nameBox.Text && ChordSaver.isNameTaken(nameBox.Text))
+            if (initialChord.Name != nameBox.Text && ChordSaver.isNameTaken(nameBox.Text)) //Check is name taken
             {
                 MessageBox.Show("This name is alredy taken", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            if (initialChord.Name != nameBox.Text)
+            if (initialChord.Name != nameBox.Text) //Check is it a new name
             {
                 var chordSaver = new ChordSaver(ResultChord);
                 chordSaver.ChangeName(nameBox.Text); //Save new name in the file

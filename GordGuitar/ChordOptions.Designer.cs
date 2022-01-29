@@ -33,14 +33,15 @@ namespace GordGuitar
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // nameBox
             // 
             this.nameBox.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.nameBox.Location = new System.Drawing.Point(57, 49);
+            this.nameBox.Location = new System.Drawing.Point(155, 50);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(267, 32);
+            this.nameBox.Size = new System.Drawing.Size(218, 32);
             this.nameBox.TabIndex = 0;
             // 
             // label1
@@ -75,11 +76,22 @@ namespace GordGuitar
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.ApplyButton_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(12, 50);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(124, 29);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Chord Name";
+            // 
             // ChordOptions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(394, 368);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -100,5 +112,6 @@ namespace GordGuitar
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label2;
     }
 }
