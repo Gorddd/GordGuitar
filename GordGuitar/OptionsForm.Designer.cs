@@ -175,6 +175,8 @@ namespace GordGuitar
             this.optButton8 = new System.Windows.Forms.Button();
             this.optButton7 = new System.Windows.Forms.Button();
             this.optButton6 = new System.Windows.Forms.Button();
+            this.deleteChordButton = new System.Windows.Forms.Button();
+            this.clearChordButton = new System.Windows.Forms.Button();
             this.buttonChord10 = new GordGuitar.ChordButton();
             this.buttonChord9 = new GordGuitar.ChordButton();
             this.buttonChord8 = new GordGuitar.ChordButton();
@@ -185,8 +187,6 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
-            this.deleteChordButton = new System.Windows.Forms.Button();
-            this.clearChordButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnString6Mute
@@ -2325,6 +2325,32 @@ namespace GordGuitar
             this.optButton6.UseVisualStyleBackColor = true;
             this.optButton6.Click += new System.EventHandler(this.ClickOptButton);
             // 
+            // deleteChordButton
+            // 
+            this.deleteChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteChordButton.Location = new System.Drawing.Point(94, 454);
+            this.deleteChordButton.Name = "deleteChordButton";
+            this.deleteChordButton.Size = new System.Drawing.Size(80, 43);
+            this.deleteChordButton.TabIndex = 291;
+            this.deleteChordButton.TabStop = false;
+            this.deleteChordButton.Tag = "0";
+            this.deleteChordButton.Text = "Delete the chord";
+            this.deleteChordButton.UseVisualStyleBackColor = true;
+            this.deleteChordButton.Click += new System.EventHandler(this.deleteChordButton_Click);
+            // 
+            // clearChordButton
+            // 
+            this.clearChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearChordButton.Location = new System.Drawing.Point(299, 454);
+            this.clearChordButton.Name = "clearChordButton";
+            this.clearChordButton.Size = new System.Drawing.Size(80, 43);
+            this.clearChordButton.TabIndex = 292;
+            this.clearChordButton.TabStop = false;
+            this.clearChordButton.Tag = "0";
+            this.clearChordButton.Text = "Clear the chord";
+            this.clearChordButton.UseVisualStyleBackColor = true;
+            this.clearChordButton.Click += new System.EventHandler(this.clearChordButton_Click);
+            // 
             // buttonChord10
             // 
             this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
@@ -2514,31 +2540,6 @@ namespace GordGuitar
             this.buttonChord1.TabIndex = 0;
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
-            // 
-            // deleteChordButton
-            // 
-            this.deleteChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.deleteChordButton.Location = new System.Drawing.Point(94, 454);
-            this.deleteChordButton.Name = "deleteChordButton";
-            this.deleteChordButton.Size = new System.Drawing.Size(80, 43);
-            this.deleteChordButton.TabIndex = 291;
-            this.deleteChordButton.TabStop = false;
-            this.deleteChordButton.Tag = "0";
-            this.deleteChordButton.Text = "Delete this chord";
-            this.deleteChordButton.UseVisualStyleBackColor = true;
-            this.deleteChordButton.Click += new System.EventHandler(this.deleteChordButton_Click);
-            // 
-            // clearChordButton
-            // 
-            this.clearChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.clearChordButton.Location = new System.Drawing.Point(299, 454);
-            this.clearChordButton.Name = "clearChordButton";
-            this.clearChordButton.Size = new System.Drawing.Size(80, 43);
-            this.clearChordButton.TabIndex = 292;
-            this.clearChordButton.TabStop = false;
-            this.clearChordButton.Tag = "0";
-            this.clearChordButton.Text = "Clear this chord";
-            this.clearChordButton.UseVisualStyleBackColor = true;
             // 
             // OptionsForm
             // 

@@ -282,6 +282,11 @@ namespace GordGuitar
         /// <param name="e"></param>
         private void deleteChordButton_Click(object sender, EventArgs e)
         {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete this chord?", "Delete current chord",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+            if (dialogResult == DialogResult.No)
+                return;
+
             for (int i = 0; i < activeChord.guitarStrings.Length; i++) //Do all strings muted
             {
                 activeChord.guitarStrings[i].URL = string.Empty;
@@ -300,6 +305,22 @@ namespace GordGuitar
             {
                 muteButtonDesigner.SetState(i, ButtonState.Muted);
             }
+            #endregion
+        }
+
+        /// <summary>
+        /// Clear current chord (Erase)
+        /// </summary>
+        private void clearChordButton_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < activeChord.guitarStrings.Length; i++) //Do all strings opened
+            {
+                activeChord.guitarStrings[i].URL = soundsURL + $"l0s{i + 1}.wav";
+            }
+
+            #region Scripts for user interface
+            stringButtonDesigner.MakeStandardAll();
+            muteButtonDesigner.MakeStandardAll();
             #endregion
         }
     }
