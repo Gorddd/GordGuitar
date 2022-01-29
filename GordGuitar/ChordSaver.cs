@@ -76,6 +76,31 @@ namespace GordGuitar
         }
 
         /// <summary>
+        /// Save the chord to the file
+        /// </summary>
+        public void Save()
+        {
+            Delete();
+
+            var streamWriter = new StreamWriter(folderURL + URL, append: true);
+            streamWriter.WriteLine(chord.Name);
+
+            for (int i = 0; i < chord.guitarStrings.Length; i++)
+            {
+                if (!string.IsNullOrEmpty(chord.guitarStrings[i].URL))
+                {
+                    string stringURL = chord.guitarStrings[i].URL;
+                    stringURL = stringURL.Substring(stringURL.LastIndexOf('\\') + 1);
+
+                    streamWriter.WriteLine($"{i} = {stringURL}");
+                }
+            }
+            streamWriter.WriteLine(";");
+
+            streamWriter.Close();
+        }
+
+        /// <summary>
         /// Get chord from the file
         /// </summary>
         /// <param name="chordName">searched chord name</param>

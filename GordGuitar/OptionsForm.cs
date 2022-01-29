@@ -42,7 +42,7 @@ namespace GordGuitar
         {
             InitializeComponent();
             InitializeArrays();
-                    ReadChordsFromFile();
+            ReadChordsFromFile();
             InitializeDesigners();
 
             activeChord = buttonChord1.chord;
@@ -322,6 +322,23 @@ namespace GordGuitar
             stringButtonDesigner.MakeStandardAll();
             muteButtonDesigner.MakeStandardAll();
             #endregion
+        }
+
+        /// <summary>
+        /// Save current chord to the file
+        /// </summary>
+        private void saveChordButton_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(activeChord.Name)) //Check empty
+            {
+                MessageBox.Show("You can't save the chord without name", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            var chordSaver = new ChordSaver(activeChord);
+            chordSaver.Save();
+
+            MessageBox.Show("The chord has been saved", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
