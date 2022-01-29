@@ -340,5 +340,27 @@ namespace GordGuitar
 
             MessageBox.Show("The chord has been saved", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        /// <summary>
+        /// Create new chord and choose the name
+        /// </summary>
+        private void newChordButton_Click(object sender, EventArgs e)
+        {
+            NewChordForm newChordForm = new NewChordForm(new Chord());
+            newChordForm.ShowDialog();
+
+            activeChord = newChordForm.ResultChord;
+
+            for (int i = 0; i < activeChord.guitarStrings.Length; i++) //Do all strings opened
+            {
+                activeChord.guitarStrings[i].URL = soundsURL + $"l0s{i + 1}.wav";
+            }
+
+            ShowChord();
+
+            #region Scripts for user interface
+            buttonDesigner.MakeStandardAll();
+            #endregion
+        }
     }
 }

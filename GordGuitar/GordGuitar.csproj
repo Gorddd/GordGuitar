@@ -59,6 +59,12 @@
     </Compile>
     <Compile Include="ChordSaver.cs" />
     <Compile Include="ColorMode.cs" />
+    <Compile Include="CreateNewChordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewChordForm.Designer.cs">
+      <DependentUpon>CreateNewChordForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Designer.cs" />
     <Compile Include="GameForm.cs">
       <SubType>Form</SubType>
@@ -78,6 +84,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ChordOptions.resx">
       <DependentUpon>ChordOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNewChordForm.resx">
+      <DependentUpon>CreateNewChordForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>

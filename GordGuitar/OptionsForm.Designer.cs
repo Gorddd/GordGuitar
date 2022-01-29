@@ -177,6 +177,8 @@ namespace GordGuitar
             this.optButton6 = new System.Windows.Forms.Button();
             this.deleteChordButton = new System.Windows.Forms.Button();
             this.clearChordButton = new System.Windows.Forms.Button();
+            this.saveChordButton = new System.Windows.Forms.Button();
+            this.newChordButton = new System.Windows.Forms.Button();
             this.buttonChord10 = new GordGuitar.ChordButton();
             this.buttonChord9 = new GordGuitar.ChordButton();
             this.buttonChord8 = new GordGuitar.ChordButton();
@@ -187,8 +189,6 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
-            this.saveChordButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnString6Mute
@@ -2353,6 +2353,32 @@ namespace GordGuitar
             this.clearChordButton.UseVisualStyleBackColor = true;
             this.clearChordButton.Click += new System.EventHandler(this.clearChordButton_Click);
             // 
+            // saveChordButton
+            // 
+            this.saveChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saveChordButton.Location = new System.Drawing.Point(94, 150);
+            this.saveChordButton.Name = "saveChordButton";
+            this.saveChordButton.Size = new System.Drawing.Size(80, 43);
+            this.saveChordButton.TabIndex = 293;
+            this.saveChordButton.TabStop = false;
+            this.saveChordButton.Tag = "0";
+            this.saveChordButton.Text = "Save the chord";
+            this.saveChordButton.UseVisualStyleBackColor = true;
+            this.saveChordButton.Click += new System.EventHandler(this.saveChordButton_Click);
+            // 
+            // newChordButton
+            // 
+            this.newChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.newChordButton.Location = new System.Drawing.Point(299, 150);
+            this.newChordButton.Name = "newChordButton";
+            this.newChordButton.Size = new System.Drawing.Size(80, 43);
+            this.newChordButton.TabIndex = 294;
+            this.newChordButton.TabStop = false;
+            this.newChordButton.Tag = "0";
+            this.newChordButton.Text = "Create a new chord";
+            this.newChordButton.UseVisualStyleBackColor = true;
+            this.newChordButton.Click += new System.EventHandler(this.newChordButton_Click);
+            // 
             // buttonChord10
             // 
             this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
@@ -2543,38 +2569,13 @@ namespace GordGuitar
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
-            // saveChordButton
-            // 
-            this.saveChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.saveChordButton.Location = new System.Drawing.Point(94, 150);
-            this.saveChordButton.Name = "saveChordButton";
-            this.saveChordButton.Size = new System.Drawing.Size(80, 43);
-            this.saveChordButton.TabIndex = 293;
-            this.saveChordButton.TabStop = false;
-            this.saveChordButton.Tag = "0";
-            this.saveChordButton.Text = "Save the chord";
-            this.saveChordButton.UseVisualStyleBackColor = true;
-            this.saveChordButton.Click += new System.EventHandler(this.saveChordButton_Click);
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(299, 150);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 43);
-            this.button2.TabIndex = 294;
-            this.button2.TabStop = false;
-            this.button2.Tag = "0";
-            this.button2.Text = "Create a new chord";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // OptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.OptionsImage;
             this.ClientSize = new System.Drawing.Size(475, 718);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.newChordButton);
             this.Controls.Add(this.saveChordButton);
             this.Controls.Add(this.clearChordButton);
             this.Controls.Add(this.deleteChordButton);
@@ -2885,6 +2886,6 @@ namespace GordGuitar
         private System.Windows.Forms.Button deleteChordButton;
         private System.Windows.Forms.Button clearChordButton;
         private System.Windows.Forms.Button saveChordButton;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button newChordButton;
     }
 }
