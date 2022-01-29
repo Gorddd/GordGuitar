@@ -336,11 +336,13 @@ namespace GordGuitar
             this.Controls.Add(this.buttonChord1);
             this.Controls.Add(this.optionsButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "GameForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GordGuitar";
             this.Shown += new System.EventHandler(this.GameForm_Shown);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GameForm_KeyDown);
             this.ResumeLayout(false);
 
         }

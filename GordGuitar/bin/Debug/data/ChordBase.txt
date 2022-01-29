@@ -55,3 +55,19 @@ G
 4 = l2s5.wav
 5 = l3s6.wav
 ;
+1
+0 = l4s1.wav
+1 = l4s2.wav
+2 = l0s3.wav
+3 = l0s4.wav
+4 = l0s5.wav
+5 = l0s6.wav
+;
+2
+0 = l0s1.wav
+1 = l5s2.wav
+2 = l0s3.wav
+3 = l0s4.wav
+4 = l0s5.wav
+5 = l0s6.wav
+;

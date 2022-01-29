@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Drawing;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GordGuitar

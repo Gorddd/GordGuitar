@@ -126,5 +126,44 @@ namespace GordGuitar
         {
             ShowChordNames();
         }
+
+        private void GameForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyValue)
+            {
+                case (char)Keys.D1:
+                    buttonChord1.PerformClick();
+                    break;
+                case (char)Keys.D2:
+                    buttonChord2.PerformClick();
+                    break;
+                case (char)Keys.D3:
+                    buttonChord3.PerformClick();
+                    break;
+                case (char)Keys.D4:
+                    buttonChord4.PerformClick();
+                    break;
+                case (char)Keys.D5:
+                    buttonChord5.PerformClick();
+                    break;
+                case (char)Keys.D6:
+                    buttonChord6.PerformClick();
+                    break;
+                case (char)Keys.D7:
+                    buttonChord7.PerformClick();
+                    break;
+                case (char)Keys.D8:
+                    buttonChord8.PerformClick();
+                    break;
+                case (char)Keys.D9:
+                    buttonChord9.PerformClick();
+                    break;
+                case (char)Keys.D0:
+                    buttonChord10.PerformClick();
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }
