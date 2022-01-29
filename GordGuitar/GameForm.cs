@@ -39,6 +39,7 @@ namespace GordGuitar
         {
             optionsForm.ShowDialog();
 
+            InitializeChords();
             ShowChordNames();
         }
 

@@ -262,12 +262,22 @@ namespace GordGuitar
             int indexOfChordButton = Convert.ToInt32(((Button)sender).Tag);
             Chord chordToSetting = chordButtons[indexOfChordButton].chord; //Get chord to setting
 
-            chordOptionsForm = new ChordOptions(chordToSetting); //Create form
+            bool flag = false;
+            if (chordToSetting.Name == activeChord.Name)
+                flag = true;
+
+            chordOptionsForm = new ChordOptions(chordToSetting, soundsURL); //Create form
             chordOptionsForm.ShowDialog(); //Show form
 
             chordButtons[indexOfChordButton].chord = chordOptionsForm.ResultChord; //Set new chord
 
             chordButtons[indexOfChordButton].Text = chordOptionsForm.ResultChord.Name; //Write name on the button
+
+            if (flag)
+            {
+                activeChord = chordOptionsForm.ResultChord;
+                ShowChord();
+            }
         }
 
         private void OptionsForm_Shown(object sender, EventArgs e)
@@ -348,6 +358,13 @@ namespace GordGuitar
         {
             NewChordForm newChordForm = new NewChordForm(new Chord());
             newChordForm.ShowDialog();
+
+            if (string.IsNullOrEmpty(newChordForm.ResultChord.Name)) //User pressed cancel
+            {
+                ChangeActiveChord(buttonChord1, null);
+                return;
+            }
+
 
             activeChord = newChordForm.ResultChord;
 

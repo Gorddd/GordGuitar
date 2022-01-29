@@ -96,6 +96,7 @@ namespace GordGuitar
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(169, 32);
             this.comboBox1.TabIndex = 5;
+            this.comboBox1.SelectionChangeCommitted += new System.EventHandler(this.ChooseAnotherChord);
             // 
             // label3
             // 

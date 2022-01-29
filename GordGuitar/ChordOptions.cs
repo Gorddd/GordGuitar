@@ -5,22 +5,23 @@ namespace GordGuitar
 {
     public partial class ChordOptions : Form
     {
+        private string soundsURL;
+
         private Chord initialChord;
 
         public Chord ResultChord { get; private set; }
 
-        public ChordOptions(Chord chord)
+        public ChordOptions(Chord chord, string soundsURL)
         {
             InitializeComponent();
 
-            initialChord = chord;
-            ResultChord = chord;
+            this.soundsURL = soundsURL;
 
-            nameBox.Text = chord.Name;
-            label1.Text = chord.Name;
+            initialChord = ResultChord = chord;
 
-            ChordSaver.GetAllChordsToList(comboBox1.Items);
-            comboBox1.Items.Remove(chord.Name);
+            label1.Text = nameBox.Text = chord.Name;
+
+            ChordSaver.GetAllChordsToList(comboBox1.Items); //initialize combobox.items
         }
 
         /// <summary>
@@ -65,7 +66,9 @@ namespace GordGuitar
         /// </summary>
         private void ChooseAnotherChord(object sender, EventArgs e)
         {
-            
+            initialChord = ResultChord = ChordSaver.GetChordFromFile(comboBox1.SelectedItem.ToString(), soundsURL);
+
+            label1.Text = nameBox.Text = initialChord.Name;
         }
     }
 }
