@@ -36,6 +36,7 @@ namespace GordGuitar
             this.buttonString3 = new System.Windows.Forms.Button();
             this.buttonString4 = new System.Windows.Forms.Button();
             this.buttonString5 = new System.Windows.Forms.Button();
+            this.muteButton = new System.Windows.Forms.Button();
             this.buttonChord10 = new GordGuitar.ChordButton();
             this.buttonChord9 = new GordGuitar.ChordButton();
             this.buttonChord8 = new GordGuitar.ChordButton();
@@ -131,6 +132,18 @@ namespace GordGuitar
             this.buttonString5.Tag = "6";
             this.buttonString5.UseVisualStyleBackColor = true;
             this.buttonString5.MouseEnter += new System.EventHandler(this.PullGuitarString);
+            // 
+            // muteButton
+            // 
+            this.muteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.muteButton.Location = new System.Drawing.Point(293, 12);
+            this.muteButton.Name = "muteButton";
+            this.muteButton.Size = new System.Drawing.Size(79, 59);
+            this.muteButton.TabIndex = 26;
+            this.muteButton.TabStop = false;
+            this.muteButton.Text = "Chords";
+            this.muteButton.UseVisualStyleBackColor = true;
+            this.muteButton.MouseEnter += new System.EventHandler(this.MuteAllStrings);
             // 
             // buttonChord10
             // 
@@ -318,6 +331,7 @@ namespace GordGuitar
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.MainImage;
             this.ClientSize = new System.Drawing.Size(519, 519);
+            this.Controls.Add(this.muteButton);
             this.Controls.Add(this.buttonString5);
             this.Controls.Add(this.buttonString4);
             this.Controls.Add(this.buttonString3);
@@ -367,6 +381,7 @@ namespace GordGuitar
         private System.Windows.Forms.Button buttonString3;
         private System.Windows.Forms.Button buttonString4;
         private System.Windows.Forms.Button buttonString5;
+        private System.Windows.Forms.Button muteButton;
     }
 }
 

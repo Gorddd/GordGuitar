@@ -22,6 +22,11 @@ namespace GordGuitar
         /// </summary>
         private Chord activeChord;
 
+        /// <summary>
+        /// recently used chord
+        /// </summary>
+        private Chord previousChord = new Chord();
+
         public GameForm()
         {
             InitializeComponent();
@@ -114,6 +119,8 @@ namespace GordGuitar
         /// </summary>
         private void ChangeActiveChord(object sender, EventArgs e)
         {
+            previousChord = activeChord;
+
             activeChord = ((ChordButton)sender).chord;
 
             #region Scripts for user interface
@@ -127,6 +134,9 @@ namespace GordGuitar
             ShowChordNames();
         }
 
+        /// <summary>
+        /// hot keys
+        /// </summary>
         private void GameForm_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.KeyValue)
@@ -163,6 +173,22 @@ namespace GordGuitar
                     break;
                 default:
                     break;
+            }
+        }
+        
+        /// <summary>
+        /// mute all guitar strings
+        /// </summary>
+        private void MuteAllStrings(object sender, EventArgs e)
+        {
+            foreach(var item in previousChord.guitarStrings)
+            {
+                item.Stop();
+            }
+
+            foreach(var item in activeChord.guitarStrings)
+            {
+                item.Stop();
             }
         }
     }
