@@ -45,6 +45,7 @@ namespace GordGuitar
 
             activeChord = buttonChord1.chord;
             #region Scripts for user interface
+            currentChordName.Text = activeChord.Name;
 
             ShowChord();
 
@@ -172,6 +173,8 @@ namespace GordGuitar
 
             ShowChord();
 
+            currentChordName.Text = activeChord.Name;
+
             buttonDesigner.MakeStandardAll();
             buttonDesigner.SetState(((ChordButton)sender).TabIndex, ButtonState.Chosen);
             #endregion
@@ -274,6 +277,7 @@ namespace GordGuitar
             if (flag)
             {
                 activeChord = chordOptionsForm.ResultChord;
+                currentChordName.Text = activeChord.Name;
                 ShowChord();
             }
         }
@@ -374,6 +378,8 @@ namespace GordGuitar
             ShowChord();
 
             #region Scripts for user interface
+            currentChordName.Text = activeChord.Name;
+
             buttonDesigner.MakeStandardAll();
             #endregion
         }

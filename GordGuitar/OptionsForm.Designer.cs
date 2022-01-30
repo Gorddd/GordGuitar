@@ -179,6 +179,7 @@ namespace GordGuitar
             this.clearChordButton = new System.Windows.Forms.Button();
             this.saveChordButton = new System.Windows.Forms.Button();
             this.newChordButton = new System.Windows.Forms.Button();
+            this.currentChordName = new System.Windows.Forms.Label();
             this.buttonChord10 = new GordGuitar.ChordButton();
             this.buttonChord9 = new GordGuitar.ChordButton();
             this.buttonChord8 = new GordGuitar.ChordButton();
@@ -2379,6 +2380,15 @@ namespace GordGuitar
             this.newChordButton.UseVisualStyleBackColor = true;
             this.newChordButton.Click += new System.EventHandler(this.newChordButton_Click);
             // 
+            // currentChordName
+            // 
+            this.currentChordName.AutoSize = true;
+            this.currentChordName.BackColor = System.Drawing.Color.Transparent;
+            this.currentChordName.Location = new System.Drawing.Point(116, 118);
+            this.currentChordName.Name = "currentChordName";
+            this.currentChordName.Size = new System.Drawing.Size(0, 13);
+            this.currentChordName.TabIndex = 295;
+            // 
             // buttonChord10
             // 
             this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
@@ -2575,6 +2585,7 @@ namespace GordGuitar
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.OptionsImage;
             this.ClientSize = new System.Drawing.Size(475, 718);
+            this.Controls.Add(this.currentChordName);
             this.Controls.Add(this.newChordButton);
             this.Controls.Add(this.saveChordButton);
             this.Controls.Add(this.clearChordButton);
@@ -2732,6 +2743,7 @@ namespace GordGuitar
             this.Text = "OptionsForm";
             this.Shown += new System.EventHandler(this.OptionsForm_Shown);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2887,5 +2899,6 @@ namespace GordGuitar
         private System.Windows.Forms.Button clearChordButton;
         private System.Windows.Forms.Button saveChordButton;
         private System.Windows.Forms.Button newChordButton;
+        private System.Windows.Forms.Label currentChordName;
     }
 }
