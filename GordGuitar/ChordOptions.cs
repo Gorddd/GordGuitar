@@ -21,7 +21,7 @@ namespace GordGuitar
 
             label1.Text = nameBox.Text = chord.Name;
 
-            ChordSaver.GetAllChordsToList(comboBox1.Items); //initialize combobox.items
+            ChordSaver.GetAllChordsToList(listBox1.Items); //initialize combobox.items
         }
 
         /// <summary>
@@ -66,7 +66,7 @@ namespace GordGuitar
         /// </summary>
         private void ChooseAnotherChord(object sender, EventArgs e)
         {
-            initialChord = ResultChord = ChordSaver.GetChordFromFile(comboBox1.SelectedItem.ToString(), soundsURL);
+            initialChord = ResultChord = ChordSaver.GetChordFromFile(listBox1.SelectedItem.ToString(), soundsURL);
 
             label1.Text = nameBox.Text = initialChord.Name;
         }

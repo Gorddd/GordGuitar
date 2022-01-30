@@ -132,7 +132,7 @@ namespace GordGuitar
         /// Get all chord names from the file
         /// </summary>
         /// <param name="items">Items</param>
-        public static void GetAllChordsToList(ComboBox.ObjectCollection items, string URL = "ChordBase.txt", string folderURL = "data\\")
+        public static void GetAllChordsToList(ListBox.ObjectCollection items, string URL = "ChordBase.txt", string folderURL = "data\\")
         {
             var streamReader = new StreamReader(folderURL + URL);
 
