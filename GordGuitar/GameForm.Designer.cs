@@ -57,12 +57,11 @@ namespace GordGuitar
             // 
             // buttonString0
             // 
-            this.buttonString0.BackColor = System.Drawing.Color.Goldenrod;
-            this.buttonString0.FlatAppearance.BorderSize = 0;
+            this.buttonString0.BackColor = System.Drawing.Color.Silver;
             this.buttonString0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonString0.Location = new System.Drawing.Point(-4, 156);
+            this.buttonString0.Location = new System.Drawing.Point(-4, 158);
             this.buttonString0.Name = "buttonString0";
-            this.buttonString0.Size = new System.Drawing.Size(528, 23);
+            this.buttonString0.Size = new System.Drawing.Size(528, 19);
             this.buttonString0.TabIndex = 20;
             this.buttonString0.TabStop = false;
             this.buttonString0.Tag = "1";
@@ -71,12 +70,11 @@ namespace GordGuitar
             // 
             // buttonString1
             // 
-            this.buttonString1.BackColor = System.Drawing.Color.Goldenrod;
-            this.buttonString1.FlatAppearance.BorderSize = 0;
+            this.buttonString1.BackColor = System.Drawing.Color.Silver;
             this.buttonString1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString1.Location = new System.Drawing.Point(-4, 195);
             this.buttonString1.Name = "buttonString1";
-            this.buttonString1.Size = new System.Drawing.Size(528, 23);
+            this.buttonString1.Size = new System.Drawing.Size(528, 19);
             this.buttonString1.TabIndex = 21;
             this.buttonString1.TabStop = false;
             this.buttonString1.Tag = "2";
@@ -85,12 +83,11 @@ namespace GordGuitar
             // 
             // buttonString2
             // 
-            this.buttonString2.BackColor = System.Drawing.Color.Goldenrod;
-            this.buttonString2.FlatAppearance.BorderSize = 0;
+            this.buttonString2.BackColor = System.Drawing.Color.Silver;
             this.buttonString2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString2.Location = new System.Drawing.Point(-4, 232);
             this.buttonString2.Name = "buttonString2";
-            this.buttonString2.Size = new System.Drawing.Size(528, 23);
+            this.buttonString2.Size = new System.Drawing.Size(528, 19);
             this.buttonString2.TabIndex = 22;
             this.buttonString2.TabStop = false;
             this.buttonString2.Tag = "3";
@@ -100,11 +97,11 @@ namespace GordGuitar
             // buttonString3
             // 
             this.buttonString3.BackColor = System.Drawing.Color.Goldenrod;
-            this.buttonString3.FlatAppearance.BorderSize = 0;
+            this.buttonString3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod;
             this.buttonString3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString3.Location = new System.Drawing.Point(-4, 269);
             this.buttonString3.Name = "buttonString3";
-            this.buttonString3.Size = new System.Drawing.Size(528, 23);
+            this.buttonString3.Size = new System.Drawing.Size(528, 19);
             this.buttonString3.TabIndex = 23;
             this.buttonString3.TabStop = false;
             this.buttonString3.Tag = "4";
@@ -114,11 +111,11 @@ namespace GordGuitar
             // buttonString4
             // 
             this.buttonString4.BackColor = System.Drawing.Color.Goldenrod;
-            this.buttonString4.FlatAppearance.BorderSize = 0;
+            this.buttonString4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod;
             this.buttonString4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString4.Location = new System.Drawing.Point(-4, 306);
             this.buttonString4.Name = "buttonString4";
-            this.buttonString4.Size = new System.Drawing.Size(528, 23);
+            this.buttonString4.Size = new System.Drawing.Size(528, 19);
             this.buttonString4.TabIndex = 24;
             this.buttonString4.TabStop = false;
             this.buttonString4.Tag = "5";
@@ -128,11 +125,11 @@ namespace GordGuitar
             // buttonString5
             // 
             this.buttonString5.BackColor = System.Drawing.Color.Goldenrod;
-            this.buttonString5.FlatAppearance.BorderSize = 0;
+            this.buttonString5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod;
             this.buttonString5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString5.Location = new System.Drawing.Point(-4, 342);
             this.buttonString5.Name = "buttonString5";
-            this.buttonString5.Size = new System.Drawing.Size(528, 23);
+            this.buttonString5.Size = new System.Drawing.Size(528, 19);
             this.buttonString5.TabIndex = 25;
             this.buttonString5.TabStop = false;
             this.buttonString5.Tag = "6";
