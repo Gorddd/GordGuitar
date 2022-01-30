@@ -29,6 +29,7 @@ namespace GordGuitar
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptionsForm));
             GordGuitar.Chord chord1 = new GordGuitar.Chord();
             GordGuitar.Chord chord2 = new GordGuitar.Chord();
             GordGuitar.Chord chord3 = new GordGuitar.Chord();
@@ -190,6 +191,26 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnString6Mute
@@ -1639,7 +1660,7 @@ namespace GordGuitar
             this.l6s6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l6s6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l6s6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l6s6.Location = new System.Drawing.Point(210, 364);
+            this.l6s6.Location = new System.Drawing.Point(210, 361);
             this.l6s6.Name = "l6s6";
             this.l6s6.Size = new System.Drawing.Size(10, 10);
             this.l6s6.TabIndex = 190;
@@ -1655,7 +1676,7 @@ namespace GordGuitar
             this.l6s5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l6s5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l6s5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l6s5.Location = new System.Drawing.Point(220, 364);
+            this.l6s5.Location = new System.Drawing.Point(220, 361);
             this.l6s5.Name = "l6s5";
             this.l6s5.Size = new System.Drawing.Size(10, 10);
             this.l6s5.TabIndex = 189;
@@ -1671,7 +1692,7 @@ namespace GordGuitar
             this.l6s4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l6s4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l6s4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l6s4.Location = new System.Drawing.Point(230, 364);
+            this.l6s4.Location = new System.Drawing.Point(230, 361);
             this.l6s4.Name = "l6s4";
             this.l6s4.Size = new System.Drawing.Size(10, 10);
             this.l6s4.TabIndex = 188;
@@ -1687,7 +1708,7 @@ namespace GordGuitar
             this.l6s3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l6s3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l6s3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l6s3.Location = new System.Drawing.Point(240, 364);
+            this.l6s3.Location = new System.Drawing.Point(240, 361);
             this.l6s3.Name = "l6s3";
             this.l6s3.Size = new System.Drawing.Size(10, 10);
             this.l6s3.TabIndex = 187;
@@ -1703,7 +1724,7 @@ namespace GordGuitar
             this.l6s2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l6s2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l6s2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l6s2.Location = new System.Drawing.Point(250, 364);
+            this.l6s2.Location = new System.Drawing.Point(250, 361);
             this.l6s2.Name = "l6s2";
             this.l6s2.Size = new System.Drawing.Size(10, 10);
             this.l6s2.TabIndex = 186;
@@ -1719,7 +1740,7 @@ namespace GordGuitar
             this.l6s1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l6s1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l6s1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l6s1.Location = new System.Drawing.Point(260, 364);
+            this.l6s1.Location = new System.Drawing.Point(260, 361);
             this.l6s1.Name = "l6s1";
             this.l6s1.Size = new System.Drawing.Size(10, 10);
             this.l6s1.TabIndex = 185;
@@ -1831,7 +1852,7 @@ namespace GordGuitar
             this.l4s6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l4s6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l4s6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l4s6.Location = new System.Drawing.Point(210, 297);
+            this.l4s6.Location = new System.Drawing.Point(210, 295);
             this.l4s6.Name = "l4s6";
             this.l4s6.Size = new System.Drawing.Size(10, 10);
             this.l4s6.TabIndex = 178;
@@ -1847,7 +1868,7 @@ namespace GordGuitar
             this.l4s5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l4s5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l4s5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l4s5.Location = new System.Drawing.Point(220, 297);
+            this.l4s5.Location = new System.Drawing.Point(220, 295);
             this.l4s5.Name = "l4s5";
             this.l4s5.Size = new System.Drawing.Size(10, 10);
             this.l4s5.TabIndex = 177;
@@ -1863,7 +1884,7 @@ namespace GordGuitar
             this.l4s4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l4s4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l4s4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l4s4.Location = new System.Drawing.Point(230, 297);
+            this.l4s4.Location = new System.Drawing.Point(230, 295);
             this.l4s4.Name = "l4s4";
             this.l4s4.Size = new System.Drawing.Size(10, 10);
             this.l4s4.TabIndex = 176;
@@ -1879,7 +1900,7 @@ namespace GordGuitar
             this.l4s3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l4s3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l4s3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l4s3.Location = new System.Drawing.Point(240, 297);
+            this.l4s3.Location = new System.Drawing.Point(240, 295);
             this.l4s3.Name = "l4s3";
             this.l4s3.Size = new System.Drawing.Size(10, 10);
             this.l4s3.TabIndex = 175;
@@ -1895,7 +1916,7 @@ namespace GordGuitar
             this.l4s2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l4s2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l4s2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l4s2.Location = new System.Drawing.Point(250, 297);
+            this.l4s2.Location = new System.Drawing.Point(250, 295);
             this.l4s2.Name = "l4s2";
             this.l4s2.Size = new System.Drawing.Size(10, 10);
             this.l4s2.TabIndex = 174;
@@ -1911,7 +1932,7 @@ namespace GordGuitar
             this.l4s1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l4s1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l4s1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l4s1.Location = new System.Drawing.Point(260, 297);
+            this.l4s1.Location = new System.Drawing.Point(260, 295);
             this.l4s1.Name = "l4s1";
             this.l4s1.Size = new System.Drawing.Size(10, 10);
             this.l4s1.TabIndex = 173;
@@ -1927,7 +1948,7 @@ namespace GordGuitar
             this.l3s6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l3s6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l3s6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3s6.Location = new System.Drawing.Point(210, 263);
+            this.l3s6.Location = new System.Drawing.Point(210, 259);
             this.l3s6.Name = "l3s6";
             this.l3s6.Size = new System.Drawing.Size(10, 10);
             this.l3s6.TabIndex = 172;
@@ -1943,7 +1964,7 @@ namespace GordGuitar
             this.l3s5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l3s5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l3s5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3s5.Location = new System.Drawing.Point(220, 263);
+            this.l3s5.Location = new System.Drawing.Point(220, 259);
             this.l3s5.Name = "l3s5";
             this.l3s5.Size = new System.Drawing.Size(10, 10);
             this.l3s5.TabIndex = 171;
@@ -1959,7 +1980,7 @@ namespace GordGuitar
             this.l3s4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l3s4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l3s4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3s4.Location = new System.Drawing.Point(230, 263);
+            this.l3s4.Location = new System.Drawing.Point(230, 259);
             this.l3s4.Name = "l3s4";
             this.l3s4.Size = new System.Drawing.Size(10, 10);
             this.l3s4.TabIndex = 170;
@@ -1975,7 +1996,7 @@ namespace GordGuitar
             this.l3s3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l3s3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l3s3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3s3.Location = new System.Drawing.Point(240, 263);
+            this.l3s3.Location = new System.Drawing.Point(240, 259);
             this.l3s3.Name = "l3s3";
             this.l3s3.Size = new System.Drawing.Size(10, 10);
             this.l3s3.TabIndex = 169;
@@ -1991,7 +2012,7 @@ namespace GordGuitar
             this.l3s2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l3s2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l3s2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3s2.Location = new System.Drawing.Point(250, 263);
+            this.l3s2.Location = new System.Drawing.Point(250, 259);
             this.l3s2.Name = "l3s2";
             this.l3s2.Size = new System.Drawing.Size(10, 10);
             this.l3s2.TabIndex = 168;
@@ -2007,7 +2028,7 @@ namespace GordGuitar
             this.l3s1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
             this.l3s1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.l3s1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3s1.Location = new System.Drawing.Point(260, 263);
+            this.l3s1.Location = new System.Drawing.Point(260, 259);
             this.l3s1.Name = "l3s1";
             this.l3s1.Size = new System.Drawing.Size(10, 10);
             this.l3s1.TabIndex = 167;
@@ -2210,6 +2231,9 @@ namespace GordGuitar
             // 
             // optButton1
             // 
+            this.optButton1.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton1.BackgroundImage")));
+            this.optButton1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton1.Location = new System.Drawing.Point(65, 210);
             this.optButton1.Name = "optButton1";
@@ -2217,11 +2241,14 @@ namespace GordGuitar
             this.optButton1.TabIndex = 281;
             this.optButton1.TabStop = false;
             this.optButton1.Tag = "0";
-            this.optButton1.UseVisualStyleBackColor = true;
+            this.optButton1.UseVisualStyleBackColor = false;
             this.optButton1.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton2
             // 
+            this.optButton2.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton2.BackgroundImage")));
+            this.optButton2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton2.Location = new System.Drawing.Point(65, 261);
             this.optButton2.Name = "optButton2";
@@ -2229,11 +2256,14 @@ namespace GordGuitar
             this.optButton2.TabIndex = 282;
             this.optButton2.TabStop = false;
             this.optButton2.Tag = "1";
-            this.optButton2.UseVisualStyleBackColor = true;
+            this.optButton2.UseVisualStyleBackColor = false;
             this.optButton2.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton3
             // 
+            this.optButton3.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton3.BackgroundImage")));
+            this.optButton3.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton3.Location = new System.Drawing.Point(65, 312);
             this.optButton3.Name = "optButton3";
@@ -2241,11 +2271,14 @@ namespace GordGuitar
             this.optButton3.TabIndex = 283;
             this.optButton3.TabStop = false;
             this.optButton3.Tag = "2";
-            this.optButton3.UseVisualStyleBackColor = true;
+            this.optButton3.UseVisualStyleBackColor = false;
             this.optButton3.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton4
             // 
+            this.optButton4.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton4.BackgroundImage")));
+            this.optButton4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton4.Location = new System.Drawing.Point(65, 363);
             this.optButton4.Name = "optButton4";
@@ -2253,11 +2286,14 @@ namespace GordGuitar
             this.optButton4.TabIndex = 284;
             this.optButton4.TabStop = false;
             this.optButton4.Tag = "3";
-            this.optButton4.UseVisualStyleBackColor = true;
+            this.optButton4.UseVisualStyleBackColor = false;
             this.optButton4.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton5
             // 
+            this.optButton5.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton5.BackgroundImage")));
+            this.optButton5.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton5.Location = new System.Drawing.Point(65, 414);
             this.optButton5.Name = "optButton5";
@@ -2265,11 +2301,14 @@ namespace GordGuitar
             this.optButton5.TabIndex = 285;
             this.optButton5.TabStop = false;
             this.optButton5.Tag = "4";
-            this.optButton5.UseVisualStyleBackColor = true;
+            this.optButton5.UseVisualStyleBackColor = false;
             this.optButton5.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton10
             // 
+            this.optButton10.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton10.BackgroundImage")));
+            this.optButton10.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton10.Location = new System.Drawing.Point(385, 414);
             this.optButton10.Name = "optButton10";
@@ -2277,11 +2316,14 @@ namespace GordGuitar
             this.optButton10.TabIndex = 290;
             this.optButton10.TabStop = false;
             this.optButton10.Tag = "9";
-            this.optButton10.UseVisualStyleBackColor = true;
+            this.optButton10.UseVisualStyleBackColor = false;
             this.optButton10.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton9
             // 
+            this.optButton9.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton9.BackgroundImage")));
+            this.optButton9.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton9.Location = new System.Drawing.Point(385, 363);
             this.optButton9.Name = "optButton9";
@@ -2289,11 +2331,14 @@ namespace GordGuitar
             this.optButton9.TabIndex = 289;
             this.optButton9.TabStop = false;
             this.optButton9.Tag = "8";
-            this.optButton9.UseVisualStyleBackColor = true;
+            this.optButton9.UseVisualStyleBackColor = false;
             this.optButton9.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton8
             // 
+            this.optButton8.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton8.BackgroundImage")));
+            this.optButton8.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton8.Location = new System.Drawing.Point(385, 312);
             this.optButton8.Name = "optButton8";
@@ -2301,11 +2346,14 @@ namespace GordGuitar
             this.optButton8.TabIndex = 288;
             this.optButton8.TabStop = false;
             this.optButton8.Tag = "7";
-            this.optButton8.UseVisualStyleBackColor = true;
+            this.optButton8.UseVisualStyleBackColor = false;
             this.optButton8.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton7
             // 
+            this.optButton7.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton7.BackgroundImage")));
+            this.optButton7.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton7.Location = new System.Drawing.Point(385, 261);
             this.optButton7.Name = "optButton7";
@@ -2313,11 +2361,14 @@ namespace GordGuitar
             this.optButton7.TabIndex = 287;
             this.optButton7.TabStop = false;
             this.optButton7.Tag = "6";
-            this.optButton7.UseVisualStyleBackColor = true;
+            this.optButton7.UseVisualStyleBackColor = false;
             this.optButton7.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // optButton6
             // 
+            this.optButton6.BackColor = System.Drawing.Color.Gainsboro;
+            this.optButton6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("optButton6.BackgroundImage")));
+            this.optButton6.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.optButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.optButton6.Location = new System.Drawing.Point(385, 210);
             this.optButton6.Name = "optButton6";
@@ -2325,69 +2376,88 @@ namespace GordGuitar
             this.optButton6.TabIndex = 286;
             this.optButton6.TabStop = false;
             this.optButton6.Tag = "5";
-            this.optButton6.UseVisualStyleBackColor = true;
+            this.optButton6.UseVisualStyleBackColor = false;
             this.optButton6.Click += new System.EventHandler(this.ClickOptButton);
             // 
             // deleteChordButton
             // 
+            this.deleteChordButton.BackColor = System.Drawing.Color.White;
+            this.deleteChordButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.deleteChordButton.FlatAppearance.BorderSize = 3;
             this.deleteChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteChordButton.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.deleteChordButton.Location = new System.Drawing.Point(94, 454);
             this.deleteChordButton.Name = "deleteChordButton";
             this.deleteChordButton.Size = new System.Drawing.Size(80, 43);
             this.deleteChordButton.TabIndex = 291;
             this.deleteChordButton.TabStop = false;
             this.deleteChordButton.Tag = "0";
-            this.deleteChordButton.Text = "Delete the chord";
-            this.deleteChordButton.UseVisualStyleBackColor = true;
+            this.deleteChordButton.Text = "Delete chord";
+            this.deleteChordButton.UseVisualStyleBackColor = false;
             this.deleteChordButton.Click += new System.EventHandler(this.deleteChordButton_Click);
             // 
             // clearChordButton
             // 
+            this.clearChordButton.BackColor = System.Drawing.Color.White;
+            this.clearChordButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.clearChordButton.FlatAppearance.BorderSize = 3;
             this.clearChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearChordButton.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.clearChordButton.Location = new System.Drawing.Point(299, 454);
             this.clearChordButton.Name = "clearChordButton";
             this.clearChordButton.Size = new System.Drawing.Size(80, 43);
             this.clearChordButton.TabIndex = 292;
             this.clearChordButton.TabStop = false;
             this.clearChordButton.Tag = "0";
-            this.clearChordButton.Text = "Clear the chord";
-            this.clearChordButton.UseVisualStyleBackColor = true;
+            this.clearChordButton.Text = "Clear chord";
+            this.clearChordButton.UseVisualStyleBackColor = false;
             this.clearChordButton.Click += new System.EventHandler(this.clearChordButton_Click);
             // 
             // saveChordButton
             // 
+            this.saveChordButton.BackColor = System.Drawing.Color.White;
+            this.saveChordButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.saveChordButton.FlatAppearance.BorderSize = 3;
             this.saveChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saveChordButton.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveChordButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.saveChordButton.Location = new System.Drawing.Point(94, 150);
             this.saveChordButton.Name = "saveChordButton";
             this.saveChordButton.Size = new System.Drawing.Size(80, 43);
             this.saveChordButton.TabIndex = 293;
             this.saveChordButton.TabStop = false;
             this.saveChordButton.Tag = "0";
-            this.saveChordButton.Text = "Save the chord";
-            this.saveChordButton.UseVisualStyleBackColor = true;
+            this.saveChordButton.Text = "Save chord";
+            this.saveChordButton.UseVisualStyleBackColor = false;
             this.saveChordButton.Click += new System.EventHandler(this.saveChordButton_Click);
             // 
             // newChordButton
             // 
+            this.newChordButton.BackColor = System.Drawing.Color.White;
+            this.newChordButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.newChordButton.FlatAppearance.BorderSize = 3;
             this.newChordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.newChordButton.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.newChordButton.Location = new System.Drawing.Point(299, 150);
             this.newChordButton.Name = "newChordButton";
             this.newChordButton.Size = new System.Drawing.Size(80, 43);
             this.newChordButton.TabIndex = 294;
             this.newChordButton.TabStop = false;
             this.newChordButton.Tag = "0";
-            this.newChordButton.Text = "Create a new chord";
-            this.newChordButton.UseVisualStyleBackColor = true;
+            this.newChordButton.Text = "Create new";
+            this.newChordButton.UseVisualStyleBackColor = false;
             this.newChordButton.Click += new System.EventHandler(this.newChordButton_Click);
             // 
             // currentChordName
             // 
-            this.currentChordName.AutoSize = true;
             this.currentChordName.BackColor = System.Drawing.Color.Transparent;
-            this.currentChordName.Location = new System.Drawing.Point(116, 118);
+            this.currentChordName.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentChordName.ForeColor = System.Drawing.Color.White;
+            this.currentChordName.Location = new System.Drawing.Point(94, 113);
             this.currentChordName.Name = "currentChordName";
-            this.currentChordName.Size = new System.Drawing.Size(0, 13);
+            this.currentChordName.Size = new System.Drawing.Size(80, 34);
             this.currentChordName.TabIndex = 295;
+            this.currentChordName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonChord10
             // 
@@ -2579,12 +2649,273 @@ namespace GordGuitar
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(276, 183);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(11, 13);
+            this.label1.TabIndex = 296;
+            this.label1.Text = "1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(276, 221);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(13, 13);
+            this.label2.TabIndex = 297;
+            this.label2.Text = "2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(276, 257);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(13, 13);
+            this.label3.TabIndex = 298;
+            this.label3.Text = "3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(276, 292);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(13, 13);
+            this.label4.TabIndex = 299;
+            this.label4.Text = "4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(276, 322);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(13, 13);
+            this.label5.TabIndex = 300;
+            this.label5.Text = "5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(276, 358);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(13, 13);
+            this.label6.TabIndex = 301;
+            this.label6.Text = "6";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(276, 391);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(13, 13);
+            this.label7.TabIndex = 302;
+            this.label7.Text = "7";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(276, 423);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(13, 13);
+            this.label8.TabIndex = 303;
+            this.label8.Text = "8";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(276, 447);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(13, 13);
+            this.label9.TabIndex = 304;
+            this.label9.Text = "9";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(276, 476);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(17, 13);
+            this.label10.TabIndex = 305;
+            this.label10.Text = "10";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(277, 501);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(15, 13);
+            this.label11.TabIndex = 306;
+            this.label11.Text = "11";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(277, 526);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(17, 13);
+            this.label12.TabIndex = 307;
+            this.label12.Text = "12";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(277, 545);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(17, 13);
+            this.label13.TabIndex = 308;
+            this.label13.Text = "13";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(277, 566);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(17, 13);
+            this.label14.TabIndex = 309;
+            this.label14.Text = "14";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(277, 586);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(17, 13);
+            this.label15.TabIndex = 310;
+            this.label15.Text = "15";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(277, 607);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(17, 13);
+            this.label16.TabIndex = 311;
+            this.label16.Text = "16";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(277, 626);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(17, 13);
+            this.label17.TabIndex = 312;
+            this.label17.Text = "17";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(277, 642);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(17, 13);
+            this.label18.TabIndex = 313;
+            this.label18.Text = "18";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(277, 659);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(17, 13);
+            this.label19.TabIndex = 314;
+            this.label19.Text = "19";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(277, 675);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(19, 13);
+            this.label20.TabIndex = 315;
+            this.label20.Text = "20";
+            // 
             // OptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.OptionsImage;
             this.ClientSize = new System.Drawing.Size(475, 718);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.currentChordName);
             this.Controls.Add(this.newChordButton);
             this.Controls.Add(this.saveChordButton);
@@ -2900,5 +3231,25 @@ namespace GordGuitar
         private System.Windows.Forms.Button saveChordButton;
         private System.Windows.Forms.Button newChordButton;
         private System.Windows.Forms.Label currentChordName;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
     }
 }

@@ -145,5 +145,8 @@
   <ItemGroup>
     <None Include="Resources\ChordOptionsBack.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonoptback.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
