@@ -63,6 +63,16 @@ namespace GordGuitar.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChordOptionsBack {
+            get {
+                object obj = ResourceManager.GetObject("ChordOptionsBack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MainImage {
             get {
                 object obj = ResourceManager.GetObject("MainImage", resourceCulture);
