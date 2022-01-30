@@ -29,14 +29,16 @@ namespace GordGuitar
         /// </summary>
         private void InitializeComponent()
         {
-            this.optionsButton = new System.Windows.Forms.Button();
             this.buttonString0 = new System.Windows.Forms.Button();
             this.buttonString1 = new System.Windows.Forms.Button();
             this.buttonString2 = new System.Windows.Forms.Button();
             this.buttonString3 = new System.Windows.Forms.Button();
             this.buttonString4 = new System.Windows.Forms.Button();
             this.buttonString5 = new System.Windows.Forms.Button();
-            this.muteButton = new System.Windows.Forms.Button();
+            this.backOptionsButton = new System.Windows.Forms.PictureBox();
+            this.frontOptionsButton = new System.Windows.Forms.PictureBox();
+            this.backMuteButton = new System.Windows.Forms.PictureBox();
+            this.frontMuteButton = new System.Windows.Forms.PictureBox();
             this.buttonChord10 = new GordGuitar.ChordButton();
             this.buttonChord9 = new GordGuitar.ChordButton();
             this.buttonChord8 = new GordGuitar.ChordButton();
@@ -47,19 +49,11 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
+            ((System.ComponentModel.ISupportInitialize)(this.backOptionsButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frontOptionsButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backMuteButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frontMuteButton)).BeginInit();
             this.SuspendLayout();
-            // 
-            // optionsButton
-            // 
-            this.optionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.optionsButton.Location = new System.Drawing.Point(12, 12);
-            this.optionsButton.Name = "optionsButton";
-            this.optionsButton.Size = new System.Drawing.Size(75, 23);
-            this.optionsButton.TabIndex = 0;
-            this.optionsButton.TabStop = false;
-            this.optionsButton.Text = "Chords";
-            this.optionsButton.UseVisualStyleBackColor = true;
-            this.optionsButton.Click += new System.EventHandler(this.optionsButton_Click);
             // 
             // buttonString0
             // 
@@ -145,17 +139,56 @@ namespace GordGuitar
             this.buttonString5.UseVisualStyleBackColor = false;
             this.buttonString5.MouseEnter += new System.EventHandler(this.PullGuitarString);
             // 
-            // muteButton
+            // backOptionsButton
             // 
-            this.muteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.muteButton.Location = new System.Drawing.Point(12, 91);
-            this.muteButton.Name = "muteButton";
-            this.muteButton.Size = new System.Drawing.Size(79, 59);
-            this.muteButton.TabIndex = 26;
-            this.muteButton.TabStop = false;
-            this.muteButton.Text = "Mute";
-            this.muteButton.UseVisualStyleBackColor = true;
-            this.muteButton.MouseEnter += new System.EventHandler(this.MuteAllStrings);
+            this.backOptionsButton.BackColor = System.Drawing.Color.Transparent;
+            this.backOptionsButton.Image = global::GordGuitar.Properties.Resources.BackChordsButton;
+            this.backOptionsButton.Location = new System.Drawing.Point(434, 12);
+            this.backOptionsButton.Name = "backOptionsButton";
+            this.backOptionsButton.Size = new System.Drawing.Size(72, 81);
+            this.backOptionsButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backOptionsButton.TabIndex = 27;
+            this.backOptionsButton.TabStop = false;
+            this.backOptionsButton.MouseEnter += new System.EventHandler(this.backOptionsButton_MouseEnter);
+            // 
+            // frontOptionsButton
+            // 
+            this.frontOptionsButton.BackColor = System.Drawing.Color.Transparent;
+            this.frontOptionsButton.Image = global::GordGuitar.Properties.Resources.FrontChordsButton;
+            this.frontOptionsButton.Location = new System.Drawing.Point(434, 12);
+            this.frontOptionsButton.Name = "frontOptionsButton";
+            this.frontOptionsButton.Size = new System.Drawing.Size(72, 81);
+            this.frontOptionsButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.frontOptionsButton.TabIndex = 28;
+            this.frontOptionsButton.TabStop = false;
+            this.frontOptionsButton.Visible = false;
+            this.frontOptionsButton.Click += new System.EventHandler(this.optionsButton_Click);
+            this.frontOptionsButton.MouseLeave += new System.EventHandler(this.frontOptionsButton_MouseLeave);
+            // 
+            // backMuteButton
+            // 
+            this.backMuteButton.BackColor = System.Drawing.Color.Transparent;
+            this.backMuteButton.Image = global::GordGuitar.Properties.Resources.WhiteMute;
+            this.backMuteButton.Location = new System.Drawing.Point(12, 112);
+            this.backMuteButton.Name = "backMuteButton";
+            this.backMuteButton.Size = new System.Drawing.Size(34, 27);
+            this.backMuteButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backMuteButton.TabIndex = 29;
+            this.backMuteButton.TabStop = false;
+            this.backMuteButton.MouseEnter += new System.EventHandler(this.backMuteButton_MouseEnter);
+            // 
+            // frontMuteButton
+            // 
+            this.frontMuteButton.BackColor = System.Drawing.Color.Transparent;
+            this.frontMuteButton.Image = global::GordGuitar.Properties.Resources.BlackMute;
+            this.frontMuteButton.Location = new System.Drawing.Point(12, 112);
+            this.frontMuteButton.Name = "frontMuteButton";
+            this.frontMuteButton.Size = new System.Drawing.Size(34, 27);
+            this.frontMuteButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.frontMuteButton.TabIndex = 30;
+            this.frontMuteButton.TabStop = false;
+            this.frontMuteButton.Visible = false;
+            this.frontMuteButton.MouseLeave += new System.EventHandler(this.frontMuteButton_MouseLeave);
             // 
             // buttonChord10
             // 
@@ -343,7 +376,10 @@ namespace GordGuitar
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.MainImage;
             this.ClientSize = new System.Drawing.Size(519, 519);
-            this.Controls.Add(this.muteButton);
+            this.Controls.Add(this.frontMuteButton);
+            this.Controls.Add(this.backMuteButton);
+            this.Controls.Add(this.frontOptionsButton);
+            this.Controls.Add(this.backOptionsButton);
             this.Controls.Add(this.buttonString5);
             this.Controls.Add(this.buttonString4);
             this.Controls.Add(this.buttonString3);
@@ -360,7 +396,6 @@ namespace GordGuitar
             this.Controls.Add(this.buttonChord3);
             this.Controls.Add(this.buttonChord2);
             this.Controls.Add(this.buttonChord1);
-            this.Controls.Add(this.optionsButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.KeyPreview = true;
             this.MaximizeBox = false;
@@ -369,13 +404,15 @@ namespace GordGuitar
             this.Text = "GordGuitar";
             this.Shown += new System.EventHandler(this.GameForm_Shown);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GameForm_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.backOptionsButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frontOptionsButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backMuteButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frontMuteButton)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button optionsButton;
         
         private ChordButton buttonChord1;
         private ChordButton buttonChord2;
@@ -393,7 +430,10 @@ namespace GordGuitar
         private System.Windows.Forms.Button buttonString3;
         private System.Windows.Forms.Button buttonString4;
         private System.Windows.Forms.Button buttonString5;
-        private System.Windows.Forms.Button muteButton;
+        private System.Windows.Forms.PictureBox backOptionsButton;
+        private System.Windows.Forms.PictureBox frontOptionsButton;
+        private System.Windows.Forms.PictureBox backMuteButton;
+        private System.Windows.Forms.PictureBox frontMuteButton;
     }
 }
 

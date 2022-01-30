@@ -148,5 +148,17 @@
   <ItemGroup>
     <None Include="Resources\buttonoptback.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackChordsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrontChordsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteMute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackMute.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

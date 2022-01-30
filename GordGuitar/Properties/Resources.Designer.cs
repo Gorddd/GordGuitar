@@ -63,6 +63,26 @@ namespace GordGuitar.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BackChordsButton {
+            get {
+                object obj = ResourceManager.GetObject("BackChordsButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BlackMute {
+            get {
+                object obj = ResourceManager.GetObject("BlackMute", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap buttonoptback {
             get {
                 object obj = ResourceManager.GetObject("buttonoptback", resourceCulture);
@@ -83,6 +103,16 @@ namespace GordGuitar.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FrontChordsButton {
+            get {
+                object obj = ResourceManager.GetObject("FrontChordsButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MainImage {
             get {
                 object obj = ResourceManager.GetObject("MainImage", resourceCulture);
@@ -96,6 +126,16 @@ namespace GordGuitar.Properties {
         internal static System.Drawing.Bitmap OptionsImage {
             get {
                 object obj = ResourceManager.GetObject("OptionsImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhiteMute {
+            get {
+                object obj = ResourceManager.GetObject("WhiteMute", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -179,7 +179,7 @@ namespace GordGuitar
         /// <summary>
         /// mute all guitar strings
         /// </summary>
-        private void MuteAllStrings(object sender, EventArgs e)
+        private void MuteAllStrings()
         {
             foreach(var item in previousChord.guitarStrings)
             {
@@ -190,6 +190,28 @@ namespace GordGuitar
             {
                 item.Stop();
             }
+        }
+
+        private void frontOptionsButton_MouseLeave(object sender, EventArgs e)
+        {
+            frontOptionsButton.Visible = false;
+        }
+
+        private void backOptionsButton_MouseEnter(object sender, EventArgs e)
+        {
+            frontOptionsButton.Visible = true;
+        }
+
+        private void backMuteButton_MouseEnter(object sender, EventArgs e)
+        {
+            MuteAllStrings();
+
+            frontMuteButton.Visible = true;
+        }
+
+        private void frontMuteButton_MouseLeave(object sender, EventArgs e)
+        {
+            frontMuteButton.Visible = false;
         }
     }
 }
