@@ -383,5 +383,20 @@ namespace GordGuitar
             buttonDesigner.MakeStandardAll();
             #endregion
         }
+
+        private void frontBackButton_MouseLeave(object sender, EventArgs e)
+        {
+            frontBackButton.Visible = false;
+        }
+
+        private void backBackButton_MouseEnter(object sender, EventArgs e)
+        {
+            frontBackButton.Visible = true;
+        }
+
+        private void frontBackButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

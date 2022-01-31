@@ -127,6 +127,9 @@
   <data name="BlackMute" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BlackMute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FrontHelpButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrontHelpButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WhiteMute" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhiteMute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,7 +148,10 @@
   <data name="OptionsImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OptionsImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FrontHelpButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FrontHelpButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BackBackButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackBackButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrontBackButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrontBackButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
