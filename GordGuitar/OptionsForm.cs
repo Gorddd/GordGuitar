@@ -408,5 +408,13 @@ namespace GordGuitar
         {
             frontSettingsButton.Visible = true;
         }
+
+        private void frontSettingsButton_Click(object sender, EventArgs e)
+        {
+            var settingsForm = new SettingsForm(soundsURL);
+            settingsForm.ShowDialog();
+
+            soundsURL = settingsForm.soundsURL;
+        }
     }
 }

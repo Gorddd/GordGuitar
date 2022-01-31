@@ -30,16 +30,16 @@ namespace GordGuitar
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptionsForm));
-            GordGuitar.Chord chord21 = new GordGuitar.Chord();
-            GordGuitar.Chord chord22 = new GordGuitar.Chord();
-            GordGuitar.Chord chord23 = new GordGuitar.Chord();
-            GordGuitar.Chord chord24 = new GordGuitar.Chord();
-            GordGuitar.Chord chord25 = new GordGuitar.Chord();
-            GordGuitar.Chord chord26 = new GordGuitar.Chord();
-            GordGuitar.Chord chord27 = new GordGuitar.Chord();
-            GordGuitar.Chord chord28 = new GordGuitar.Chord();
-            GordGuitar.Chord chord29 = new GordGuitar.Chord();
-            GordGuitar.Chord chord30 = new GordGuitar.Chord();
+            GordGuitar.Chord chord1 = new GordGuitar.Chord();
+            GordGuitar.Chord chord2 = new GordGuitar.Chord();
+            GordGuitar.Chord chord3 = new GordGuitar.Chord();
+            GordGuitar.Chord chord4 = new GordGuitar.Chord();
+            GordGuitar.Chord chord5 = new GordGuitar.Chord();
+            GordGuitar.Chord chord6 = new GordGuitar.Chord();
+            GordGuitar.Chord chord7 = new GordGuitar.Chord();
+            GordGuitar.Chord chord8 = new GordGuitar.Chord();
+            GordGuitar.Chord chord9 = new GordGuitar.Chord();
+            GordGuitar.Chord chord10 = new GordGuitar.Chord();
             this.btnString6Mute = new System.Windows.Forms.Button();
             this.btnString5Mute = new System.Windows.Forms.Button();
             this.btnString4Mute = new System.Windows.Forms.Button();
@@ -2736,8 +2736,8 @@ namespace GordGuitar
             // buttonChord10
             // 
             this.buttonChord10.BackColor = System.Drawing.Color.Cornsilk;
-            chord21.Name = null;
-            this.buttonChord10.chord = chord21;
+            chord1.Name = null;
+            this.buttonChord10.chord = chord1;
             this.buttonChord10.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord10.FlatAppearance.BorderSize = 3;
             this.buttonChord10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2755,8 +2755,8 @@ namespace GordGuitar
             // buttonChord9
             // 
             this.buttonChord9.BackColor = System.Drawing.Color.Cornsilk;
-            chord22.Name = null;
-            this.buttonChord9.chord = chord22;
+            chord2.Name = null;
+            this.buttonChord9.chord = chord2;
             this.buttonChord9.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord9.FlatAppearance.BorderSize = 3;
             this.buttonChord9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2774,8 +2774,8 @@ namespace GordGuitar
             // buttonChord8
             // 
             this.buttonChord8.BackColor = System.Drawing.Color.Cornsilk;
-            chord23.Name = null;
-            this.buttonChord8.chord = chord23;
+            chord3.Name = null;
+            this.buttonChord8.chord = chord3;
             this.buttonChord8.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord8.FlatAppearance.BorderSize = 3;
             this.buttonChord8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2793,8 +2793,8 @@ namespace GordGuitar
             // buttonChord7
             // 
             this.buttonChord7.BackColor = System.Drawing.Color.Cornsilk;
-            chord24.Name = null;
-            this.buttonChord7.chord = chord24;
+            chord4.Name = null;
+            this.buttonChord7.chord = chord4;
             this.buttonChord7.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord7.FlatAppearance.BorderSize = 3;
             this.buttonChord7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2812,8 +2812,8 @@ namespace GordGuitar
             // buttonChord6
             // 
             this.buttonChord6.BackColor = System.Drawing.Color.Cornsilk;
-            chord25.Name = null;
-            this.buttonChord6.chord = chord25;
+            chord5.Name = null;
+            this.buttonChord6.chord = chord5;
             this.buttonChord6.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord6.FlatAppearance.BorderSize = 3;
             this.buttonChord6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2831,8 +2831,8 @@ namespace GordGuitar
             // buttonChord5
             // 
             this.buttonChord5.BackColor = System.Drawing.Color.Cornsilk;
-            chord26.Name = null;
-            this.buttonChord5.chord = chord26;
+            chord6.Name = null;
+            this.buttonChord5.chord = chord6;
             this.buttonChord5.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord5.FlatAppearance.BorderSize = 3;
             this.buttonChord5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2850,8 +2850,8 @@ namespace GordGuitar
             // buttonChord4
             // 
             this.buttonChord4.BackColor = System.Drawing.Color.Cornsilk;
-            chord27.Name = null;
-            this.buttonChord4.chord = chord27;
+            chord7.Name = null;
+            this.buttonChord4.chord = chord7;
             this.buttonChord4.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord4.FlatAppearance.BorderSize = 3;
             this.buttonChord4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2869,8 +2869,8 @@ namespace GordGuitar
             // buttonChord3
             // 
             this.buttonChord3.BackColor = System.Drawing.Color.Cornsilk;
-            chord28.Name = null;
-            this.buttonChord3.chord = chord28;
+            chord8.Name = null;
+            this.buttonChord3.chord = chord8;
             this.buttonChord3.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord3.FlatAppearance.BorderSize = 3;
             this.buttonChord3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2888,8 +2888,8 @@ namespace GordGuitar
             // buttonChord2
             // 
             this.buttonChord2.BackColor = System.Drawing.Color.Cornsilk;
-            chord29.Name = null;
-            this.buttonChord2.chord = chord29;
+            chord9.Name = null;
+            this.buttonChord2.chord = chord9;
             this.buttonChord2.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord2.FlatAppearance.BorderSize = 3;
             this.buttonChord2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2907,8 +2907,8 @@ namespace GordGuitar
             // buttonChord1
             // 
             this.buttonChord1.BackColor = System.Drawing.Color.Cornsilk;
-            chord30.Name = null;
-            this.buttonChord1.chord = chord30;
+            chord10.Name = null;
+            this.buttonChord1.chord = chord10;
             this.buttonChord1.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonChord1.FlatAppearance.BorderSize = 3;
             this.buttonChord1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Khaki;
@@ -2946,6 +2946,7 @@ namespace GordGuitar
             this.frontSettingsButton.TabIndex = 319;
             this.frontSettingsButton.TabStop = false;
             this.frontSettingsButton.Visible = false;
+            this.frontSettingsButton.Click += new System.EventHandler(this.frontSettingsButton_Click);
             this.frontSettingsButton.MouseLeave += new System.EventHandler(this.frontSettingsButton_MouseLeave);
             // 
             // OptionsForm

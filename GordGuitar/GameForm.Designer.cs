@@ -62,6 +62,7 @@ namespace GordGuitar
             // buttonString0
             // 
             this.buttonString0.BackColor = System.Drawing.Color.Silver;
+            this.buttonString0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonString0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString0.Location = new System.Drawing.Point(-4, 158);
             this.buttonString0.Name = "buttonString0";
@@ -75,6 +76,7 @@ namespace GordGuitar
             // buttonString1
             // 
             this.buttonString1.BackColor = System.Drawing.Color.Silver;
+            this.buttonString1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonString1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString1.Location = new System.Drawing.Point(-4, 195);
             this.buttonString1.Name = "buttonString1";
@@ -88,6 +90,7 @@ namespace GordGuitar
             // buttonString2
             // 
             this.buttonString2.BackColor = System.Drawing.Color.Silver;
+            this.buttonString2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonString2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString2.Location = new System.Drawing.Point(-4, 232);
             this.buttonString2.Name = "buttonString2";
@@ -101,6 +104,7 @@ namespace GordGuitar
             // buttonString3
             // 
             this.buttonString3.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonString3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod;
             this.buttonString3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString3.Location = new System.Drawing.Point(-4, 269);
@@ -115,6 +119,7 @@ namespace GordGuitar
             // buttonString4
             // 
             this.buttonString4.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonString4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod;
             this.buttonString4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString4.Location = new System.Drawing.Point(-4, 306);
@@ -129,6 +134,7 @@ namespace GordGuitar
             // buttonString5
             // 
             this.buttonString5.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonString5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonString5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod;
             this.buttonString5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonString5.Location = new System.Drawing.Point(-4, 342);
