@@ -171,6 +171,30 @@ namespace GordGuitar
                 case (char)Keys.D0:
                     buttonChord10.PerformClick();
                     break;
+                case (char)Keys.F1:
+                    activeChord.guitarStrings[0].Stop();
+                    previousChord.guitarStrings[0].Stop();
+                    break;
+                case (char)Keys.F2:
+                    activeChord.guitarStrings[1].Stop();
+                    previousChord.guitarStrings[1].Stop();
+                    break;
+                case (char)Keys.F3:
+                    activeChord.guitarStrings[2].Stop();
+                    previousChord.guitarStrings[2].Stop();
+                    break;
+                case (char)Keys.F4:
+                    activeChord.guitarStrings[3].Stop();
+                    previousChord.guitarStrings[3].Stop();
+                    break;
+                case (char)Keys.F5:
+                    activeChord.guitarStrings[4].Stop();
+                    previousChord.guitarStrings[4].Stop();
+                    break;
+                case (char)Keys.F6:
+                    activeChord.guitarStrings[5].Stop();
+                    previousChord.guitarStrings[5].Stop();
+                    break;
                 default:
                     break;
             }
@@ -191,6 +215,8 @@ namespace GordGuitar
                 item.Stop();
             }
         }
+
+        #region UI buttons
 
         private void frontOptionsButton_MouseLeave(object sender, EventArgs e)
         {
@@ -223,5 +249,7 @@ namespace GordGuitar
         {
             frontHelpButton.Visible = true;
         }
+
+        #endregion
     }
 }
