@@ -213,5 +213,15 @@ namespace GordGuitar
         {
             frontMuteButton.Visible = false;
         }
+
+        private void frontHelpButton_MouseLeave(object sender, EventArgs e)
+        {
+            frontHelpButton.Visible = false;
+        }
+
+        private void backHelpButton_MouseEnter(object sender, EventArgs e)
+        {
+            frontHelpButton.Visible = true;
+        }
     }
 }

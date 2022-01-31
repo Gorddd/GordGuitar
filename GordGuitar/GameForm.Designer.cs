@@ -49,10 +49,14 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
+            this.backHelpButton = new System.Windows.Forms.PictureBox();
+            this.frontHelpButton = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.backOptionsButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.frontOptionsButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backMuteButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.frontMuteButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backHelpButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frontHelpButton)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonString0
@@ -367,12 +371,39 @@ namespace GordGuitar
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
+            // backHelpButton
+            // 
+            this.backHelpButton.BackColor = System.Drawing.Color.Transparent;
+            this.backHelpButton.Image = global::GordGuitar.Properties.Resources.BackHelpButton;
+            this.backHelpButton.Location = new System.Drawing.Point(12, 12);
+            this.backHelpButton.Name = "backHelpButton";
+            this.backHelpButton.Size = new System.Drawing.Size(72, 81);
+            this.backHelpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backHelpButton.TabIndex = 31;
+            this.backHelpButton.TabStop = false;
+            this.backHelpButton.MouseEnter += new System.EventHandler(this.backHelpButton_MouseEnter);
+            // 
+            // frontHelpButton
+            // 
+            this.frontHelpButton.BackColor = System.Drawing.Color.Transparent;
+            this.frontHelpButton.Image = global::GordGuitar.Properties.Resources.FrontHelpButton;
+            this.frontHelpButton.Location = new System.Drawing.Point(12, 12);
+            this.frontHelpButton.Name = "frontHelpButton";
+            this.frontHelpButton.Size = new System.Drawing.Size(72, 81);
+            this.frontHelpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.frontHelpButton.TabIndex = 32;
+            this.frontHelpButton.TabStop = false;
+            this.frontHelpButton.Visible = false;
+            this.frontHelpButton.MouseLeave += new System.EventHandler(this.frontHelpButton_MouseLeave);
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.MainImage;
             this.ClientSize = new System.Drawing.Size(519, 519);
+            this.Controls.Add(this.frontHelpButton);
+            this.Controls.Add(this.backHelpButton);
             this.Controls.Add(this.frontMuteButton);
             this.Controls.Add(this.backMuteButton);
             this.Controls.Add(this.frontOptionsButton);
@@ -405,6 +436,8 @@ namespace GordGuitar
             ((System.ComponentModel.ISupportInitialize)(this.frontOptionsButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.backMuteButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.frontMuteButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backHelpButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frontHelpButton)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -431,6 +464,8 @@ namespace GordGuitar
         private System.Windows.Forms.PictureBox frontOptionsButton;
         private System.Windows.Forms.PictureBox backMuteButton;
         private System.Windows.Forms.PictureBox frontMuteButton;
+        private System.Windows.Forms.PictureBox backHelpButton;
+        private System.Windows.Forms.PictureBox frontHelpButton;
     }
 }
 

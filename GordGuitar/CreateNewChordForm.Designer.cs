@@ -48,7 +48,7 @@ namespace GordGuitar
             this.cancelButton.BackColor = System.Drawing.Color.Coral;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelButton.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cancelButton.Location = new System.Drawing.Point(64, 63);
+            this.cancelButton.Location = new System.Drawing.Point(62, 63);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(130, 29);
             this.cancelButton.TabIndex = 6;
@@ -61,7 +61,7 @@ namespace GordGuitar
             this.applyButton.BackColor = System.Drawing.Color.Coral;
             this.applyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.applyButton.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.applyButton.Location = new System.Drawing.Point(200, 63);
+            this.applyButton.Location = new System.Drawing.Point(198, 63);
             this.applyButton.Name = "applyButton";
             this.applyButton.Size = new System.Drawing.Size(130, 29);
             this.applyButton.TabIndex = 7;

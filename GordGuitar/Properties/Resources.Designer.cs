@@ -73,6 +73,16 @@ namespace GordGuitar.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BackHelpButton {
+            get {
+                object obj = ResourceManager.GetObject("BackHelpButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BlackMute {
             get {
                 object obj = ResourceManager.GetObject("BlackMute", resourceCulture);
@@ -106,6 +116,16 @@ namespace GordGuitar.Properties {
         internal static System.Drawing.Bitmap FrontChordsButton {
             get {
                 object obj = ResourceManager.GetObject("FrontChordsButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FrontHelpButton {
+            get {
+                object obj = ResourceManager.GetObject("FrontHelpButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
