@@ -195,6 +195,24 @@ namespace GordGuitar
                     activeChord.guitarStrings[5].Stop();
                     previousChord.guitarStrings[5].Stop();
                     break;
+                case (char)Keys.Q:
+                    activeChord.guitarStrings[0].Play();
+                    break;
+                case (char)Keys.W:
+                    activeChord.guitarStrings[1].Play();
+                    break;
+                case (char)Keys.E:
+                    activeChord.guitarStrings[2].Play();
+                    break;
+                case (char)Keys.R:
+                    activeChord.guitarStrings[3].Play();
+                    break;
+                case (char)Keys.T:
+                    activeChord.guitarStrings[4].Play();
+                    break;
+                case (char)Keys.Y:
+                    activeChord.guitarStrings[5].Play();
+                    break;
                 default:
                     break;
             }
