@@ -5,8 +5,8 @@ namespace GordGuitar
 {
     public partial class SettingsForm : Form
     {
-        private const string oldURL = "sounds/";
-        private const string proURL = "sounds/";
+        private const string oldURL = "oldsounds/";
+        private const string proURL = "prosounds/";
 
         public string soundsURL { get; private set; }
 

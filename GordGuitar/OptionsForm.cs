@@ -7,7 +7,7 @@ namespace GordGuitar
 {
     public partial class OptionsForm : Form
     {
-        private string soundsURL = "sounds/";
+        private string soundsURL = "prosounds/";
 
         /// <summary>
         /// Array of chordbuttons
