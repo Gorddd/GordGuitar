@@ -268,6 +268,12 @@ namespace GordGuitar
             frontHelpButton.Visible = true;
         }
 
+        private void frontHelpButton_Click(object sender, EventArgs e)
+        {
+            var helpForm = new HelpForm();
+            helpForm.ShowDialog();
+        }
+
         #endregion
     }
 }

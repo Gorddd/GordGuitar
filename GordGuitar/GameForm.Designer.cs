@@ -394,6 +394,7 @@ namespace GordGuitar
             this.frontHelpButton.TabIndex = 32;
             this.frontHelpButton.TabStop = false;
             this.frontHelpButton.Visible = false;
+            this.frontHelpButton.Click += new System.EventHandler(this.frontHelpButton_Click);
             this.frontHelpButton.MouseLeave += new System.EventHandler(this.frontHelpButton_MouseLeave);
             // 
             // GameForm
