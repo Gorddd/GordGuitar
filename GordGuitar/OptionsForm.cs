@@ -398,5 +398,15 @@ namespace GordGuitar
         {
             Close();
         }
+
+        private void frontSettingsButton_MouseLeave(object sender, EventArgs e)
+        {
+            frontSettingsButton.Visible = false;
+        }
+
+        private void backSettingsButton_MouseEnter(object sender, EventArgs e)
+        {
+            frontSettingsButton.Visible = true;
+        }
     }
 }

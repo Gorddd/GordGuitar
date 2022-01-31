@@ -172,5 +172,11 @@
   <ItemGroup>
     <None Include="Resources\FrontBackButton.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackSettingsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrontSettingsButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
