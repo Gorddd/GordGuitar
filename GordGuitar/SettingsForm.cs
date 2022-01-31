@@ -15,6 +15,11 @@ namespace GordGuitar
             InitializeComponent();
 
             this.soundsURL = soundsURL;
+
+            if (soundsURL == proURL)
+                proButton.Checked = true;
+            else
+                oldButton.Checked = true;
         }
 
         private void OK_Click(object sender, EventArgs e)

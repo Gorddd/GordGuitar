@@ -65,14 +65,12 @@ namespace GordGuitar
             // 
             this.proButton.AutoSize = true;
             this.proButton.BackColor = System.Drawing.Color.Transparent;
-            this.proButton.Checked = true;
             this.proButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.proButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.proButton.Location = new System.Drawing.Point(53, 84);
             this.proButton.Name = "proButton";
             this.proButton.Size = new System.Drawing.Size(114, 29);
             this.proButton.TabIndex = 6;
-            this.proButton.TabStop = true;
             this.proButton.Text = "pro guitar";
             this.proButton.UseVisualStyleBackColor = false;
             // 

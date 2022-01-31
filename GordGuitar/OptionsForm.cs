@@ -384,6 +384,8 @@ namespace GordGuitar
             #endregion
         }
 
+        #region UI buttons
+
         private void frontBackButton_MouseLeave(object sender, EventArgs e)
         {
             frontBackButton.Visible = false;
@@ -409,12 +411,29 @@ namespace GordGuitar
             frontSettingsButton.Visible = true;
         }
 
+        #endregion
+
         private void frontSettingsButton_Click(object sender, EventArgs e)
         {
             var settingsForm = new SettingsForm(soundsURL);
             settingsForm.ShowDialog();
 
             soundsURL = settingsForm.soundsURL;
+
+            for (int i = 0; i < chordButtons.Length; i++)
+            {
+                for (int j = 0; j < chordButtons[i].chord.guitarStrings.Length; j++)
+                {
+                    string currentURL = chordButtons[i].chord.guitarStrings[j].URL;
+
+                    if (!string.IsNullOrEmpty(currentURL))
+                    {
+                        currentURL = currentURL.Substring(currentURL.LastIndexOf('\\') + 1); //delete useless info
+
+                        chordButtons[i].chord.guitarStrings[j].URL = soundsURL + currentURL;
+                    }
+                }
+            }
         }
     }
 }
