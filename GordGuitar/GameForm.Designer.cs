@@ -29,6 +29,7 @@ namespace GordGuitar
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameForm));
             this.buttonString0 = new System.Windows.Forms.Button();
             this.buttonString1 = new System.Windows.Forms.Button();
             this.buttonString2 = new System.Windows.Forms.Button();
@@ -39,6 +40,8 @@ namespace GordGuitar
             this.frontOptionsButton = new System.Windows.Forms.PictureBox();
             this.backMuteButton = new System.Windows.Forms.PictureBox();
             this.frontMuteButton = new System.Windows.Forms.PictureBox();
+            this.backHelpButton = new System.Windows.Forms.PictureBox();
+            this.frontHelpButton = new System.Windows.Forms.PictureBox();
             this.buttonChord10 = new GordGuitar.ChordButton();
             this.buttonChord9 = new GordGuitar.ChordButton();
             this.buttonChord8 = new GordGuitar.ChordButton();
@@ -49,8 +52,6 @@ namespace GordGuitar
             this.buttonChord3 = new GordGuitar.ChordButton();
             this.buttonChord2 = new GordGuitar.ChordButton();
             this.buttonChord1 = new GordGuitar.ChordButton();
-            this.backHelpButton = new System.Windows.Forms.PictureBox();
-            this.frontHelpButton = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.backOptionsButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.frontOptionsButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backMuteButton)).BeginInit();
@@ -196,6 +197,32 @@ namespace GordGuitar
             this.frontMuteButton.TabStop = false;
             this.frontMuteButton.Visible = false;
             this.frontMuteButton.MouseLeave += new System.EventHandler(this.frontMuteButton_MouseLeave);
+            // 
+            // backHelpButton
+            // 
+            this.backHelpButton.BackColor = System.Drawing.Color.Transparent;
+            this.backHelpButton.Image = global::GordGuitar.Properties.Resources.BackHelpButton;
+            this.backHelpButton.Location = new System.Drawing.Point(12, 12);
+            this.backHelpButton.Name = "backHelpButton";
+            this.backHelpButton.Size = new System.Drawing.Size(72, 81);
+            this.backHelpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backHelpButton.TabIndex = 31;
+            this.backHelpButton.TabStop = false;
+            this.backHelpButton.MouseEnter += new System.EventHandler(this.backHelpButton_MouseEnter);
+            // 
+            // frontHelpButton
+            // 
+            this.frontHelpButton.BackColor = System.Drawing.Color.Transparent;
+            this.frontHelpButton.Image = global::GordGuitar.Properties.Resources.FrontHelpButton;
+            this.frontHelpButton.Location = new System.Drawing.Point(12, 12);
+            this.frontHelpButton.Name = "frontHelpButton";
+            this.frontHelpButton.Size = new System.Drawing.Size(72, 81);
+            this.frontHelpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.frontHelpButton.TabIndex = 32;
+            this.frontHelpButton.TabStop = false;
+            this.frontHelpButton.Visible = false;
+            this.frontHelpButton.Click += new System.EventHandler(this.frontHelpButton_Click);
+            this.frontHelpButton.MouseLeave += new System.EventHandler(this.frontHelpButton_MouseLeave);
             // 
             // buttonChord10
             // 
@@ -377,32 +404,6 @@ namespace GordGuitar
             this.buttonChord1.UseVisualStyleBackColor = false;
             this.buttonChord1.Click += new System.EventHandler(this.ChangeActiveChord);
             // 
-            // backHelpButton
-            // 
-            this.backHelpButton.BackColor = System.Drawing.Color.Transparent;
-            this.backHelpButton.Image = global::GordGuitar.Properties.Resources.BackHelpButton;
-            this.backHelpButton.Location = new System.Drawing.Point(12, 12);
-            this.backHelpButton.Name = "backHelpButton";
-            this.backHelpButton.Size = new System.Drawing.Size(72, 81);
-            this.backHelpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.backHelpButton.TabIndex = 31;
-            this.backHelpButton.TabStop = false;
-            this.backHelpButton.MouseEnter += new System.EventHandler(this.backHelpButton_MouseEnter);
-            // 
-            // frontHelpButton
-            // 
-            this.frontHelpButton.BackColor = System.Drawing.Color.Transparent;
-            this.frontHelpButton.Image = global::GordGuitar.Properties.Resources.FrontHelpButton;
-            this.frontHelpButton.Location = new System.Drawing.Point(12, 12);
-            this.frontHelpButton.Name = "frontHelpButton";
-            this.frontHelpButton.Size = new System.Drawing.Size(72, 81);
-            this.frontHelpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.frontHelpButton.TabIndex = 32;
-            this.frontHelpButton.TabStop = false;
-            this.frontHelpButton.Visible = false;
-            this.frontHelpButton.Click += new System.EventHandler(this.frontHelpButton_Click);
-            this.frontHelpButton.MouseLeave += new System.EventHandler(this.frontHelpButton_MouseLeave);
-            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -432,6 +433,7 @@ namespace GordGuitar
             this.Controls.Add(this.buttonChord2);
             this.Controls.Add(this.buttonChord1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "GameForm";

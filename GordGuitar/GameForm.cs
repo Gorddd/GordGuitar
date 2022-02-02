@@ -46,6 +46,8 @@ namespace GordGuitar
 
             InitializeChords();
             ShowChordNames();
+
+            buttonChord1.PerformClick();
         }
 
         /// <summary>
