@@ -71,3 +71,22 @@ Em
 4 = l2s5.wav
 5 = l0s6.wav
 ;
+1
+3 = l3s4.wav
+4 = l3s5.wav
+5 = l1s6.wav
+;
+B7
+0 = l2s1.wav
+1 = l0s2.wav
+2 = l2s3.wav
+3 = l1s4.wav
+4 = l2s5.wav
+;
+DFake
+0 = l2s1.wav
+1 = l3s2.wav
+2 = l2s3.wav
+3 = l0s4.wav
+4 = l0s5.wav
+;

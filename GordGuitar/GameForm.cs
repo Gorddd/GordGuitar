@@ -197,21 +197,27 @@ namespace GordGuitar
                     break;
                 case (char)Keys.Q:
                     activeChord.guitarStrings[0].Play();
+                    Cursor.Position = new System.Drawing.Point(Location.X + 267, Location.Y + buttonString0.Location.Y + 35);
                     break;
                 case (char)Keys.W:
                     activeChord.guitarStrings[1].Play();
+                    Cursor.Position = new System.Drawing.Point(Location.X + 267, Location.Y + buttonString1.Location.Y + 35);
                     break;
                 case (char)Keys.E:
                     activeChord.guitarStrings[2].Play();
+                    Cursor.Position = new System.Drawing.Point(Location.X + 267, Location.Y + buttonString2.Location.Y + 35);
                     break;
                 case (char)Keys.R:
                     activeChord.guitarStrings[3].Play();
+                    Cursor.Position = new System.Drawing.Point(Location.X + 267, Location.Y + buttonString3.Location.Y + 35);
                     break;
                 case (char)Keys.T:
                     activeChord.guitarStrings[4].Play();
+                    Cursor.Position = new System.Drawing.Point(Location.X + 267, Location.Y + buttonString4.Location.Y + 35);
                     break;
                 case (char)Keys.Y:
                     activeChord.guitarStrings[5].Play();
+                    Cursor.Position = new System.Drawing.Point(Location.X + 267, Location.Y + buttonString5.Location.Y + 35);
                     break;
                 default:
                     break;
