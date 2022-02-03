@@ -7,7 +7,7 @@ namespace GordGuitar
     {
         private string soundsURL;
 
-        private Chord initialChord;
+        public string initialChordName { get; private set; }
 
         public Chord ResultChord { get; private set; }
 
@@ -17,7 +17,8 @@ namespace GordGuitar
 
             this.soundsURL = soundsURL;
 
-            initialChord = ResultChord = chord;
+            ResultChord = chord;
+            initialChordName = chord.Name;
 
             label1.Text = nameBox.Text = chord.Name;
 
@@ -29,7 +30,7 @@ namespace GordGuitar
         /// </summary>
         private void CancelButton_Click(object sender, EventArgs e)
         {
-            ResultChord = initialChord; //Set initial chord
+            ResultChord.Name = initialChordName; //Set initial chord
             Close(); //close the form
         }
 
@@ -44,13 +45,13 @@ namespace GordGuitar
                 return;
             }
 
-            if (initialChord.Name != nameBox.Text && ChordSaver.isNameTaken(nameBox.Text)) //Check is name taken
+            if (initialChordName != nameBox.Text && ChordSaver.isNameTaken(nameBox.Text)) //Check is name taken
             {
                 MessageBox.Show("This name is alredy taken", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            if (initialChord.Name != nameBox.Text) //Check is it a new name
+            if (initialChordName != nameBox.Text) //Check is it a new name
             {
                 var chordSaver = new ChordSaver(ResultChord);
                 chordSaver.ChangeName(nameBox.Text); //Save new name in the file
@@ -66,9 +67,10 @@ namespace GordGuitar
         /// </summary>
         private void ChooseAnotherChord(object sender, EventArgs e)
         {
-            initialChord = ResultChord = ChordSaver.GetChordFromFile(listBox1.SelectedItem.ToString(), soundsURL);
+            ResultChord = ChordSaver.GetChordFromFile(listBox1.SelectedItem.ToString(), soundsURL);
+            initialChordName = ResultChord.Name;
 
-            label1.Text = nameBox.Text = initialChord.Name;
+            label1.Text = nameBox.Text = initialChordName;
         }
     }
 }

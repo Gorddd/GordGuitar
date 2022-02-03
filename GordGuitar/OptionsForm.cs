@@ -280,6 +280,17 @@ namespace GordGuitar
                 currentChordName.Text = activeChord.Name;
                 ShowChord();
             }
+
+            if (chordOptionsForm.initialChordName != chordOptionsForm.ResultChord.Name) //Change names in memory
+            {
+                for (int i = 0; i < chordButtons.Length; i++)
+                {
+                    if (chordButtons[i].chord.Name == chordOptionsForm.initialChordName)
+                        chordButtons[i].chord.Name = chordOptionsForm.ResultChord.Name;
+                }
+
+                ShowChordNames();
+            }
         }
 
         private void OptionsForm_Shown(object sender, EventArgs e)
