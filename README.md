@@ -16,7 +16,7 @@ To get the sound you need to move the cursor over the string, or you can use hot
 
 + Tune your chord
 
-   Just click on the mini buttons to choose the place on the string which you want to pluck. 
+   Just click on the mini buttons to choose the place on the string which you want to pluck. Use white (silver) mini buttons to mute the string.
 
    ![HowToTune](screenshots/HowToTuneAChord.jpg)
 
