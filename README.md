@@ -60,7 +60,7 @@ To get the sound you need to move the cursor over the string, or you can use hot
 
 _____
 
-<center><h2>Links</h2></center>
+<center><h2>Links:link:</h2></center>
 
 [Download program (Windows)](https://disk.yandex.ru/d/T-S0UOgCLEqu8A)
 
@@ -68,7 +68,7 @@ _____
 
 _____
 
-<center><h2>Tools</h2></center>:link:
+<center><h2>Tools</h2></center>
 
 + Visual Studio 2019
 + C#
