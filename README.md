@@ -74,3 +74,8 @@ _____
 + C#
 + Winforms
 + .NET framework 4.7.2
+
+_____
+
+<h2>My email</h2>
+kasual2014@icloud.com
