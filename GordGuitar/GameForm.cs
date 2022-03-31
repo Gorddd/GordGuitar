@@ -5,7 +5,7 @@ namespace GordGuitar
 {
     public partial class GameForm : Form
     {
-        private OptionsForm optionsForm = new OptionsForm();
+        private OptionsForm optionsForm;
 
         /// <summary>
         /// Array of chordbuttons
@@ -27,8 +27,10 @@ namespace GordGuitar
         /// </summary>
         private Chord previousChord = new Chord();
 
-        public GameForm()
+        public GameForm(Action<string> loadingHandler)
         {
+            optionsForm = new OptionsForm(loadingHandler);
+
             InitializeComponent();
             InitializeChords();
             InitializeArrays();

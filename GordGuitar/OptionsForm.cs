@@ -36,8 +36,15 @@ namespace GordGuitar
         /// </summary>
         private Chord activeChord;
 
-        public OptionsForm()
+        /// <summary>
+        /// Loading handler to display current task
+        /// </summary>
+        private event Action<string> loadingHandler;
+
+        public OptionsForm(Action<string> loadingHandler)
         {
+            this.loadingHandler = loadingHandler;
+
             InitializeComponent();
             InitializeArrays();
             ReadChordsFromFile();
@@ -140,6 +147,8 @@ namespace GordGuitar
 
                 for (int i = 0; i < chordButtons.Length; i++)
                 {
+                    loadingHandler?.Invoke($"Reading {i + 1} chord from file");
+
                     string str = streamReader.ReadLine();
 
                     if (string.IsNullOrEmpty(str))
