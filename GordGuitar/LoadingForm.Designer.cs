@@ -69,7 +69,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label message;
-        private System.Windows.Forms.ProgressBar progressBar;
+        public System.Windows.Forms.Label message;
+        public System.Windows.Forms.ProgressBar progressBar;
     }
 }

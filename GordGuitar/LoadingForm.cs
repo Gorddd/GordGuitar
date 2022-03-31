@@ -15,23 +15,6 @@ namespace GordGuitar
         public LoadingForm()
         {
             InitializeComponent();
-
-            LoadGameForm();
-        }
-
-        private async void LoadGameForm()
-        {
-            await Task.Run(() =>
-            {
-                GameForm gameForm = new GameForm((m) =>
-                {
-                    progressBar.Value += 10;
-                    message.Text = m;
-                });
-                Hide();
-                gameForm.ShowDialog();
-                Close();
-            });
         }
     }
 }

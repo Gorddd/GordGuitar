@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace GordGuitar
@@ -16,7 +17,18 @@ namespace GordGuitar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoadingForm());
+
+            LoadingForm loadingForm = new LoadingForm();
+            new Thread(() => Application.Run(loadingForm)).Start();
+
+            GameForm gameForm = new GameForm((m) =>
+            {
+                loadingForm.progressBar.Value += 10;
+                loadingForm.message.Text = m;
+            });
+            loadingForm.Hide();
+            gameForm.ShowDialog();
+            loadingForm.Close();
         }
     }
 }
