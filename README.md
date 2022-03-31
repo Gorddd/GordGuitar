@@ -64,7 +64,7 @@ _____
 
 + Loading screen
 
-![loadingScreen](screenshots/loading%20screen.png)
+   ![loadingScreen](screenshots/loading%20screen.png)
 _____
 <center><h2>Links:link:</h2></center>
 
