@@ -35,30 +35,33 @@
             // message
             // 
             this.message.AutoSize = true;
-            this.message.Location = new System.Drawing.Point(179, 151);
+            this.message.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.message.Location = new System.Drawing.Point(12, 9);
             this.message.Name = "message";
-            this.message.Size = new System.Drawing.Size(35, 13);
+            this.message.Size = new System.Drawing.Size(68, 30);
             this.message.TabIndex = 0;
             this.message.Text = "label1";
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(35, 183);
+            this.progressBar.Location = new System.Drawing.Point(12, 46);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(349, 23);
+            this.progressBar.Size = new System.Drawing.Size(402, 14);
             this.progressBar.TabIndex = 1;
             // 
             // LoadingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 401);
+            this.ClientSize = new System.Drawing.Size(426, 75);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.message);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "LoadingForm";
-            this.Text = "LoadingForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Loading...";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -44,6 +44,6 @@ namespace GordGuitar
         /// <summary>
         /// Media player to play the sound
         /// </summary>
-        private WindowsMediaPlayer mediaPlayer = new WindowsMediaPlayer();
+        private WindowsMediaPlayer mediaPlayer = new WindowsMediaPlayerClass();
     }
 }
