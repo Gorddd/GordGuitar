@@ -60,9 +60,14 @@ To get the sound you need to move the cursor over the string, or you can use hot
 
 _____
 
+<center><h2>Last update</h2></center>
+
++ Loading screen
+![loadingScreen](screenshots/loading%20screen.png)
+_____
 <center><h2>Links:link:</h2></center>
 
-[Download program (Windows)](https://disk.yandex.ru/d/T-S0UOgCLEqu8A)
+[Download program (Windows)](https://disk.yandex.ru/d/GzZQmHZyRQH76Q)
 
 [My VK](https://vk.com/poseidon1337ac)
 
@@ -70,7 +75,7 @@ _____
 
 <center><h2>Tools</h2></center>
 
-+ Visual Studio 2019
++ Visual Studio 2019 / 2022
 + C#
 + Winforms
 + .NET framework 4.7.2
