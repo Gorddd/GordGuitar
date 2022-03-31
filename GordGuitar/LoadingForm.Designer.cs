@@ -39,7 +39,7 @@
             this.message.BackColor = System.Drawing.Color.Transparent;
             this.message.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.message.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.message.Location = new System.Drawing.Point(12, 9);
+            this.message.Location = new System.Drawing.Point(7, 9);
             this.message.Name = "message";
             this.message.Size = new System.Drawing.Size(94, 30);
             this.message.TabIndex = 0;
