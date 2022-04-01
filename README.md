@@ -63,7 +63,7 @@ _____
 <center><h2>Last update</h2></center>
 
 + Loading screen
-![loadingScreen](screenshots/loading%20screen.png)
+![loadingScreen](screenshots/LoadingScreen.jpg)
 _____
 <center><h2>Links:link:</h2></center>
 
