@@ -66,11 +66,9 @@ _____
 
   ![loadingScreen](screenshots/LoadingScreen.jpg)
 _____
-<center><h2>Links:link:</h2></center>
+<center><h2>Downloads:link:</h2></center>
 
-[Download program (Windows)](https://disk.yandex.ru/d/GzZQmHZyRQH76Q)
-
-[My VK](https://vk.com/poseidon1337ac)
+[Download program (Windows)](https://github.com/Gorddd/GordGuitar/releases)
 
 _____
 
