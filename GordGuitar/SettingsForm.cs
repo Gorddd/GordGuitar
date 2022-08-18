@@ -14,6 +14,8 @@ namespace GordGuitar
         {
             InitializeComponent();
 
+            VolumeBar.Value = SoundMaster.Volume / 100;
+
             this.soundsURL = soundsURL;
 
             if (soundsURL == proURL)
@@ -30,6 +32,11 @@ namespace GordGuitar
                 soundsURL = oldURL;
 
             Close();
+        }
+
+        private void VolumeBar_Scroll(object sender, EventArgs e)
+        {
+            SoundMaster.Volume = VolumeBar.Value * 100;
         }
     }
 }

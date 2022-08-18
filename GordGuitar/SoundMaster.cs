@@ -21,10 +21,10 @@ namespace GordGuitar
         /// <summary>
         /// Volume of the sounds
         /// </summary>
-        public static double Volume
+        public static int Volume
         {
-            get => Bass.Volume;
-            set => Bass.Volume = value;
+            get => Bass.GlobalStreamVolume;
+            set => Bass.GlobalStreamVolume = value;
         }
     }
 }

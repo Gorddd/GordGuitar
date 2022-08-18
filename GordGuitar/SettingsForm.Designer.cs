@@ -34,6 +34,9 @@ namespace GordGuitar
             this.proButton = new System.Windows.Forms.RadioButton();
             this.oldButton = new System.Windows.Forms.RadioButton();
             this.okButton = new System.Windows.Forms.Button();
+            this.VolumeBar = new System.Windows.Forms.TrackBar();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.VolumeBar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -92,7 +95,7 @@ namespace GordGuitar
             this.okButton.BackColor = System.Drawing.Color.Coral;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.okButton.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.okButton.Location = new System.Drawing.Point(130, 135);
+            this.okButton.Location = new System.Drawing.Point(140, 234);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(130, 29);
             this.okButton.TabIndex = 8;
@@ -100,12 +103,39 @@ namespace GordGuitar
             this.okButton.UseVisualStyleBackColor = false;
             this.okButton.Click += new System.EventHandler(this.OK_Click);
             // 
+            // VolumeBar
+            // 
+            this.VolumeBar.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.VolumeBar.LargeChange = 10;
+            this.VolumeBar.Location = new System.Drawing.Point(77, 165);
+            this.VolumeBar.Maximum = 100;
+            this.VolumeBar.Name = "VolumeBar";
+            this.VolumeBar.Size = new System.Drawing.Size(251, 45);
+            this.VolumeBar.TabIndex = 9;
+            this.VolumeBar.TickFrequency = 10;
+            this.VolumeBar.Value = 100;
+            this.VolumeBar.Scroll += new System.EventHandler(this.VolumeBar_Scroll);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(163, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 30);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Volume";
+            // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GordGuitar.Properties.Resources.ChordOptionsBack;
-            this.ClientSize = new System.Drawing.Size(409, 177);
+            this.ClientSize = new System.Drawing.Size(409, 278);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.VolumeBar);
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.oldButton);
             this.Controls.Add(this.proButton);
@@ -116,6 +146,7 @@ namespace GordGuitar
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Settings";
+            ((System.ComponentModel.ISupportInitialize)(this.VolumeBar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,5 +159,7 @@ namespace GordGuitar
         private System.Windows.Forms.RadioButton proButton;
         private System.Windows.Forms.RadioButton oldButton;
         private System.Windows.Forms.Button okButton;
+        private System.Windows.Forms.TrackBar VolumeBar;
+        private System.Windows.Forms.Label label3;
     }
 }
