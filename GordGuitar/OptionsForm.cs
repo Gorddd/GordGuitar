@@ -448,7 +448,7 @@ namespace GordGuitar
 
                     if (!string.IsNullOrEmpty(currentURL))
                     {
-                        currentURL = currentURL.Substring(currentURL.LastIndexOf('\\') + 1); //delete useless info
+                        currentURL = currentURL.Substring(currentURL.LastIndexOf('/') + 1); //delete useless info
 
                         chordButtons[i].chord.guitarStrings[j].URL = soundsURL + currentURL;
                     }
