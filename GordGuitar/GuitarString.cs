@@ -1,49 +1,50 @@
-﻿using WMPLib;
+﻿using ManagedBass;
 
 namespace GordGuitar
 {
     public class GuitarString
     {
+
+        /// <summary>
+        /// Initializing when first used
+        /// </summary>
+        static GuitarString() => Bass.Init();
+
         /// <summary>
         /// Play sound
         /// </summary>
-        public void Play()
-        {
-            mediaPlayer.controls.stop();
-            mediaPlayer.controls.play();
-        }
+        public void Play() => Bass.ChannelPlay(stream, true);
 
         /// <summary>
         /// Stop sound
         /// </summary>
         public void Stop()
         {
-            mediaPlayer.controls.stop();
+            Bass.ChannelStop(stream);
+            Bass.StreamFree(stream);
         }
+
+        /// <summary>
+        /// Source name
+        /// </summary>
+        private string url;
+
+        /// <summary>
+        /// Stream to play
+        /// </summary>
+        private int stream;
 
         /// <summary>
         /// Set source path
         /// </summary>
         public string URL
         {
-            get { return mediaPlayer.URL; }
+            get => url;
             set 
             {
-                if (string.IsNullOrEmpty(value))
-                {
-                    mediaPlayer = new WindowsMediaPlayer();
-                }
-                else
-                {
-                    mediaPlayer.URL = value;
-                    Stop();
-                }
+                url = value;
+                stream = Bass.CreateStream(value);
             }
         }
-
-        /// <summary>
-        /// Media player to play the sound
-        /// </summary>
-        private WindowsMediaPlayer mediaPlayer = new WindowsMediaPlayerClass();
     }
 }
