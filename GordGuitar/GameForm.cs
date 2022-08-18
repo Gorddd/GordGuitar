@@ -22,11 +22,6 @@ namespace GordGuitar
         /// </summary>
         private Chord activeChord;
 
-        /// <summary>
-        /// recently used chord
-        /// </summary>
-        private Chord previousChord = new Chord();
-
         public GameForm(Action<string> loadingHandler)
         {
             optionsForm = new OptionsForm(loadingHandler);
@@ -123,8 +118,6 @@ namespace GordGuitar
         /// </summary>
         private void ChangeActiveChord(object sender, EventArgs e)
         {
-            previousChord = activeChord;
-
             activeChord = ((ChordButton)sender).chord;
 
             #region Scripts for user interface
@@ -177,27 +170,21 @@ namespace GordGuitar
                     break;
                 case (char)Keys.F1:
                     activeChord.guitarStrings[0].Stop();
-                    previousChord.guitarStrings[0].Stop();
                     break;
                 case (char)Keys.F2:
                     activeChord.guitarStrings[1].Stop();
-                    previousChord.guitarStrings[1].Stop();
                     break;
                 case (char)Keys.F3:
                     activeChord.guitarStrings[2].Stop();
-                    previousChord.guitarStrings[2].Stop();
                     break;
                 case (char)Keys.F4:
                     activeChord.guitarStrings[3].Stop();
-                    previousChord.guitarStrings[3].Stop();
                     break;
                 case (char)Keys.F5:
                     activeChord.guitarStrings[4].Stop();
-                    previousChord.guitarStrings[4].Stop();
                     break;
                 case (char)Keys.F6:
                     activeChord.guitarStrings[5].Stop();
-                    previousChord.guitarStrings[5].Stop();
                     break;
                 case (char)Keys.Q:
                     activeChord.guitarStrings[0].Play();
@@ -233,11 +220,6 @@ namespace GordGuitar
         /// </summary>
         private void MuteAllStrings()
         {
-            foreach(var item in previousChord.guitarStrings)
-            {
-                item.Stop();
-            }
-
             foreach(var item in activeChord.guitarStrings)
             {
                 item.Stop();
