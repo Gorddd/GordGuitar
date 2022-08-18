@@ -18,11 +18,7 @@ namespace GordGuitar
         /// <summary>
         /// Stop sound
         /// </summary>
-        public void Stop()
-        {
-            Bass.ChannelStop(stream);
-            Bass.StreamFree(stream);
-        }
+        public void Stop() => Bass.ChannelStop(stream);
 
         /// <summary>
         /// Source name
@@ -43,6 +39,9 @@ namespace GordGuitar
             set 
             {
                 url = value;
+
+                Bass.StreamFree(stream); //clean previous stream
+
                 stream = Bass.CreateStream(value);
             }
         }
