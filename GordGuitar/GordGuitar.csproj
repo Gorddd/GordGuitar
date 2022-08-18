@@ -122,6 +122,7 @@
     <Compile Include="SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SoundMaster.cs" />
     <EmbeddedResource Include="ChordOptions.resx">
       <DependentUpon>ChordOptions.cs</DependentUpon>
     </EmbeddedResource>

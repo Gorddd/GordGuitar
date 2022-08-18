@@ -218,7 +218,7 @@ namespace GordGuitar
         /// <summary>
         /// mute all guitar strings
         /// </summary>
-        private void MuteAllStrings() => GuitarString.MuteAllSounds(); 
+        private void MuteAllStrings() => SoundMaster.Mute(); 
 
         #region UI buttons
 
