@@ -9,7 +9,7 @@ namespace GordGuitar
             if (string.IsNullOrEmpty(guitarString.URL)) //guitar string is muted
                 return -1;
 
-            string URL = guitarString.URL.Substring(guitarString.URL.LastIndexOf('\\') + 1); //Delete symbols '\'
+            string URL = guitarString.URL.Substring(guitarString.URL.LastIndexOf('/') + 1); //Delete symbols '\'
 
             int fret = Convert.ToInt32(URL.Substring(1, URL.IndexOf('s') - 1)); //get fret
             if (fret == 0) //Open guitar string
