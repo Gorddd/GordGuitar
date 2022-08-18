@@ -10,6 +10,12 @@ namespace GordGuitar
         /// </summary>
         static GuitarString() => Bass.Init();
 
+        public static void MuteAllSounds()
+        {
+            Bass.Stop();
+            Bass.Start();
+        }
+
         /// <summary>
         /// Play sound
         /// </summary>

@@ -214,17 +214,11 @@ namespace GordGuitar
                     break;
             }
         }
-        
+
         /// <summary>
         /// mute all guitar strings
         /// </summary>
-        private void MuteAllStrings()
-        {
-            foreach(var item in activeChord.guitarStrings)
-            {
-                item.Stop();
-            }
-        }
+        private void MuteAllStrings() => GuitarString.MuteAllSounds(); 
 
         #region UI buttons
 
