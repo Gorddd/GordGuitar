@@ -49,7 +49,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>GordGuitarIcon.ico</ApplicationIcon>
+    <ApplicationIcon>UI\GordGuitarIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ManagedBass, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
@@ -68,77 +68,77 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ButtonState.cs" />
-    <Compile Include="Chord.cs" />
-    <Compile Include="ChordButton.cs">
+    <Compile Include="UI\ButtonState.cs" />
+    <Compile Include="DataContext\Chord.cs" />
+    <Compile Include="UI\ChordButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ChordOptions.cs">
+    <Compile Include="Forms\ChordOptions.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChordOptions.Designer.cs">
+    <Compile Include="Forms\ChordOptions.Designer.cs">
       <DependentUpon>ChordOptions.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChordSaver.cs" />
-    <Compile Include="ColorMode.cs" />
-    <Compile Include="CreateNewChordForm.cs">
+    <Compile Include="DataContext\ChordSaver.cs" />
+    <Compile Include="UI\ColorMode.cs" />
+    <Compile Include="Forms\CreateNewChordForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateNewChordForm.Designer.cs">
+    <Compile Include="Forms\CreateNewChordForm.Designer.cs">
       <DependentUpon>CreateNewChordForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Designer.cs" />
-    <Compile Include="GameForm.cs">
+    <Compile Include="UI\Designer.cs" />
+    <Compile Include="Forms\GameForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GameForm.Designer.cs">
+    <Compile Include="Forms\GameForm.Designer.cs">
       <DependentUpon>GameForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GuitarString.cs" />
-    <Compile Include="GuitarStringExtension.cs" />
-    <Compile Include="HelpForm.cs">
+    <Compile Include="DataContext\GuitarString.cs" />
+    <Compile Include="Extensions\GuitarStringExtension.cs" />
+    <Compile Include="Forms\HelpForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HelpForm.Designer.cs">
+    <Compile Include="Forms\HelpForm.Designer.cs">
       <DependentUpon>HelpForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoadingForm.cs">
+    <Compile Include="Forms\LoadingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoadingForm.Designer.cs">
+    <Compile Include="Forms\LoadingForm.Designer.cs">
       <DependentUpon>LoadingForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OptionsForm.cs">
+    <Compile Include="Forms\OptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OptionsForm.Designer.cs">
+    <Compile Include="Forms\OptionsForm.Designer.cs">
       <DependentUpon>OptionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SettingsForm.cs">
+    <Compile Include="Forms\SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SettingsForm.Designer.cs">
+    <Compile Include="Forms\SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SoundMaster.cs" />
-    <EmbeddedResource Include="ChordOptions.resx">
+    <EmbeddedResource Include="Forms\ChordOptions.resx">
       <DependentUpon>ChordOptions.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateNewChordForm.resx">
+    <EmbeddedResource Include="Forms\CreateNewChordForm.resx">
       <DependentUpon>CreateNewChordForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameForm.resx">
+    <EmbeddedResource Include="Forms\GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HelpForm.resx">
+    <EmbeddedResource Include="Forms\HelpForm.resx">
       <DependentUpon>HelpForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoadingForm.resx">
+    <EmbeddedResource Include="Forms\LoadingForm.resx">
       <DependentUpon>LoadingForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OptionsForm.resx">
+    <EmbeddedResource Include="Forms\OptionsForm.resx">
       <DependentUpon>OptionsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -151,7 +151,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SettingsForm.resx">
+    <EmbeddedResource Include="Forms\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -214,7 +214,8 @@
     <None Include="Resources\HelpForm.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GordGuitarIcon.ico" />
+    <EmbeddedResource Include="DataContext\data\TextFile1.txt" />
+    <Content Include="UI\GordGuitarIcon.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -228,5 +229,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
