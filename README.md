@@ -1,4 +1,4 @@
-<h1><font color = "orange">GordGuitar</font> :guitar:</h1>
+**<h1>GordGuitar :guitar:</h1>**
 
 <h2>Play guitar on your windows PC</h2>
 
@@ -12,19 +12,19 @@ To get the sound you need to move the cursor over the string, or you can use hot
 
 ![OptionsForm](screenshots/OptionsForm.jpg)
 
-<div>You can:</div>
+<h3><div>You can:</div></h3>
 
-+ Tune your chord
++ <h3>Tune your chord</h3>
 
    Just click on the mini buttons to choose the place on the string which you want to pluck. Use white (silver) mini buttons to mute the string.
 
    ![HowToTune](screenshots/HowToTuneAChord.jpg)
 
-+ Save your chord
++ <h3>Save your chord</h3>
 
    You can save your currently used chord. 
  
-+ Rename or change chord
++ <h3>Rename or change chord</h3>
 
   ![Rename](screenshots/RenameofChange.jpg)
 
@@ -32,54 +32,56 @@ To get the sound you need to move the cursor over the string, or you can use hot
 
   Enter a new name or select a chord from the list of chords (saved chords) then just click apply.
 
-+ Create new chord
++ <h3>Create new chord</h3>
 
   ![NewChord](screenshots/CreateNew.jpg)
 
   ![NewChordForm](screenshots/NewChord.jpg)
 
-+ Delete chord
++ <h3>Delete chord</h3>
 
   ![DeleteChord](screenshots/DeleteChord.jpg)
 
   This button allows delete currently used chord from your disk
 
-+ Clear chord
++ <h3>Clear chord</h3>
 
   ![ClearChord](screenshots/Clearchord.jpg)
 
   This button clears all the strings on currently used chord.
 
-+ Select guitar sound
++ <h3>Select guitar sound and set the volume</h3>
 
   ![soundssetting](screenshots/SoundsSetting.jpg)
 
-<div>All available hotkeys: </div>
+<h3>All available hotkeys: </h3>
 
 ![hotkeys](screenshots/HotKeys.jpg)
 
 _____
 
-<center><h2>Last update</h2></center>
+<center><h2>Last update 1.1 :star2:</h2></center>
 
-+ Loading screen
+- [X] Applicaton optimization.
 
-  ![loadingScreen](screenshots/LoadingScreen.jpg)
+  Changed how sound is played, using [ManagedBass](https://github.com/ManagedBass) wrapper for Bass.Net.dll instead of WindowsMediaPlayer; <br/> Significantly increased startup speed; 
+
+- [X] Fix bugs when there is no any saved chords.
 _____
-<center><h2>Downloads:link:</h2></center>
+<center><h2>Some notes :pencil:</h2></center>
+
+Files to storage data and sound files are in *bin/debug*
+_____
+<center><h2>Downloads :link:</h2></center>
 
 [Download program (Windows)](https://github.com/Gorddd/GordGuitar/releases)
 
 _____
 
-<center><h2>Tools</h2></center>
+<center><h2>Tools :hammer:</h2></center>
 
 + Visual Studio 2019 / 2022
 + C#
 + Winforms
 + .NET framework 4.7.2
-
-_____
-
-<h2>My email</h2>
-kasual2014@icloud.com
++ ManagedBass
