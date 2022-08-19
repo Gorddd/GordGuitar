@@ -16,7 +16,7 @@ namespace GordGuitar
             Application.SetCompatibleTextRenderingDefault(false);
 
             LoadingForm loadingForm = new LoadingForm();
-            new Thread(() => Application.Run(loadingForm)).Start();
+            new Thread(() => Application.Run(loadingForm)).Start(); //Comment this line if you have problems with debugging
 
             GameForm gameForm = new GameForm((m) =>
             {

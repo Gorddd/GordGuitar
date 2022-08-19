@@ -214,7 +214,6 @@
     <None Include="Resources\HelpForm.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DataContext\data\TextFile1.txt" />
     <Content Include="UI\GordGuitarIcon.ico" />
   </ItemGroup>
   <ItemGroup>

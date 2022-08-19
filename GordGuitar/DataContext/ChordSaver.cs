@@ -136,7 +136,13 @@ namespace GordGuitar
         {
             var streamReader = new StreamReader(folderURL + URL);
 
-            items.Add(streamReader.ReadLine()); //Add first name
+            var firstName = streamReader.ReadLine();
+            if (firstName == null)
+            {
+                streamReader.Close();
+                return;
+            }
+            items.Add(firstName); //Add first name
 
             bool flag = false;
             string str;
