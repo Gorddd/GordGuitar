@@ -70,7 +70,8 @@ _____
 _____
 <center><h2>Some notes :pencil:</h2></center>
 
-Files to storage data and sound files are in *bin/debug*
+Files to storage data and sound files are in *bin/debug* <br/>
+Don't unpack to programm files or to other system folders that require admin rights.
 _____
 <center><h2>Downloads :link:</h2></center>
 
