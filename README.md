@@ -66,7 +66,7 @@ _____
 
   Changed how sound is played, using [ManagedBass](https://github.com/ManagedBass) wrapper for Bass.Net.dll instead of WindowsMediaPlayer; <br/> Significantly increased startup speed; 
 
-- [X] Fix bugs when there is no any saved chords.
+- [X] Fix bugs when there are no any saved chords.
 _____
 <center><h2>Some notes :pencil:</h2></center>
 
