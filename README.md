@@ -53,11 +53,7 @@ To get the sound you need to move the cursor over the string, or you can use hot
 + <h3>Select guitar sound and set the volume</h3>
 
   ![soundssetting](screenshots/SoundsSetting.jpg)
-
-<h3>All available hotkeys: </h3>
-
-![hotkeys](screenshots/HotKeys.jpg)
-
+  
 _____
 
 <center><h2>Last update 1.1 :star2:</h2></center>
